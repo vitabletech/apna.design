@@ -1,69 +1,84 @@
-import Image from "next/image";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import HomeHero from "@/components/HomeHero";
+import InteractiveServices from "@/components/InteractiveServices";
+import SectionHeading from "@/components/SectionHeading";
+import ProjectCard from "@/components/ProjectCard";
+import Sticker from "@/components/Sticker";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+    <>
+      <Navbar />
+      
+      <main className="flex-1">
+        <HomeHero />
+
+        <section className="py-24 container mx-auto px-6 md:px-12">
+          <SectionHeading 
+            title="Bihar ka hai. Design bhi mast karta hai." 
+            subtitle="Main Abhay hoon. Designer hoon. Bihar se hoon. Aur mujhe boring design bilkul pasand nahi."
+          />
+          {/* We can add a collage photo of the designer here later */}
+        </section>
+
+        <InteractiveServices />
+
+        <section className="py-32 container mx-auto px-6 md:px-12">
+          <SectionHeading title="Selected Work" />
+          
+          {/* Collage / Editorial Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-16">
+            <ProjectCard 
+              title="Identity for Local Brand"
+              category="Brand Identity"
+              year="2026"
+              description="Identity design for a brand that wanted to look anything but ordinary."
+              imageSrc="https://images.unsplash.com/photo-1626785773579-c13035c65f0a?auto=format&fit=crop&q=80&w=800"
+              href="/work/project-1"
+              size="large"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+            <ProjectCard 
+              title="Event Poster"
+              category="Print"
+              year="2025"
+              description="A bold typographic poster for a music festival."
+              imageSrc="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=80&w=800"
+              href="/work/project-2"
+              size="small"
+              tilt={-2}
+            />
+            <ProjectCard 
+              title="Mithila Art UI"
+              category="Web Design"
+              year="2025"
+              description="Translating traditional art into modern user interfaces."
+              imageSrc="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800"
+              href="/work/project-3"
+              size="full"
+            />
+          </div>
+        </section>
+
+        {/* Philosophy Poster Section */}
+        <section className="py-32 bg-terracotta text-background relative overflow-hidden">
+          <div className="container mx-auto px-6 md:px-12 relative z-10 text-center">
+            <h2 className="font-display text-5xl md:text-7xl lg:text-9xl font-bold uppercase leading-[0.85] tracking-tight mb-12">
+              Design mein<br/>bhi thoda<br/>Bihar hona<br/>chahiye.
+            </h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Sticker color="black">Bold</Sticker>
+              <Sticker color="mithila">Rooted</Sticker>
+              <Sticker color="mustard">Playful</Sticker>
+            </div>
+          </div>
+          {/* Texture Overlay explicitly for this section to enhance printed feel */}
+          <div className="absolute inset-0 bg-black/10 mix-blend-multiply pointer-events-none" />
+        </section>
+
       </main>
-    </div>
+
+      <Footer />
+    </>
   );
 }
