@@ -1,66 +1,165 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/utils/cn";
 
-const services = [
-  { id: "brand", name: "Brand Identity", sketch: "🎨" },
-  { id: "logo", name: "Logo Design", sketch: "✨" },
-  { id: "social", name: "Social Media", sketch: "📱" },
-  { id: "posters", name: "Posters", sketch: "🖼️" },
-  { id: "web", name: "Website Design", sketch: "💻" },
-  { id: "print", name: "Print Design", sketch: "🖨️" },
+interface ServiceItem {
+  id: string;
+  num: string;
+  title: string;
+  description: string;
+  details: string;
+  tags: string[];
+  accentColor: string;
+}
+
+const services: ServiceItem[] = [
+  {
+    id: "ui-ux",
+    num: "01",
+    title: "UI/UX DESIGN",
+    description: "Designing simple, clean websites and mobile apps that anyone can easily use without confusion.",
+    details: "Websites & Mobile Apps (Android/iOS) • Clean navigation • Smooth user experience",
+    tags: ["Website Design", "Mobile App Design", "Easy Navigation", "User Flow"],
+    accentColor: "#C15B3D", // terracotta
+  },
+  {
+    id: "branding",
+    num: "02",
+    title: "BRANDING",
+    description: "Giving your business a unique look — memorable logos, complete brand identity, and product branding that builds trust.",
+    details: "Logo Design • Product Branding • Brand Identity • Color & Font Guidelines",
+    tags: ["Logo Design", "Product Branding", "Brand Identity", "Visual System"],
+    accentColor: "#E6B83B", // mithila
+  },
+  {
+    id: "product-design",
+    num: "03",
+    title: "PRODUCT DESIGN",
+    description: "Designing practical digital products and tools around real customer needs so your business runs smoother.",
+    details: "Customer-first features • Dashboards & Portal Design • Solving real everyday problems",
+    tags: ["Digital Products", "Customer Needs", "Dashboard UI", "Prototypes"],
+    accentColor: "#1D3557", // indigo
+  },
+  {
+    id: "package-design",
+    num: "04",
+    title: "PACKAGE DESIGN",
+    description: "Attractive boxes, pouches, labels, and bottle packaging that catch immediate attention on the shelf and make people choose you.",
+    details: "Box & Pouch Design • Product Labels • Bottle Packaging • Print-ready Files",
+    tags: ["Box Packaging", "Product Labels", "Shelf Impact", "Pouch Design"],
+    accentColor: "#3D6A35", // leaf
+  },
+  {
+    id: "print-media",
+    num: "05",
+    title: "PRINT MEDIA",
+    description: "Clear and bold designs for posters, banners, visiting cards, hoardings, brochures, and offline promotion.",
+    details: "Posters & Banners • Visiting Cards • Standees & Flex • Brochures & Pamphlets",
+    tags: ["Posters & Banners", "Visiting Cards", "Flex & Hoardings", "Brochures"],
+    accentColor: "#DDA22A", // mustard
+  },
+  {
+    id: "social-media",
+    num: "06",
+    title: "SOCIAL MEDIA CREATIVE",
+    description: "Eye-catching post designs, banners, and reel covers that keep your brand looking active, professional, and trustworthy online.",
+    details: "Daily/Weekly Posts • Offer Banners • Reel Covers & Templates • WhatsApp Creatives",
+    tags: ["Instagram Posts", "Offer Banners", "Reel Covers", "Ad Creatives"],
+    accentColor: "#C15B3D", // terracotta
+  },
 ];
 
 export default function InteractiveServices() {
-  const [hoveredService, setHoveredService] = useState<string | null>(null);
+  const [activeId, setActiveId] = useState<string | null>(null);
 
   return (
-    <div className="py-20 border-y-2 border-foreground relative bg-mithila text-foreground overflow-hidden">
-      <div className="container mx-auto px-6 md:px-12 relative z-10">
-        <h2 className="font-display text-2xl font-bold uppercase mb-12">What I Do</h2>
-        
-        <ul className="flex flex-col">
-          {services.map((service) => (
-            <li 
-              key={service.id}
-              className="border-b-2 border-foreground/20 last:border-0 relative group"
-              onMouseEnter={() => setHoveredService(service.id)}
-              onMouseLeave={() => setHoveredService(null)}
-            >
-              <div 
-                className="py-6 md:py-8 flex items-center justify-between cursor-pointer"
-                data-cursor="DEKHO"
-              >
-                <span className="font-display text-4xl md:text-6xl font-bold uppercase group-hover:pl-8 transition-all duration-300">
-                  {service.name}
-                </span>
-                <span className="hidden md:block opacity-0 group-hover:opacity-100 transition-opacity text-4xl">
-                  &rarr;
-                </span>
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <section
+      id="what-i-do"
+      className="py-24 md:py-32 bg-foreground text-background relative overflow-hidden border-b border-foreground"
+    >
+      {/* Subtle background ambient graphic */}
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-terracotta/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-mithila/10 rounded-full blur-3xl pointer-events-none" />
 
-      {/* Floating visual reaction */}
-      <AnimatePresence>
-        {hoveredService && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8, rotate: -10 }}
-            animate={{ opacity: 1, scale: 1, rotate: Math.random() * 20 - 10 }}
-            exit={{ opacity: 0, scale: 0.8 }}
-            transition={{ type: "spring", stiffness: 300, damping: 20 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none hidden lg:flex items-center justify-center w-64 h-64 bg-background border-4 border-foreground shadow-[8px_8px_0px_0px_rgba(26,26,26,1)] rounded-2xl"
-          >
-            <span className="text-8xl">
-              {services.find(s => s.id === hoveredService)?.sketch}
+      <div className="container mx-auto px-6 md:px-12 relative z-10">
+        
+        {/* Section Header */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-8 border-b border-background/20 gap-6">
+          <div>
+            <span className="text-xs font-bold uppercase tracking-widest text-mithila mb-3 block">
+              Services & Capabilities
             </span>
-          </motion.div>
-        )}
-      </AnimatePresence>
-    </div>
+            <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-background">
+              WHAT I DO
+            </h2>
+          </div>
+          <p className="text-base sm:text-lg md:text-xl text-background/80 max-w-md font-normal">
+            I design things that help businesses communicate better, build trust, and sell easily.
+          </p>
+        </div>
+
+        {/* Large Typography List Treatment */}
+        <div className="divide-y divide-background/15">
+          {services.map((service) => {
+            const isHovered = activeId === service.id;
+
+            return (
+              <div
+                key={service.id}
+                onMouseEnter={() => setActiveId(service.id)}
+                onMouseLeave={() => setActiveId(null)}
+                className="group py-8 md:py-10 transition-colors duration-300 relative"
+              >
+                <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 md:gap-8">
+                  
+                  {/* Left: Number & Big Service Title */}
+                  <div className="flex items-baseline gap-4 sm:gap-8 lg:max-w-md xl:max-w-lg">
+                    <span className="font-display text-sm sm:text-base font-bold text-mithila/70 group-hover:text-mithila transition-colors w-8 shrink-0">
+                      {service.num}
+                    </span>
+                    <h3 className="font-display text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-background group-hover:text-mithila group-hover:translate-x-2 transition-all duration-300">
+                      {service.title}
+                    </h3>
+                  </div>
+
+                  {/* Right: Easy-to-understand Description & Scope pills */}
+                  <div className="lg:max-w-xl flex flex-col items-start lg:items-end gap-2.5 pl-12 lg:pl-0">
+                    <p className="text-base sm:text-lg text-background/90 font-medium group-hover:text-background transition-colors text-left lg:text-right leading-relaxed">
+                      {service.description}
+                    </p>
+                    
+                    {/* Supporting detail line */}
+                    <p className="text-xs text-mithila/90 font-semibold text-left lg:text-right">
+                      {service.details}
+                    </p>
+
+                    {/* Tags preview */}
+                    <div className="flex flex-wrap gap-1.5 pt-1 opacity-70 group-hover:opacity-100 transition-opacity">
+                      {service.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-xs bg-background/10 text-background/90 border border-background/10"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {/* Bottom Small Assurance */}
+        <div className="mt-16 pt-8 border-t border-background/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-bold uppercase tracking-widest text-background/60">
+          <span>Simple Process &bull; Direct Communication</span>
+          <span>From Bihar to Businesses Anywhere</span>
+        </div>
+
+      </div>
+    </section>
   );
 }

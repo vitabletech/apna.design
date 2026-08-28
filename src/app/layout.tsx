@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Syne } from "next/font/google";
 import "./globals.css";
 import TextureBackground from "@/components/TextureBackground";
-import CustomCursor from "@/components/CustomCursor";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -15,8 +14,18 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "BihariDesigner | Creative Designer from Bihar",
-  description: "BihariDesigner is a creative design studio from Bihar creating bold brands, identities, websites, social media creatives, posters and visual experiences.",
+  title: "Bihari Designer — Visual Communication Designer | Abhay Kumar Singh",
+  description: "Designing from Bihar. Working anywhere. I help businesses communicate better through UI/UX, branding, product design, packaging, and print media.",
+  keywords: ["Visual Communication Designer", "Bihari Designer", "Abhay Kumar Singh", "Brand Identity", "UI/UX Design", "Product Design", "Website Design", "Bihar Designer", "Patna Designer"],
+  authors: [{ name: "Abhay Kumar Singh" }],
+  openGraph: {
+    title: "Bihari Designer — Abhay Kumar Singh",
+    description: "Designing from Bihar. Working anywhere. Visual Communication Designer.",
+    url: "https://biharidesigner.com",
+    siteName: "Bihari Designer",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -31,7 +40,6 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col relative selection:bg-terracotta selection:text-background">
         <TextureBackground />
-        <CustomCursor />
         {children}
       </body>
     </html>

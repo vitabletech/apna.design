@@ -2,101 +2,95 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import { cn } from "@/utils/cn";
 import Sticker from "./Sticker";
+import { ProjectData } from "@/data/projects";
 
 interface ProjectCardProps {
-  title: string;
-  category: string;
-  year: string;
-  description: string;
-  imageSrc: string;
-  href: string;
+  project: ProjectData;
+  onSelect: (project: ProjectData) => void;
+  featured?: boolean;
   className?: string;
-  size?: "small" | "large" | "full";
-  tilt?: number;
 }
 
 export default function ProjectCard({
-  title,
-  category,
-  year,
-  description,
-  imageSrc,
-  href,
+  project,
+  onSelect,
+  featured = false,
   className,
-  size = "small",
-  tilt = 0,
 }: ProjectCardProps) {
-  const sizeClasses = {
-    small: "col-span-1 aspect-square",
-    large: "col-span-1 md:col-span-2 aspect-[4/3]",
-    full: "col-span-1 md:col-span-3 aspect-[21/9]",
-  };
-
   return (
     <motion.div
-      initial={{ y: 50, opacity: 0 }}
+      initial={{ y: 30, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      viewport={{ once: true, margin: "-100px" }}
-      whileHover="hover"
-      className={cn("group relative", sizeClasses[size], className)}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.6 }}
+      className={cn(
+        "group relative flex flex-col bg-card border-2 border-foreground shadow-[5px_5px_0px_0px_rgba(20,20,20,1)] hover:shadow-[2px_2px_0px_0px_rgba(20,20,20,1)] hover:translate-x-[3px] hover:translate-y-[3px] transition-all duration-300 overflow-hidden",
+        featured ? "md:col-span-2" : "col-span-1",
+        className
+      )}
     >
-      <Link href={href} className="block w-full h-full" data-cursor="DEKHO">
-        <motion.div
-          variants={{
-            hover: { rotate: tilt, scale: 0.98 },
-          }}
-          transition={{ duration: 0.4, ease: "easeOut" }}
-          className="relative w-full h-full bg-foreground overflow-hidden border-2 border-foreground"
-        >
-          {/* Madhubani Hover Border Effect */}
-          <div className="absolute inset-2 border border-background/20 opacity-0 group-hover:opacity-100 transition-opacity z-20 pointer-events-none madhubani-border-inner" />
-          
-          <Image
-            src={imageSrc}
-            alt={title}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-105 group-hover:opacity-80"
-          />
-          
-          {/* Overlay Text */}
-          <div className="absolute inset-0 p-6 flex flex-col justify-end bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 text-background">
-            <div className="flex justify-between items-end">
-              <div>
-                <p className="text-sm font-bold uppercase tracking-widest text-mithila mb-2">
-                  {category} &mdash; {year}
-                </p>
-                <h3 className="font-display text-3xl font-bold uppercase leading-none mb-2">
-                  {title}
-                </h3>
-                <p className="text-sm max-w-md hidden md:block">
-                  {description}
-                </p>
-              </div>
-              <div className="shrink-0">
-                <span className="inline-block border border-background px-4 py-2 font-bold uppercase text-xs">
-                  Dekho Project &rarr;
-                </span>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </Link>
-      
-      {/* Decorative Sticker on Hover (optional, if we want extra flair) */}
-      <motion.div
-        variants={{
-          hover: { opacity: 1, y: 0, rotate: 12 },
-        }}
-        initial={{ opacity: 0, y: 10, rotate: 0 }}
-        className="absolute -top-4 -right-4 z-30 pointer-events-none"
+      {/* Project Thumbnail Image Container */}
+      <div 
+        onClick={() => onSelect(project)}
+        className="relative w-full aspect-[16/10] bg-foreground overflow-hidden cursor-pointer border-b-2 border-foreground"
+        data-cursor="VIEW"
       >
-        <Sticker color="terracotta" rotation={12}>
-          Mast Hai!
-        </Sticker>
-      </motion.div>
+        <Image
+          src={project.imageSrc}
+          alt={project.title}
+          fill
+          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+          <span className="text-xs font-bold uppercase tracking-wider text-mithila">
+            {project.hook}
+          </span>
+        </div>
+      </div>
+
+      {/* Content Block */}
+      <div className="p-6 md:p-8 flex flex-col justify-between flex-1">
+        <div>
+          {/* Category & Year */}
+          <div className="flex items-center justify-between gap-2 mb-3">
+            <span className="text-xs font-bold uppercase tracking-widest text-terracotta">
+              {project.category}
+            </span>
+            <span className="text-xs font-semibold text-foreground/50">
+              {project.year}
+            </span>
+          </div>
+
+          {/* Project Name */}
+          <h3 className="font-display text-2xl sm:text-3xl md:text-4xl font-bold uppercase tracking-tight text-foreground mb-3 group-hover:text-terracotta transition-colors">
+            {project.title}
+          </h3>
+
+          {/* One-Line Description / Hook */}
+          <p className="text-sm sm:text-base text-foreground/80 leading-relaxed mb-6">
+            {project.description}
+          </p>
+        </div>
+
+        {/* CTA Button */}
+        <div className="pt-4 border-t border-foreground/10 flex items-center justify-between">
+          <button
+            onClick={() => onSelect(project)}
+            className="inline-flex items-center gap-2 text-xs md:text-sm font-bold uppercase tracking-widest text-foreground group-hover:text-terracotta transition-colors"
+            data-cursor="EXPLORE"
+          >
+            <span>VIEW PROJECT</span>
+            <ArrowUpRight size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+          </button>
+
+          <span className="text-[11px] font-bold uppercase tracking-wider text-foreground/40 hidden sm:inline-block">
+            Case Study
+          </span>
+        </div>
+      </div>
     </motion.div>
   );
 }
