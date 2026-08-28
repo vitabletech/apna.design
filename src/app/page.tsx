@@ -4,6 +4,7 @@ import HomeHero from "@/components/HomeHero";
 import AboutSection from "@/components/AboutSection";
 import InteractiveServices from "@/components/InteractiveServices";
 import WhyDesignSection from "@/components/WhyDesignSection";
+import SelectedWorkSection from "@/components/SelectedWorkSection";
 import HowIThinkSection from "@/components/HowIThinkSection";
 import CollaborateSection from "@/components/CollaborateSection";
 
@@ -24,6 +25,9 @@ export default function Home() {
 
         {/* WHY DESIGN SECTION */}
         <WhyDesignSection />
+
+        {/* SELECTED WORK SECTION */}
+        <SelectedWorkSection isHome limit={4} showFilters={false} />
 
         {/* HOW I THINK SECTION */}
         <HowIThinkSection />
