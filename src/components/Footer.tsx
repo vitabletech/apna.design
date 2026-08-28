@@ -38,7 +38,7 @@ export default function Footer() {
         {/* Tagline */}
         <div className="inline-block bg-background/10 border border-background/20 px-6 py-2 rounded-full mb-12">
           <p className="text-sm md:text-base font-semibold text-background tracking-wide">
-            With Love From Bihar
+            ❤️ LOVE FROM BIHAR
           </p>
         </div>
 

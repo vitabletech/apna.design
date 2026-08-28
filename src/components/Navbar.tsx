@@ -19,7 +19,7 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Work", href: "/#work" },
+    { name: "Work", href: "/work" },
     { name: "About", href: "/#about" },
     { name: "What I Do", href: "/#what-i-do" },
     { name: "Insights", href: "/insights" },

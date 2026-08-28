@@ -49,13 +49,9 @@ export default function HomeHero() {
             <div className="inline-flex flex-wrap items-center gap-2 text-xs md:text-sm font-semibold uppercase tracking-wider text-foreground/70 mb-8 py-2 px-3 border-l-2 border-terracotta bg-foreground/5 max-w-xl">
               <span>UX/UI</span>
               <span>&bull;</span>
-              <span>Websites</span>
+              <span>Branding</span>
               <span>&bull;</span>
-              <span>Brand Identity</span>
-              <span>&bull;</span>
-              <span>Product</span>
-              <span>&bull;</span>
-              <span>Print</span>
+              <span>Print Media</span>
             </div>
 
             {/* Action Buttons */}
@@ -114,7 +110,7 @@ export default function HomeHero() {
 
               {/* Badges / Stickers around the visual */}
               
-              {/* 1. Top Left Badge: WITH LOVE FROM BIHAR */}
+              {/* 1. Top Left Badge: ❤️ LOVE FROM BIHAR */}
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -122,7 +118,7 @@ export default function HomeHero() {
                 className="absolute -top-3 left-0 z-30"
               >
                 <Sticker color="mustard" rotation={-6}>
-                  WITH LOVE FROM BIHAR
+                  ❤️ LOVE FROM BIHAR
                 </Sticker>
               </motion.div>
 

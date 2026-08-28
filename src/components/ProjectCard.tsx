@@ -5,7 +5,7 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { cn } from "@/utils/cn";
 import Sticker from "./Sticker";
-import { ProjectData } from "./ProjectModal";
+import { ProjectData } from "@/data/projects";
 
 interface ProjectCardProps {
   project: ProjectData;

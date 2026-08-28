@@ -11,14 +11,16 @@
   --color-indigo: #1D3557;
   --color-card: #FFFFFF;
   --color-border-subtle: rgba(26, 26, 26, 0.12);
-  
+
   --font-sans: var(--font-inter);
   --font-display: var(--font-syne);
 }
 
 :root {
-  --background: #F8F5EE; /* Warm tactile handmade paper */
-  --foreground: #141414; /* Deep rich ink */
+  --background: #F8F5EE;
+  /* Warm tactile handmade paper */
+  --foreground: #141414;
+  /* Deep rich ink */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,7 +41,13 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, .font-display {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-display {
   font-family: var(--font-display), sans-serif;
   letter-spacing: -0.02em;
 }
@@ -48,17 +56,6 @@ h1, h2, h3, h4, h5, h6, .font-display {
 ::selection {
   background-color: #C15B3D;
   color: #F8F5EE;
-}
-
-/* Hide default cursor on desktop when using custom cursor */
-@media (pointer: fine) {
-  body {
-    cursor: none;
-  }
-  
-  a, button, input, textarea, select, label {
-    cursor: none;
-  }
 }
 
 /* Madhubani-inspired dashed borders or utilities */
@@ -86,8 +83,13 @@ h1, h2, h3, h4, h5, h6, .font-display {
 
 /* Marquee keyframe */
 @keyframes marquee {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .animate-marquee {
@@ -99,4 +101,3 @@ h1, h2, h3, h4, h5, h6, .font-display {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
-

@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Syne } from "next/font/google";
 import "./globals.css";
 import TextureBackground from "@/components/TextureBackground";
-import CustomCursor from "@/components/CustomCursor";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -41,7 +40,6 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col relative selection:bg-terracotta selection:text-background">
         <TextureBackground />
-        <CustomCursor />
         {children}
       </body>
     </html>
