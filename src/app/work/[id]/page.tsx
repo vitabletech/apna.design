@@ -6,6 +6,12 @@ import { projectsData } from "@/data/projects";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
+export async function generateStaticParams() {
+  return projectsData.map((project) => ({
+    id: project.id,
+  }));
+}
+
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const project = projectsData.find((p) => p.id === id);
