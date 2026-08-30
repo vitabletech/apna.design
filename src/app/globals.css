@@ -98,6 +98,14 @@ h6,
   animation: marquee 35s linear infinite;
 }
 
+/* Crisp image rendering */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
 .animate-marquee:hover {
   animation-play-state: paused;
 }

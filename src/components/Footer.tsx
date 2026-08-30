@@ -17,12 +17,12 @@ export default function Footer() {
   return (
     <footer className="relative bg-foreground text-background pt-20 pb-12 overflow-hidden border-t-2 border-foreground">
       <DecorativeBorder className="absolute top-0 left-0 text-background opacity-20" />
-      
+
       <div className="container mx-auto px-6 md:px-12 flex flex-col items-center text-center">
-        
+
         {/* Brand Title */}
         <h2 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold uppercase tracking-tighter leading-none mb-4 text-background">
-          BIHARI DESIGNER
+          THE DESIGNER BABU
         </h2>
 
         {/* Designer Info */}
@@ -61,8 +61,8 @@ export default function Footer() {
 
         {/* Bottom Line */}
         <div className="w-full border-t border-background/15 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-background/50 font-medium">
-          <p>&copy; {currentYear} Bihari Designer. All rights reserved.</p>
-          <p className="mt-2 sm:mt-0">Designing from Bihar &bull; Working anywhere</p>
+          <p>&copy; {currentYear} The Designer Babu. All rights reserved.</p>
+          <p className="mt-2 sm:mt-0">Designing from Bihar &bull; Working worldwide</p>
         </div>
 
       </div>

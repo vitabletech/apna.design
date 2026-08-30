@@ -42,7 +42,7 @@ export default function Navbar() {
           data-cursor="HOME"
         >
           <span className="font-display text-xl md:text-2xl font-bold tracking-tight uppercase">
-            BIHARI <span className="text-terracotta">DESIGNER</span>
+            THE DESIGNER <span className="text-terracotta">BABU</span>
           </span>
           <span className="inline-block w-2 h-2 rounded-full bg-mithila animate-pulse" />
         </Link>
@@ -59,7 +59,7 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          
+
           <Link
             href="/#contact"
             className="group ml-3 flex items-center gap-1.5 bg-foreground text-background px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-terracotta transition-colors border border-foreground hover:border-terracotta shadow-[2px_2px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
@@ -129,7 +129,7 @@ export default function Navbar() {
                 <ArrowUpRight size={18} />
               </Link>
               <div className="flex justify-between items-center text-xs text-background/60 pt-2">
-                <span>Designing from Bihar. Working anywhere.</span>
+                <span>Designing from Bihar. Working worldwide.</span>
                 <span>Patna, India</span>
               </div>
             </motion.div>

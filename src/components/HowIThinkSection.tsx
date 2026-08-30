@@ -57,8 +57,17 @@ export default function HowIThinkSection() {
           </div>
         </div>
 
-        {/* Minimal Visual Sequence Flow */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
+        {/* Mobile Swipe Cue */}
+        <div className="flex sm:hidden items-center justify-between text-[11px] font-bold uppercase tracking-wider text-mithila mb-3">
+          <span className="flex items-center gap-1.5">
+            <span>Swipe Steps</span>
+            <span>&rarr;</span>
+          </span>
+          <span className="text-background/60">1 of 4</span>
+        </div>
+
+        {/* Visual Sequence Flow: Mobile Peek Slider (1 card + half of 2nd) & Desktop Grid */}
+        <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 -mx-6 px-6 pb-4 sm:mx-0 sm:px-0 sm:pb-0 sm:grid sm:grid-cols-2 lg:grid-cols-4 sm:gap-6 sm:overflow-visible [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden relative">
           {steps.map((item, idx) => {
             const Icon = item.icon;
             return (
@@ -68,7 +77,7 @@ export default function HowIThinkSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="group relative bg-background/5 border border-background/20 p-6 sm:p-8 rounded-xs hover:border-mithila transition-all duration-300 flex flex-col justify-between"
+                className="group relative bg-background/5 border border-background/20 p-6 sm:p-8 rounded-xs hover:border-mithila transition-all duration-300 flex flex-col justify-between w-[78vw] sm:w-auto shrink-0 snap-start"
               >
                 <div>
                   <div className="flex items-center justify-between mb-6">

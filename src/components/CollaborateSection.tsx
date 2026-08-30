@@ -10,12 +10,14 @@ export default function CollaborateSection() {
   const [submitted, setSubmitted] = useState(false);
   const [selectedService, setSelectedService] = useState("UI/UX Design");
   const [formData, setFormData] = useState({
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
+    contactNumber: "",
     message: "",
   });
 
-  const emailAddress = "abhay@biharidesigner.com";
+  const emailAddress = "abhay_work@outlook.com";
   const phoneNumber = "+91 7764032453";
 
   const handleCopyEmail = () => {
@@ -32,7 +34,7 @@ export default function CollaborateSection() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.name || !formData.email) return;
+    if (!formData.firstName || !formData.email || !formData.contactNumber) return;
     setSubmitted(true);
   };
 
@@ -42,16 +44,16 @@ export default function CollaborateSection() {
       className="py-24 md:py-32 bg-[#F8F5EE] relative overflow-hidden border-b border-foreground/10"
     >
       <div className="container mx-auto px-6 md:px-12 relative z-10">
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          
+
           {/* Left Column: Heading & Narrative */}
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
               <span className="text-xs font-bold uppercase tracking-widest text-terracotta mb-3 block">
                 Get In Touch
               </span>
-              
+
               <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-6 leading-[0.95]">
                 HAVE SOMETHING TO BUILD?
               </h2>
@@ -68,7 +70,7 @@ export default function CollaborateSection() {
 
             {/* Direct Secondary Action Links */}
             <div className="space-y-4 pt-6 border-t border-foreground/15">
-              <span className="text-xs font-bold uppercase tracking-widest text-foreground/50 block">
+              <span className="text-sm font-bold uppercase tracking-widest text-foreground/50 block">
                 Direct Channels
               </span>
 
@@ -81,11 +83,11 @@ export default function CollaborateSection() {
                 >
                   <div className="flex items-center gap-3">
                     <Phone size={18} className="text-terracotta group-hover:text-mithila" />
-                    <span className="font-display text-sm font-bold uppercase tracking-wider">
+                    <span className="font-display text-base font-bold uppercase tracking-wider">
                       CALL NOW &rarr;
                     </span>
                   </div>
-                  <span className="text-xs font-semibold opacity-80 group-hover:opacity-100">{phoneNumber}</span>
+                  <span className="text-sm font-semibold opacity-80 group-hover:opacity-100">{phoneNumber}</span>
                 </a>
 
                 <button
@@ -107,11 +109,11 @@ export default function CollaborateSection() {
                 >
                   <div className="flex items-center gap-3">
                     <Mail size={18} className="text-terracotta group-hover:text-mithila" />
-                    <span className="font-display text-sm font-bold uppercase tracking-wider">
+                    <span className="font-display text-base font-bold uppercase tracking-wider">
                       EMAIL ME &rarr;
                     </span>
                   </div>
-                  <span className="text-xs font-semibold opacity-80 group-hover:opacity-100">{emailAddress}</span>
+                  <span className="text-sm font-semibold opacity-80 group-hover:opacity-100">{emailAddress}</span>
                 </a>
 
                 <button
@@ -131,7 +133,7 @@ export default function CollaborateSection() {
                     initial={{ opacity: 0, y: 5 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0 }}
-                    className="text-xs font-bold text-leaf flex items-center gap-1.5"
+                    className="text-sm font-bold text-leaf flex items-center gap-1.5"
                   >
                     <Check size={14} />
                     <span>
@@ -145,12 +147,12 @@ export default function CollaborateSection() {
 
           {/* Right Column: Interactive Collaboration Form */}
           <div className="lg:col-span-7 bg-card border-2 border-foreground p-6 sm:p-8 md:p-10 shadow-[6px_6px_0px_0px_rgba(20,20,20,1)] relative">
-            
+
             <div className="flex items-center justify-between mb-6 pb-4 border-b border-foreground/10">
-              <span className="font-display text-sm font-bold uppercase tracking-widest text-foreground">
+              <span className="font-display text-base font-bold uppercase tracking-widest text-foreground">
                 Start a Conversation
               </span>
-              <span className="text-[11px] font-bold uppercase tracking-wider text-leaf bg-leaf/10 border border-leaf/20 px-2 py-0.5 rounded-full flex items-center gap-1">
+              <span className="text-[13px] font-bold uppercase tracking-wider text-leaf bg-leaf/10 border border-leaf/20 px-2.5 py-0.5 rounded-full flex items-center gap-1">
                 <span className="w-1.5 h-1.5 rounded-full bg-leaf animate-pulse" />
                 Available for Projects
               </span>
@@ -169,14 +171,14 @@ export default function CollaborateSection() {
                   Message Received!
                 </h3>
                 <p className="text-base text-foreground/80 max-w-sm mb-6">
-                  Thanks {formData.name || "friend"}. I&apos;ll review your requirements and get back to you within 24 hours.
+                  Thanks {formData.firstName || "friend"}. I&apos;ll review your requirements and get back to you within 24 hours.
                 </p>
                 <button
                   onClick={() => {
                     setSubmitted(false);
-                    setFormData({ name: "", email: "", message: "" });
+                    setFormData({ firstName: "", lastName: "", email: "", contactNumber: "", message: "" });
                   }}
-                  className="text-xs font-bold uppercase tracking-widest text-terracotta underline decoration-2 underline-offset-4"
+                  className="text-sm font-bold uppercase tracking-widest text-terracotta underline decoration-2 underline-offset-4"
                 >
                   Send another message
                 </button>
@@ -185,27 +187,26 @@ export default function CollaborateSection() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 {/* Service Picker */}
                 <div>
-                  <label className="text-xs font-bold uppercase tracking-widest text-foreground/70 block mb-3">
+                  <label className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-3">
                     What can I help you with?
                   </label>
                   <div className="flex flex-wrap gap-2">
                     {[
                       "UI/UX Design",
-                      "Branding",
                       "Product Design",
+                      "Branding",
+                      "Social Media Creative",
                       "Package Design",
                       "Print Media",
-                      "Social Media Creative",
                     ].map((service) => (
                       <button
                         type="button"
                         key={service}
                         onClick={() => setSelectedService(service)}
-                        className={`text-xs font-bold uppercase tracking-wider px-3 py-1.5 border transition-all ${
-                          selectedService === service
-                            ? "bg-foreground text-background border-foreground shadow-[2px_2px_0px_0px_rgba(193,91,61,1)]"
-                            : "bg-background text-foreground border-foreground/30 hover:border-foreground"
-                        }`}
+                        className={`text-sm font-bold uppercase tracking-wider px-3 py-1.5 border transition-all ${selectedService === service
+                          ? "bg-foreground text-background border-foreground shadow-[2px_2px_0px_0px_rgba(193,91,61,1)]"
+                          : "bg-background text-foreground border-foreground/30 hover:border-foreground"
+                          }`}
                       >
                         {service}
                       </button>
@@ -213,32 +214,52 @@ export default function CollaborateSection() {
                   </div>
                 </div>
 
-                {/* Name & Email Fields */}
+                {/* Row 1: First Name & Last Name */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
                     <label
-                      htmlFor="collaborate-name"
-                      className="text-xs font-bold uppercase tracking-widest text-foreground/70 block mb-2"
+                      htmlFor="collaborate-first-name"
+                      className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-2"
                     >
-                      Your Name *
+                      First Name *
                     </label>
                     <input
-                      id="collaborate-name"
+                      id="collaborate-first-name"
                       type="text"
                       required
-                      placeholder="e.g. Anand Kumar"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full bg-background border-2 border-foreground p-3 text-sm font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
+                      placeholder="e.g. Anand"
+                      value={formData.firstName}
+                      onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
+                      className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                     />
                   </div>
 
                   <div>
                     <label
-                      htmlFor="collaborate-email"
-                      className="text-xs font-bold uppercase tracking-widest text-foreground/70 block mb-2"
+                      htmlFor="collaborate-last-name"
+                      className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-2"
                     >
-                      Your Email *
+                      Last Name
+                    </label>
+                    <input
+                      id="collaborate-last-name"
+                      type="text"
+                      placeholder="e.g. Kumar"
+                      value={formData.lastName}
+                      onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
+                      className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
+                    />
+                  </div>
+                </div>
+
+                {/* Row 2: Email Id & Contact Number */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div>
+                    <label
+                      htmlFor="collaborate-email"
+                      className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-2"
+                    >
+                      Email Id *
                     </label>
                     <input
                       id="collaborate-email"
@@ -247,7 +268,25 @@ export default function CollaborateSection() {
                       placeholder="e.g. anand@company.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      className="w-full bg-background border-2 border-foreground p-3 text-sm font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
+                      className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="collaborate-contact"
+                      className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-2"
+                    >
+                      Contact Number *
+                    </label>
+                    <input
+                      id="collaborate-contact"
+                      type="tel"
+                      required
+                      placeholder="e.g. +91 98765 43210"
+                      value={formData.contactNumber}
+                      onChange={(e) => setFormData({ ...formData, contactNumber: e.target.value })}
+                      className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                     />
                   </div>
                 </div>
@@ -256,7 +295,7 @@ export default function CollaborateSection() {
                 <div>
                   <label
                     htmlFor="collaborate-message"
-                    className="text-xs font-bold uppercase tracking-widest text-foreground/70 block mb-2"
+                    className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-2"
                   >
                     Tell me about what you want to build
                   </label>
@@ -266,21 +305,21 @@ export default function CollaborateSection() {
                     placeholder="Describe your vision, goals, or what is currently not working..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    className="w-full bg-background border-2 border-foreground p-3 text-sm font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
+                    className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                   />
                 </div>
 
                 {/* Main CTA */}
                 <button
                   type="submit"
-                  className="w-full bg-terracotta text-background hover:bg-foreground transition-colors p-4 font-display text-sm md:text-base font-bold uppercase tracking-widest flex items-center justify-center gap-2 border-2 border-foreground shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+                  className="w-full bg-terracotta text-background hover:bg-foreground transition-colors p-4 font-display text-base md:text-lg font-bold uppercase tracking-widest flex items-center justify-center gap-2 border-2 border-foreground shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                   data-cursor="SUBMIT"
                 >
                   <span>LET&apos;S COLLABORATE</span>
                   <ArrowUpRight size={18} />
                 </button>
 
-                <p className="text-[11px] text-center text-foreground/50 uppercase tracking-wider font-semibold">
+                <p className="text-[13px] text-center text-foreground/50 uppercase tracking-wider font-semibold">
                   Designing from Bihar &bull; Responding within 24 business hours
                 </p>
               </form>
