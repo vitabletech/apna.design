@@ -5,6 +5,11 @@ import { Sparkles, CheckCircle2, ArrowLeft } from "lucide-react";
 import { projectsData } from "@/data/projects";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SprigCaseStudy from "@/components/SprigCaseStudy";
+import QuikCabCaseStudy from "@/components/QuikCabCaseStudy";
+import CoignxCaseStudy from "@/components/CoignxCaseStudy";
+import TechlyserCaseStudy from "@/components/TechlyserCaseStudy";
+import PayTimeCaseStudy from "@/components/PayTimeCaseStudy";
 
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -12,6 +17,56 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
 
   if (!project) {
     notFound();
+  }
+
+  if (id === "sprig") {
+    return (
+      <>
+        <Navbar />
+        <SprigCaseStudy />
+        <Footer />
+      </>
+    );
+  }
+
+  if (id === "quik-cab" || id === "katha-crafts") {
+    return (
+      <>
+        <Navbar />
+        <QuikCabCaseStudy />
+        <Footer />
+      </>
+    );
+  }
+
+  if (id === "coignx") {
+    return (
+      <>
+        <Navbar />
+        <CoignxCaseStudy />
+        <Footer />
+      </>
+    );
+  }
+
+  if (id === "techlyser") {
+    return (
+      <>
+        <Navbar />
+        <TechlyserCaseStudy />
+        <Footer />
+      </>
+    );
+  }
+
+  if (id === "paytime") {
+    return (
+      <>
+        <Navbar />
+        <PayTimeCaseStudy />
+        <Footer />
+      </>
+    );
   }
 
   return (

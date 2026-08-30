@@ -135,7 +135,7 @@ export default function InsightsPage() {
           <div className="mb-14 pb-8 border-b-2 border-foreground">
             <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-terracotta mb-3">
               <BookOpen size={16} />
-              <span>Bihari Designer &bull; Insights & Thoughts</span>
+              <span>The Designer Babu &bull; Insights & Thoughts</span>
             </div>
 
             <h1 className="font-display text-4xl sm:text-6xl md:text-7xl font-bold uppercase tracking-tight text-foreground mb-4">
@@ -275,7 +275,7 @@ export default function InsightsPage() {
 
                 <div className="pt-6 border-t border-foreground/15 flex justify-between items-center">
                   <span className="text-xs font-bold uppercase tracking-widest text-foreground/60">
-                    Bihari Designer &bull; Patna, Bihar
+                    The Designer Babu &bull; Patna, Bihar
                   </span>
                   <button
                     onClick={() => setActiveArticle(null)}

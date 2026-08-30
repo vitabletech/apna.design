@@ -1,10 +1,10 @@
 "use client";
 
-import { useState } from "react";
-import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import Link from "next/link";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ZoomIn, ZoomOut, RotateCcw, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { projectsData } from "@/data/projects";
 
@@ -14,6 +14,13 @@ interface SelectedWorkSectionProps {
   isHome?: boolean;
 }
 
+interface LightboxState {
+  isOpen: boolean;
+  src: string;
+  title: string;
+  zoomLevel: number;
+}
+
 export default function SelectedWorkSection({
   showFilters = true,
   limit,
@@ -21,6 +28,35 @@ export default function SelectedWorkSection({
 }: SelectedWorkSectionProps = {}) {
   const router = useRouter();
   const [activeFilter, setActiveFilter] = useState("All");
+  const [lightbox, setLightbox] = useState<LightboxState>({
+    isOpen: false,
+    src: "",
+    title: "",
+    zoomLevel: 1,
+  });
+
+  const openLightbox = (src: string, title: string) => {
+    setLightbox({ isOpen: true, src, title, zoomLevel: 1 });
+  };
+
+  const closeLightbox = () => {
+    setLightbox((prev) => ({ ...prev, isOpen: false, zoomLevel: 1 }));
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeLightbox();
+      if (e.key === "+" || e.key === "=") {
+        setLightbox((prev) => ({ ...prev, zoomLevel: Math.min(prev.zoomLevel + 0.25, 3) }));
+      }
+      if (e.key === "-") {
+        setLightbox((prev) => ({ ...prev, zoomLevel: Math.max(prev.zoomLevel - 0.25, 0.75) }));
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
 
   const filters = ["All", "UX/UI Design", "Creative Post and Banner", "Package Design", "Branding"];
 
@@ -48,8 +84,8 @@ export default function SelectedWorkSection({
               SELECTED WORK
             </h2>
           </div>
-          <p className="text-sm md:text-base font-semibold uppercase tracking-wider text-foreground/70 max-w-xs text-left md:text-right">
-            Showcasing strongest case studies across digital & visual design.
+          <p className="text-sm md:text-base font-semibold uppercase tracking-wider text-foreground/70 max-w-xs md:max-w-[380px] text-left md:text-right">
+            Showcasing strongest case studies<br className="hidden md:inline" /> across digital &amp; visual design.
           </p>
         </div>
 
@@ -84,6 +120,7 @@ export default function SelectedWorkSection({
               <ProjectCard
                 project={project}
                 onSelect={(p) => router.push(`/work/${p.id}`)}
+                onOpenLightbox={(src, title) => openLightbox(src, title)}
               />
             </motion.div>
           ))}
@@ -116,6 +153,96 @@ export default function SelectedWorkSection({
         )}
 
       </div>
+
+      {/* ── Interactive Lossless HD Lightbox Modal ── */}
+      <AnimatePresence>
+        {lightbox.isOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex flex-col items-center justify-between p-4 sm:p-6"
+            onClick={closeLightbox}
+          >
+            {/* Modal Header */}
+            <div
+              className="w-full flex items-center justify-between text-white z-10"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-center gap-3">
+                <span className="bg-terracotta text-white px-2.5 py-1 rounded-xs text-xs font-bold uppercase tracking-wider">
+                  Full View HD
+                </span>
+                <h4 className="text-sm sm:text-base font-bold truncate max-w-md">
+                  {lightbox.title}
+                </h4>
+              </div>
+
+              {/* Controls */}
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setLightbox((prev) => ({ ...prev, zoomLevel: Math.max(prev.zoomLevel - 0.25, 0.75) }))}
+                  className="p-2 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
+                  title="Zoom Out (-)"
+                >
+                  <ZoomOut size={18} />
+                </button>
+                <button
+                  onClick={() => setLightbox((prev) => ({ ...prev, zoomLevel: 1 }))}
+                  className="px-3 py-1 bg-white/10 hover:bg-white/20 rounded-full text-xs font-bold text-white transition-colors flex items-center gap-1"
+                  title="Reset Zoom"
+                >
+                  <RotateCcw size={12} />
+                  <span>{Math.round(lightbox.zoomLevel * 100)}%</span>
+                </button>
+                <button
+                  onClick={() => setLightbox((prev) => ({ ...prev, zoomLevel: Math.min(prev.zoomLevel + 0.25, 3) }))}
+                  className="p-2 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
+                  title="Zoom In (+)"
+                >
+                  <ZoomIn size={18} />
+                </button>
+                <button
+                  onClick={closeLightbox}
+                  className="p-2 bg-terracotta hover:bg-white hover:text-foreground rounded-full text-white transition-colors ml-2"
+                  title="Close (Esc)"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+            </div>
+
+            {/* Modal Image Viewport */}
+            <div
+              className="relative w-full h-[80vh] flex items-center justify-center overflow-auto p-4"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div
+                style={{ transform: `scale(${lightbox.zoomLevel})` }}
+                className="transition-transform duration-200 ease-out max-w-full max-h-full flex items-center justify-center"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={lightbox.src}
+                  alt={lightbox.title}
+                  className="max-h-[75vh] max-w-[90vw] object-contain rounded-xs shadow-2xl"
+                  style={{ imageRendering: "-webkit-optimize-contrast" }}
+                />
+              </div>
+            </div>
+
+            {/* Modal Footer */}
+            <div
+              className="text-white/60 text-xs font-medium flex items-center gap-4 z-10"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <span>Tip: Use <b>+</b> / <b>-</b> to zoom &bull; Press <b>Esc</b> to close</span>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
     </section>
   );
 }
+

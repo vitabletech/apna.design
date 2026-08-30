@@ -1,0 +1,3360 @@
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "__version__": 3,
+    "block": {
+      "dbdb5f50-8397-401d-bc36-bada0aa1db6e": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "version": 371,
+            "type": "page",
+            "properties": {
+              "=gS\\": [
+                [
+                  "My responsibilities included conducting user research, designing the UI/UX, creating prototypes, collaborating with developers, and conducting testing and iteration."
+                ]
+              ],
+              "F@@S": [
+                [
+                  "In the mobile app project, I handled everything from planning how information is organized to researching user needs. I created basic outlines, designed how the app looks, and made detailed versions for testing."
+                ]
+              ],
+              "FJmY": [
+                [
+                  "Figma, Photoshop "
+                ]
+              ],
+              "exW_": [
+                [
+                  "IOS,Android"
+                ]
+              ],
+              "tBYr": [
+                [
+                  "COIGN X is a cutting-edge crypto platform enabling users to seamlessly buy, manage, and transact digital currencies. With a secure wallet feature for effortless fund management, users can easily deposit and withdraw funds, making crypto transactions a breeze."
+                ]
+              ],
+              "y`U{": [
+                [
+                  "Add your link here \u2192",
+                  [
+                    [
+                      "a",
+                      "Add your link here \u2192"
+                    ]
+                  ]
+                ]
+              ],
+              "zBK|": [
+                [
+                  "1. Secure digital wallet for storing cryptocurrencies.\n2. Real-time updates on cryptocurrency prices.\n3. Support for various cryptocurrencies.\n4. Easy-to-use trading tools.\n5. Portfolio tracking for investments.\n6. Strong security measures.\n7. Simple and intuitive interface.\n8. Mobile-friendly for trading on the go.\n9. Helpful customer support."
+                ]
+              ],
+              "title": [
+                [
+                  "COIGNX"
+                ]
+              ]
+            },
+            "content": [
+              "de217ac1-5b35-422a-9632-99b4941f250a",
+              "8b46cad6-4487-4046-b0e0-ce801df0a129",
+              "fd053576-15ca-4aa2-addf-05cd86775f4a",
+              "d5310172-81e9-41c0-b3ad-a65cf5433223",
+              "02e1dacf-9c05-4838-88f5-00f78dd62bfc",
+              "2206758a-9d2b-4c87-bc27-11e8b1b724b1",
+              "a71671c1-f0e9-42af-a21e-75b184f68b64",
+              "93751936-67fe-496f-8d06-5565b86748aa",
+              "c079898a-0e8b-43bb-95ee-22bcb646e1b9",
+              "da3975e0-ccbe-42a6-b130-2cc896d2300e",
+              "b0e3def2-b050-44ac-b0ae-97f3d7414599",
+              "c7d26325-4946-4686-9f7a-ed2f357e2001",
+              "6b8593bf-b19e-4ea6-802f-bd87483dd2f7",
+              "a442749b-ee95-4951-9ae6-f0b235730b26",
+              "160fbea2-80c0-4ad7-b044-65537b15f0e5",
+              "ff1e4f3e-1b81-409c-863c-af6e87e99ffb",
+              "4a6cf82b-2360-4905-bcf9-44212791e38f",
+              "4485f1fc-6eff-4b3b-86ee-eb5d8494b32a",
+              "ad0a0a32-d3cd-422a-9a17-77a9022689bf",
+              "d8e05992-251f-4e97-b477-bc51ab6797be",
+              "8ab17868-d4b4-4565-891c-6fef7ae38da4",
+              "f4336946-34fa-4a70-865f-294bff10de56",
+              "d255d2eb-378d-4d88-9b29-dfa147d4cd2c",
+              "93d82725-ba6d-40ba-bb94-36d136e5afc4",
+              "b67c4d06-a884-4d66-bbc7-ab72519f59b7",
+              "ebd3dd0b-e646-4aee-bdb4-5214413d929b",
+              "2adc7bfa-de64-4409-b096-5f80c25d3e93",
+              "308820ab-fb9f-4247-b2cc-07ff0a45ac80",
+              "3969efe0-da86-43e6-abb9-7e3cbd6fbfdb",
+              "698ffbed-d6dd-4091-92e5-023412fb90fb",
+              "c3d855a2-633b-4ec7-8457-afdb383bfca9",
+              "c820712d-7594-428e-99f8-11f1bb43941a",
+              "a03b0caf-17d0-4453-8545-86016d4ece8d",
+              "782a057f-684d-473f-aa78-db0eec0b48f0",
+              "ab7e9627-c079-4ae3-8eb0-529dc499719b",
+              "1c745025-e25e-4d6e-b1bf-404c91422611",
+              "012b72f5-42ed-4875-a26a-31794fee4b50",
+              "ad2f746b-e792-4bc5-81fe-56658a48e071",
+              "52d64117-c73f-4fd1-97ef-f7ec63da29d7",
+              "4790216f-3f80-4fda-b7b5-84b7e02603eb",
+              "dfabb6f4-49a5-4462-bae8-247167936547",
+              "97d961f3-0c25-4605-828a-d0735fed29de",
+              "4340a33a-0259-4df7-91ba-3602b327f9a6",
+              "e7f2f2c0-ff22-40d3-8917-d461f068e12a",
+              "8d02b159-bf68-4956-8f81-8f3e0af15afd",
+              "baefb62f-c4f2-409f-a175-095b391559ac",
+              "ccf2f1d1-92ef-4969-a6d2-789b6b9fbf10"
+            ],
+            "format": {
+              "page_cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/5a15ba1d-98fa-4129-a366-52e5729fde16/cover_page_of_coinx.png",
+              "card_cover_position": 0.3729,
+              "copied_from_pointer": {
+                "id": "494569fc-e16d-4247-a31d-8a833154ce07",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              },
+              "page_cover_position": 0.6862
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1788089377022,
+            "parent_id": "15965b98-c949-43d4-8bb1-016182322074",
+            "parent_table": "collection",
+            "alive": true,
+            "copied_from": "494569fc-e16d-4247-a31d-8a833154ce07",
+            "file_ids": [
+              "5a15ba1d-98fa-4129-a366-52e5729fde16"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "5jO58Ay4yPhJFmrfXQW0oQ,\"start\",\"end\"",
+                "n": {
+                  "5jO58Ay4yPhJFmrfXQW0oQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "5jO58Ay4yPhJFmrfXQW0oQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "E0Bw2z6feeAA",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 6,
+                          "c": "COIGNX"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+            "version": 58,
+            "type": "collection_view",
+            "view_ids": [
+              "675960fb-9b8a-4d6c-a889-be83194e7b63"
+            ],
+            "collection_id": "15965b98-c949-43d4-8bb1-016182322074",
+            "format": {
+              "collection_pointer": {
+                "id": "15965b98-c949-43d4-8bb1-016182322074",
+                "table": "collection",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              },
+              "copied_from_pointer": {
+                "id": "134eba8d-dfea-45c9-a6d0-dd6d7a34fb5e",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1780861121567,
+            "parent_id": "a79f5664-5e77-4da2-98db-ac23fbc52965",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "134eba8d-dfea-45c9-a6d0-dd6d7a34fb5e",
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "3m6oNpsQcit8r2NIga6HNQ,\"start\",\"end\"",
+                "n": {
+                  "3m6oNpsQcit8r2NIga6HNQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "3m6oNpsQcit8r2NIga6HNQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "a79f5664-5e77-4da2-98db-ac23fbc52965": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "a79f5664-5e77-4da2-98db-ac23fbc52965",
+            "version": 219,
+            "type": "page",
+            "properties": {
+              "title": [
+                [
+                  "Abhay Kumar Singh"
+                ]
+              ]
+            },
+            "content": [
+              "48402ac1-74c2-4f4e-aa37-c06e753df929",
+              "e14e8f1b-e70e-4bdb-8462-f3b35dda6c73",
+              "d7002be3-1df8-4a86-a721-ad908bc2f206",
+              "dfbdeb63-4f87-4099-89b8-d27537daa878",
+              "7db6135c-59d4-4d0e-bc8a-1731b729e610",
+              "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+              "48683e83-3a75-4e78-a225-1fb8af975128",
+              "b4533bf2-8434-428d-a0cf-e93fe2903cc7",
+              "bc224fd4-8baf-4405-9f43-bdcc350b32e6",
+              "26bb5cb6-28a5-800e-bbd4-cb1867603912"
+            ],
+            "format": {
+              "site_id": "1b5f584b-1cca-810d-9dbd-007972e0cd42",
+              "page_icon": "attachment:2c527cfb-6c47-439f-aa07-458551176388:profile-img.png",
+              "page_cover": "https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+              "copied_from_pointer": {
+                "id": "06c04e85-a23f-411c-8134-7d75ae627ebb",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              },
+              "page_cover_position": 0.5,
+              "social_media_image_preview_url": "attachment:32bc6488-f1d4-4806-b2e0-797931cc5e3c:SocialMediaPreviewImage.png"
+            },
+            "permissions": [
+              {
+                "role": "editor",
+                "type": "user_permission",
+                "user_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2"
+              },
+              {
+                "role": "reader",
+                "type": "public_permission",
+                "is_site": true,
+                "added_timestamp": 1700295543531,
+                "allow_duplicate": false
+              }
+            ],
+            "created_time": 1700295331203,
+            "last_edited_time": 1787640557316,
+            "parent_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "parent_table": "space",
+            "alive": true,
+            "copied_from": "06c04e85-a23f-411c-8134-7d75ae627ebb",
+            "file_ids": [
+              "6e4af978-8814-4912-8ab7-3b8877b3e421",
+              "0b8e698f-69ba-4042-be72-42f7f0045025",
+              "acb0d166-1002-420d-9f13-43a83a29d494",
+              "c307c34c-0f4a-4536-b1f4-19c37d208c72",
+              "ae792b5f-7575-4a15-8a03-322e4ce876c1",
+              "2c527cfb-6c47-439f-aa07-458551176388",
+              "32bc6488-f1d4-4806-b2e0-797931cc5e3c"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "rSEEbEZ10IfAoBiXUhjYZA,\"start\",\"end\"",
+                "n": {
+                  "rSEEbEZ10IfAoBiXUhjYZA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "rSEEbEZ10IfAoBiXUhjYZA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "kkVgcYti-Yd9",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 17,
+                          "c": "Abhay Kumar Singh"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "de217ac1-5b35-422a-9632-99b4941f250a": {
+        "value": {
+          "value": {
+            "id": "de217ac1-5b35-422a-9632-99b4941f250a",
+            "version": 12,
+            "type": "header",
+            "properties": {
+              "title": [
+                [
+                  "Overview"
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "835904af-8c34-4320-a7b6-3a11775e4543",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1701528630237,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "835904af-8c34-4320-a7b6-3a11775e4543",
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "mxwOsMOLTlprCNmqwGwj2w,\"start\",\"end\"",
+                "n": {
+                  "mxwOsMOLTlprCNmqwGwj2w,\"start\",\"end\"": {
+                    "s": {
+                      "x": "mxwOsMOLTlprCNmqwGwj2w",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "hSExWqVlSbF6",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 8,
+                          "c": "Overview"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "8b46cad6-4487-4046-b0e0-ce801df0a129": {
+        "value": {
+          "value": {
+            "id": "8b46cad6-4487-4046-b0e0-ce801df0a129",
+            "version": 2,
+            "type": "divider",
+            "format": {
+              "copied_from_pointer": {
+                "id": "719bc93c-56a3-4dbf-aa75-26a5422772e1",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1700295331203,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "719bc93c-56a3-4dbf-aa75-26a5422772e1",
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "usiUuWXerKjTMZn7P4AoOw,\"start\",\"end\"",
+                "n": {
+                  "usiUuWXerKjTMZn7P4AoOw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "usiUuWXerKjTMZn7P4AoOw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "fd053576-15ca-4aa2-addf-05cd86775f4a": {
+        "value": {
+          "value": {
+            "id": "fd053576-15ca-4aa2-addf-05cd86775f4a",
+            "version": 16,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "464.8KB"
+                ]
+              ],
+              "title": [
+                [
+                  "Coign X.jpg"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/88d45275-d40a-4b2a-964f-a92c87abd149/Coign_X.jpg"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 704,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/88d45275-d40a-4b2a-964f-a92c87abd149/Coign_X.jpg",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 0.5625,
+              "copied_from_pointer": {
+                "id": "0503961d-076b-41b2-b724-d947aefbb3b3",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              },
+              "block_preserve_scale": true
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1788089377156,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "0503961d-076b-41b2-b724-d947aefbb3b3",
+            "file_ids": [
+              "88d45275-d40a-4b2a-964f-a92c87abd149"
+            ],
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "riIMPmag4t3gaQVC1WMX6Q,\"start\",\"end\"",
+                "n": {
+                  "riIMPmag4t3gaQVC1WMX6Q,\"start\",\"end\"": {
+                    "s": {
+                      "x": "riIMPmag4t3gaQVC1WMX6Q",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "xxoD1ktWjIrP",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 11,
+                          "c": "Coign X.jpg"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "d5310172-81e9-41c0-b3ad-a65cf5433223": {
+        "value": {
+          "value": {
+            "id": "d5310172-81e9-41c0-b3ad-a65cf5433223",
+            "version": 7,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "UX Process"
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "52304b2c-6fe9-445e-90f8-608a8d41cd0e",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1700305212136,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "52304b2c-6fe9-445e-90f8-608a8d41cd0e",
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "53isCiNM5KJZVGFMTKTyMQ,\"start\",\"end\"",
+                "n": {
+                  "53isCiNM5KJZVGFMTKTyMQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "53isCiNM5KJZVGFMTKTyMQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "PWfUUdqXmOBT",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 10,
+                          "c": "UX Process"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "02e1dacf-9c05-4838-88f5-00f78dd62bfc": {
+        "value": {
+          "value": {
+            "id": "02e1dacf-9c05-4838-88f5-00f78dd62bfc",
+            "version": 14,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "16.7KB"
+                ]
+              ],
+              "title": [
+                [
+                  "ux process.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/6e216b05-b077-43c7-90f9-d80bfd8f4f20/ux_process.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 703.984375,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/6e216b05-b077-43c7-90f9-d80bfd8f4f20/ux_process.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 0.2078125,
+              "block_preserve_scale": true
+            },
+            "created_time": 1700304501299,
+            "last_edited_time": 1788089377153,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "6e216b05-b077-43c7-90f9-d80bfd8f4f20"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "_eRo1cp2Ih6UOMibo8aAyg,\"start\",\"end\"",
+                "n": {
+                  "_eRo1cp2Ih6UOMibo8aAyg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "_eRo1cp2Ih6UOMibo8aAyg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "e5xzgZAfiJwv",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 14,
+                          "c": "ux process.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "2206758a-9d2b-4c87-bc27-11e8b1b724b1": {
+        "value": {
+          "value": {
+            "id": "2206758a-9d2b-4c87-bc27-11e8b1b724b1",
+            "version": 11,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Competitive Analysis"
+                ]
+              ]
+            },
+            "created_time": 1700304638809,
+            "last_edited_time": 1700304696307,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "xr9Y-WZCsgch34I5O9VZvg,\"start\",\"end\"",
+                "n": {
+                  "xr9Y-WZCsgch34I5O9VZvg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "xr9Y-WZCsgch34I5O9VZvg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "2VVscp9ME0Nx",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 20,
+                          "c": "Competitive Analysis"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "a71671c1-f0e9-42af-a21e-75b184f68b64": {
+        "value": {
+          "value": {
+            "id": "a71671c1-f0e9-42af-a21e-75b184f68b64",
+            "version": 10,
+            "type": "divider",
+            "format": {
+              "copied_from_pointer": {
+                "id": "e6243185-385a-4bde-99b7-e19c5faf1b44",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1700304694515,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "e6243185-385a-4bde-99b7-e19c5faf1b44",
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "Rdu64OwNXgDQtP1jqmw6AA,\"start\",\"end\"",
+                "n": {
+                  "Rdu64OwNXgDQtP1jqmw6AA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "Rdu64OwNXgDQtP1jqmw6AA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "93751936-67fe-496f-8d06-5565b86748aa": {
+        "value": {
+          "value": {
+            "id": "93751936-67fe-496f-8d06-5565b86748aa",
+            "version": 6,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "Prior to creating COIGN X, we conducted a thorough analysis of existing crypto management platforms. This assessment revealed common issues such as complex interfaces, security vulnerabilities, and convoluted transaction processes. These insights highlighted the demand for a user-centric, secure, and streamlined solution."
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "93e64dc1-61b8-4d16-adaa-7fba37b50c92",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304642980,
+            "last_edited_time": 1700304707083,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "93e64dc1-61b8-4d16-adaa-7fba37b50c92",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "9rqu48cxxQ588gcGx4N7mA,\"start\",\"end\"",
+                "n": {
+                  "9rqu48cxxQ588gcGx4N7mA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "9rqu48cxxQ588gcGx4N7mA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "077BusjHKKIe",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 323,
+                          "c": "Prior to creating COIGN X, we conducted a thorough analysis of existing crypto management platforms. This assessment revealed common issues such as complex interfaces, security vulnerabilities, and convoluted transaction processes. These insights highlighted the demand for a user-centric, secure, and streamlined solution."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "c079898a-0e8b-43bb-95ee-22bcb646e1b9": {
+        "value": {
+          "value": {
+            "id": "c079898a-0e8b-43bb-95ee-22bcb646e1b9",
+            "version": 5,
+            "type": "text",
+            "created_time": 1700304881684,
+            "last_edited_time": 1700304881686,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "HM85rIrPhDXLimxLNALMIg,\"start\",\"end\"",
+                "n": {
+                  "HM85rIrPhDXLimxLNALMIg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "HM85rIrPhDXLimxLNALMIg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "da3975e0-ccbe-42a6-b130-2cc896d2300e": {
+        "value": {
+          "value": {
+            "id": "da3975e0-ccbe-42a6-b130-2cc896d2300e",
+            "version": 9,
+            "type": "sub_sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Problem"
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "2206758a-9d2b-4c87-bc27-11e8b1b724b1",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304735289,
+            "last_edited_time": 1700305225120,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "2206758a-9d2b-4c87-bc27-11e8b1b724b1",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "JWueuA7Ec7-XPnesO9h5sw,\"start\",\"end\"",
+                "n": {
+                  "JWueuA7Ec7-XPnesO9h5sw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "JWueuA7Ec7-XPnesO9h5sw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "EIje5lQJMY0K",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 7,
+                          "c": "Problem"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "b0e3def2-b050-44ac-b0ae-97f3d7414599": {
+        "value": {
+          "value": {
+            "id": "b0e3def2-b050-44ac-b0ae-97f3d7414599",
+            "version": 4,
+            "type": "divider",
+            "format": {
+              "copied_from_pointer": {
+                "id": "a71671c1-f0e9-42af-a21e-75b184f68b64",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304735290,
+            "last_edited_time": 1700304735294,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "a71671c1-f0e9-42af-a21e-75b184f68b64",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "Jtni11gpeH5EbM1g6MF7pw,\"start\",\"end\"",
+                "n": {
+                  "Jtni11gpeH5EbM1g6MF7pw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "Jtni11gpeH5EbM1g6MF7pw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "c7d26325-4946-4686-9f7a-ed2f357e2001": {
+        "value": {
+          "value": {
+            "id": "c7d26325-4946-4686-9f7a-ed2f357e2001",
+            "version": 30,
+            "type": "callout",
+            "properties": {
+              "title": [
+                [
+                  "Prior to creating COIGN X, we conducted a thorough analysis of existing crypto management platforms. This assessment revealed common issues such as complex interfaces, security vulnerabilities, and convoluted transaction processes. These insights highlighted the demand for a user-centric, secure, and streamlined solution."
+                ]
+              ]
+            },
+            "format": {
+              "page_icon": "\u26a0\ufe0f",
+              "block_color": "gray_background",
+              "copied_from_pointer": {
+                "id": "93751936-67fe-496f-8d06-5565b86748aa",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304735290,
+            "last_edited_time": 1700304860062,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "93751936-67fe-496f-8d06-5565b86748aa",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "zbj1gIHxch-M7E1fhZ9BMg,\"start\",\"end\"",
+                "n": {
+                  "zbj1gIHxch-M7E1fhZ9BMg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "zbj1gIHxch-M7E1fhZ9BMg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "j0T_wKAQOv8X",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 323,
+                          "c": "Prior to creating COIGN X, we conducted a thorough analysis of existing crypto management platforms. This assessment revealed common issues such as complex interfaces, security vulnerabilities, and convoluted transaction processes. These insights highlighted the demand for a user-centric, secure, and streamlined solution."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "6b8593bf-b19e-4ea6-802f-bd87483dd2f7": {
+        "value": {
+          "value": {
+            "id": "6b8593bf-b19e-4ea6-802f-bd87483dd2f7",
+            "version": 9,
+            "type": "sub_sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Solution"
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "da3975e0-ccbe-42a6-b130-2cc896d2300e",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304871599,
+            "last_edited_time": 1700305242922,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "da3975e0-ccbe-42a6-b130-2cc896d2300e",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "EKJIIhWGpcp3-xVDL0aaYg,\"start\",\"end\"",
+                "n": {
+                  "EKJIIhWGpcp3-xVDL0aaYg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "EKJIIhWGpcp3-xVDL0aaYg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "0K7XHNa1_vXQ",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 8,
+                          "c": "Solution"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "a442749b-ee95-4951-9ae6-f0b235730b26": {
+        "value": {
+          "value": {
+            "id": "a442749b-ee95-4951-9ae6-f0b235730b26",
+            "version": 4,
+            "type": "divider",
+            "format": {
+              "copied_from_pointer": {
+                "id": "b0e3def2-b050-44ac-b0ae-97f3d7414599",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304871601,
+            "last_edited_time": 1700304871605,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "b0e3def2-b050-44ac-b0ae-97f3d7414599",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "TKbo5e0aBTN2lg4TMNcnBQ,\"start\",\"end\"",
+                "n": {
+                  "TKbo5e0aBTN2lg4TMNcnBQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "TKbo5e0aBTN2lg4TMNcnBQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "160fbea2-80c0-4ad7-b044-65537b15f0e5": {
+        "value": {
+          "value": {
+            "id": "160fbea2-80c0-4ad7-b044-65537b15f0e5",
+            "version": 6,
+            "type": "callout",
+            "properties": {
+              "title": [
+                [
+                  "Prior to creating COIGN X, we conducted a thorough analysis of existing crypto management platforms. This assessment revealed common issues such as complex interfaces, security vulnerabilities, and convoluted transaction processes. These insights highlighted the demand for a user-centric, secure, and streamlined solution."
+                ]
+              ]
+            },
+            "format": {
+              "page_icon": "\u2705",
+              "block_color": "gray_background",
+              "copied_from_pointer": {
+                "id": "c7d26325-4946-4686-9f7a-ed2f357e2001",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304871601,
+            "last_edited_time": 1700304913714,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "c7d26325-4946-4686-9f7a-ed2f357e2001",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "K6n2YKWisbAY6kLG6NAGwg,\"start\",\"end\"",
+                "n": {
+                  "K6n2YKWisbAY6kLG6NAGwg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "K6n2YKWisbAY6kLG6NAGwg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "SYWMlSyAoXVP",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 323,
+                          "c": "Prior to creating COIGN X, we conducted a thorough analysis of existing crypto management platforms. This assessment revealed common issues such as complex interfaces, security vulnerabilities, and convoluted transaction processes. These insights highlighted the demand for a user-centric, secure, and streamlined solution."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ff1e4f3e-1b81-409c-863c-af6e87e99ffb": {
+        "value": {
+          "value": {
+            "id": "ff1e4f3e-1b81-409c-863c-af6e87e99ffb",
+            "version": 6,
+            "type": "numbered_list",
+            "properties": {
+              "title": [
+                [
+                  "Intuitive User Interface: COIGN X boasts a sleek and user-friendly interface, making it easy for both beginners and experienced users to navigate the platform effortlessly."
+                ]
+              ]
+            },
+            "created_time": 1700304945956,
+            "last_edited_time": 1700304964713,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "YnTa2gAD3zfnc9Xk3I-L5w,\"start\",\"end\"",
+                "n": {
+                  "YnTa2gAD3zfnc9Xk3I-L5w,\"start\",\"end\"": {
+                    "s": {
+                      "x": "YnTa2gAD3zfnc9Xk3I-L5w",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "tr0_IaWTTTxQ",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 172,
+                          "c": "Intuitive User Interface: COIGN X boasts a sleek and user-friendly interface, making it easy for both beginners and experienced users to navigate the platform effortlessly."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "4a6cf82b-2360-4905-bcf9-44212791e38f": {
+        "value": {
+          "value": {
+            "id": "4a6cf82b-2360-4905-bcf9-44212791e38f",
+            "version": 7,
+            "type": "numbered_list",
+            "properties": {
+              "title": [
+                [
+                  "Secure Wallet: We implemented a state-of-the-art secure wallet system with robust encryption and multi-factor authentication, ensuring the utmost security for users' digital assets."
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "ff1e4f3e-1b81-409c-863c-af6e87e99ffb",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304988172,
+            "last_edited_time": 1700305013991,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "ff1e4f3e-1b81-409c-863c-af6e87e99ffb",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "1nWYs6wNep7Ykz5qHvqxVw,\"start\",\"end\"",
+                "n": {
+                  "1nWYs6wNep7Ykz5qHvqxVw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "1nWYs6wNep7Ykz5qHvqxVw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "GACSrX_tC0u6",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 181,
+                          "c": "Secure Wallet: We implemented a state-of-the-art secure wallet system with robust encryption and multi-factor authentication, ensuring the utmost security for users' digital assets."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "4485f1fc-6eff-4b3b-86ee-eb5d8494b32a": {
+        "value": {
+          "value": {
+            "id": "4485f1fc-6eff-4b3b-86ee-eb5d8494b32a",
+            "version": 7,
+            "type": "numbered_list",
+            "properties": {
+              "title": [
+                [
+                  "Effortless Fund Management: COIGN X simplifies fund management by enabling users to easily deposit and withdraw funds through a seamless process."
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "4a6cf82b-2360-4905-bcf9-44212791e38f",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304990773,
+            "last_edited_time": 1700305025169,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "4a6cf82b-2360-4905-bcf9-44212791e38f",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "hp0bDp5roDlnMqdUg4uAVA,\"start\",\"end\"",
+                "n": {
+                  "hp0bDp5roDlnMqdUg4uAVA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "hp0bDp5roDlnMqdUg4uAVA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "Lq3UqlaTQDbL",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 145,
+                          "c": "Effortless Fund Management: COIGN X simplifies fund management by enabling users to easily deposit and withdraw funds through a seamless process."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ad0a0a32-d3cd-422a-9a17-77a9022689bf": {
+        "value": {
+          "value": {
+            "id": "ad0a0a32-d3cd-422a-9a17-77a9022689bf",
+            "version": 7,
+            "type": "numbered_list",
+            "properties": {
+              "title": [
+                [
+                  "Streamlined Transactions: We streamlined the transaction process, reducing complexity and making it straightforward for users to buy, sell, and exchange digital currencies."
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "4485f1fc-6eff-4b3b-86ee-eb5d8494b32a",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304993401,
+            "last_edited_time": 1700305038489,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "4485f1fc-6eff-4b3b-86ee-eb5d8494b32a",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "XOBehFpWSGHyE4wtKE6mzQ,\"start\",\"end\"",
+                "n": {
+                  "XOBehFpWSGHyE4wtKE6mzQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "XOBehFpWSGHyE4wtKE6mzQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "StwC1YYUEfNK",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 172,
+                          "c": "Streamlined Transactions: We streamlined the transaction process, reducing complexity and making it straightforward for users to buy, sell, and exchange digital currencies."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "d8e05992-251f-4e97-b477-bc51ab6797be": {
+        "value": {
+          "value": {
+            "id": "d8e05992-251f-4e97-b477-bc51ab6797be",
+            "version": 7,
+            "type": "numbered_list",
+            "properties": {
+              "title": [
+                [
+                  "Comprehensive Education: To address the learning curve associated with crypto, COIGN X offers a wealth of educational resources, including tutorials and guides, to empower users with the knowledge they need."
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "ad0a0a32-d3cd-422a-9a17-77a9022689bf",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700304997085,
+            "last_edited_time": 1700305049319,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "ad0a0a32-d3cd-422a-9a17-77a9022689bf",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "iY0f-gxZ0nHXuqwIoAwvDg,\"start\",\"end\"",
+                "n": {
+                  "iY0f-gxZ0nHXuqwIoAwvDg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "iY0f-gxZ0nHXuqwIoAwvDg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "g8enOeydNjEN",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 207,
+                          "c": "Comprehensive Education: To address the learning curve associated with crypto, COIGN X offers a wealth of educational resources, including tutorials and guides, to empower users with the knowledge they need."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "8ab17868-d4b4-4565-891c-6fef7ae38da4": {
+        "value": {
+          "value": {
+            "id": "8ab17868-d4b4-4565-891c-6fef7ae38da4",
+            "version": 7,
+            "type": "numbered_list",
+            "properties": {
+              "title": [
+                [
+                  "Responsive Customer Support: We provide responsive customer support to assist users with any questions or issues they may encounter during their crypto journey."
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "d8e05992-251f-4e97-b477-bc51ab6797be",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700305059865,
+            "last_edited_time": 1700305063756,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "d8e05992-251f-4e97-b477-bc51ab6797be",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "WaTXJytraUoRjb_7akcDhQ,\"start\",\"end\"",
+                "n": {
+                  "WaTXJytraUoRjb_7akcDhQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "WaTXJytraUoRjb_7akcDhQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "twLywC-Gi2GE",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 160,
+                          "c": "Responsive Customer Support: We provide responsive customer support to assist users with any questions or issues they may encounter during their crypto journey."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "f4336946-34fa-4a70-865f-294bff10de56": {
+        "value": {
+          "value": {
+            "id": "f4336946-34fa-4a70-865f-294bff10de56",
+            "version": 12,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "By combining these solutions, COIGN X ensures a seamless and secure crypto experience for all users, making it the ultimate destination for digital currency management."
+                ]
+              ]
+            },
+            "created_time": 1700305079559,
+            "last_edited_time": 1700305151341,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "f1inV4xyJp7Ip3QRT62hIA,\"start\",\"end\"",
+                "n": {
+                  "f1inV4xyJp7Ip3QRT62hIA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "f1inV4xyJp7Ip3QRT62hIA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "zjXWAf60Z3fy",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 168,
+                          "c": "By combining these solutions, COIGN X ensures a seamless and secure crypto experience for all users, making it the ultimate destination for digital currency management."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "d255d2eb-378d-4d88-9b29-dfa147d4cd2c": {
+        "value": {
+          "value": {
+            "id": "d255d2eb-378d-4d88-9b29-dfa147d4cd2c",
+            "version": 12,
+            "type": "text",
+            "created_time": 1700305176541,
+            "last_edited_time": 1701528682646,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "Qrv7fVyd3qFDmdwEPE91gg,\"start\",\"end\"",
+                "n": {
+                  "Qrv7fVyd3qFDmdwEPE91gg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "Qrv7fVyd3qFDmdwEPE91gg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "93d82725-ba6d-40ba-bb94-36d136e5afc4": {
+        "value": {
+          "value": {
+            "id": "93d82725-ba6d-40ba-bb94-36d136e5afc4",
+            "version": 25,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "User Flow"
+                ]
+              ]
+            },
+            "created_time": 1700305176541,
+            "last_edited_time": 1702214692987,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "OcsaKucMM-XMrRB26XdHHA,\"start\",\"end\"",
+                "n": {
+                  "OcsaKucMM-XMrRB26XdHHA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "OcsaKucMM-XMrRB26XdHHA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "icY-9id0tZMK",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 9,
+                          "c": "User Flow"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "b67c4d06-a884-4d66-bbc7-ab72519f59b7": {
+        "value": {
+          "value": {
+            "id": "b67c4d06-a884-4d66-bbc7-ab72519f59b7",
+            "version": 13,
+            "type": "divider",
+            "created_time": 1700305316354,
+            "last_edited_time": 1700305326580,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "PkLZU9TxPc1nVyGTgIOp0w,\"start\",\"end\"",
+                "n": {
+                  "PkLZU9TxPc1nVyGTgIOp0w,\"start\",\"end\"": {
+                    "s": {
+                      "x": "PkLZU9TxPc1nVyGTgIOp0w",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ebd3dd0b-e646-4aee-bdb4-5214413d929b": {
+        "value": {
+          "value": {
+            "id": "ebd3dd0b-e646-4aee-bdb4-5214413d929b",
+            "version": 33,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "123.1KB"
+                ]
+              ],
+              "title": [
+                [
+                  "coinX userflow 5.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/577e6945-315d-4b24-89a3-0b66816d71f4/coinX_userflow_5.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 703.9921875,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/577e6945-315d-4b24-89a3-0b66816d71f4/coinX_userflow_5.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 1.1674242424242425,
+              "block_preserve_scale": true
+            },
+            "created_time": 1700305267707,
+            "last_edited_time": 1788089377186,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "44eff50f-c848-49d2-be2c-94fbce1dda6f",
+              "577e6945-315d-4b24-89a3-0b66816d71f4"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "KaOVT19VbTl-hkmOp2nHVQ,\"start\",\"end\"",
+                "n": {
+                  "KaOVT19VbTl-hkmOp2nHVQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "KaOVT19VbTl-hkmOp2nHVQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "OhIlz8N8ExgY",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 20,
+                          "c": "coinX userflow 5.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "2adc7bfa-de64-4409-b096-5f80c25d3e93": {
+        "value": {
+          "value": {
+            "id": "2adc7bfa-de64-4409-b096-5f80c25d3e93",
+            "version": 32,
+            "type": "text",
+            "created_time": 1700305316382,
+            "last_edited_time": 1701528575369,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "ogk-bX7iIJbZo_9HdncZAQ,\"start\",\"end\"",
+                "n": {
+                  "ogk-bX7iIJbZo_9HdncZAQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "ogk-bX7iIJbZo_9HdncZAQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "308820ab-fb9f-4247-b2cc-07ff0a45ac80": {
+        "value": {
+          "value": {
+            "id": "308820ab-fb9f-4247-b2cc-07ff0a45ac80",
+            "version": 6,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Wireframe"
+                ]
+              ]
+            },
+            "created_time": 1700305316382,
+            "last_edited_time": 1701528575369,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "ZWDtmZJs8NgDGzZnFUCMGA,\"start\",\"end\"",
+                "n": {
+                  "ZWDtmZJs8NgDGzZnFUCMGA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "ZWDtmZJs8NgDGzZnFUCMGA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "0KIzjKQ9AtVQ",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 9,
+                          "c": "Wireframe"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "3969efe0-da86-43e6-abb9-7e3cbd6fbfdb": {
+        "value": {
+          "value": {
+            "id": "3969efe0-da86-43e6-abb9-7e3cbd6fbfdb",
+            "version": 4,
+            "type": "divider",
+            "created_time": 1700305948631,
+            "last_edited_time": 1700305948633,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "wfEmQE0S0uDaeZzG4gBE2g,\"start\",\"end\"",
+                "n": {
+                  "wfEmQE0S0uDaeZzG4gBE2g,\"start\",\"end\"": {
+                    "s": {
+                      "x": "wfEmQE0S0uDaeZzG4gBE2g",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "698ffbed-d6dd-4091-92e5-023412fb90fb": {
+        "value": {
+          "value": {
+            "id": "698ffbed-d6dd-4091-92e5-023412fb90fb",
+            "version": 27,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "154.2KB"
+                ]
+              ],
+              "title": [
+                [
+                  "wireframe.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/f3e75c30-f5b5-44ae-87c4-7136a62bc6da/wireframe.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 703.9921875,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/f3e75c30-f5b5-44ae-87c4-7136a62bc6da/wireframe.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 1.1813676907829533,
+              "block_preserve_scale": true
+            },
+            "created_time": 1700305955952,
+            "last_edited_time": 1788089377022,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "d6515db7-3ceb-4c20-ab4b-61748012feb9",
+              "f3e75c30-f5b5-44ae-87c4-7136a62bc6da"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "q3HOh4biFRIIQJCZM6-WiQ,\"start\",\"end\"",
+                "n": {
+                  "q3HOh4biFRIIQJCZM6-WiQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "q3HOh4biFRIIQJCZM6-WiQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "ufTiduM4fsPX",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "wireframe.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "c3d855a2-633b-4ec7-8457-afdb383bfca9": {
+        "value": {
+          "value": {
+            "id": "c3d855a2-633b-4ec7-8457-afdb383bfca9",
+            "version": 13,
+            "type": "text",
+            "created_time": 1700305981190,
+            "last_edited_time": 1701528664470,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "zgEf4w5UxIz9QKf1aqYqAA,\"start\",\"end\"",
+                "n": {
+                  "zgEf4w5UxIz9QKf1aqYqAA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "zgEf4w5UxIz9QKf1aqYqAA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "c820712d-7594-428e-99f8-11f1bb43941a": {
+        "value": {
+          "value": {
+            "id": "c820712d-7594-428e-99f8-11f1bb43941a",
+            "version": 6,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Design System"
+                ]
+              ]
+            },
+            "created_time": 1700305981190,
+            "last_edited_time": 1701528664470,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "SuC7P3xpfwWIAUXub79ThA,\"start\",\"end\"",
+                "n": {
+                  "SuC7P3xpfwWIAUXub79ThA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "SuC7P3xpfwWIAUXub79ThA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "7XgjJ5WFoKK_",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "Design System"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "a03b0caf-17d0-4453-8545-86016d4ece8d": {
+        "value": {
+          "value": {
+            "id": "a03b0caf-17d0-4453-8545-86016d4ece8d",
+            "version": 4,
+            "type": "divider",
+            "created_time": 1700305992099,
+            "last_edited_time": 1700305992112,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "yVM0YkQDEueFI_gM3SVfpQ,\"start\",\"end\"",
+                "n": {
+                  "yVM0YkQDEueFI_gM3SVfpQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "yVM0YkQDEueFI_gM3SVfpQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "782a057f-684d-473f-aa78-db0eec0b48f0": {
+        "value": {
+          "value": {
+            "id": "782a057f-684d-473f-aa78-db0eec0b48f0",
+            "version": 38,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "351.2KB"
+                ]
+              ],
+              "title": [
+                [
+                  "Design System.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/5a788add-b2df-4bea-a664-f7607bac6e01/Design_System.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 703.9921875,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/5a788add-b2df-4bea-a664-f7607bac6e01/Design_System.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 3.158955223880597,
+              "block_preserve_scale": true
+            },
+            "created_time": 1700305999272,
+            "last_edited_time": 1788089377440,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "0da517d8-b4af-4196-b2d3-eae29b229d9e",
+              "b0b7e85a-c1e0-488e-934c-dca904717acb",
+              "5a788add-b2df-4bea-a664-f7607bac6e01"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "aFc_7D-nIZWa3_uPnYY9vw,\"start\",\"end\"",
+                "n": {
+                  "aFc_7D-nIZWa3_uPnYY9vw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "aFc_7D-nIZWa3_uPnYY9vw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "4lqR3aR28djI",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 17,
+                          "c": "Design System.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ab7e9627-c079-4ae3-8eb0-529dc499719b": {
+        "value": {
+          "value": {
+            "id": "ab7e9627-c079-4ae3-8eb0-529dc499719b",
+            "version": 34,
+            "type": "text",
+            "created_time": 1700306258154,
+            "last_edited_time": 1701528669668,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "YoO9zty0B-uHVbnhSPNB-g,\"start\",\"end\"",
+                "n": {
+                  "YoO9zty0B-uHVbnhSPNB-g,\"start\",\"end\"": {
+                    "s": {
+                      "x": "YoO9zty0B-uHVbnhSPNB-g",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "1c745025-e25e-4d6e-b1bf-404c91422611": {
+        "value": {
+          "value": {
+            "id": "1c745025-e25e-4d6e-b1bf-404c91422611",
+            "version": 6,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Visual Design"
+                ]
+              ]
+            },
+            "created_time": 1700306258154,
+            "last_edited_time": 1701528669668,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "xk-kB9we3MDFPYV6IVyV8Q,\"start\",\"end\"",
+                "n": {
+                  "xk-kB9we3MDFPYV6IVyV8Q,\"start\",\"end\"": {
+                    "s": {
+                      "x": "xk-kB9we3MDFPYV6IVyV8Q",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "b9Gcs8zMdC4v",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "Visual Design"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "012b72f5-42ed-4875-a26a-31794fee4b50": {
+        "value": {
+          "value": {
+            "id": "012b72f5-42ed-4875-a26a-31794fee4b50",
+            "version": 4,
+            "type": "divider",
+            "created_time": 1700306274862,
+            "last_edited_time": 1700306274869,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "bSZ6zf5ZNRlBU2PlOZsOzg,\"start\",\"end\"",
+                "n": {
+                  "bSZ6zf5ZNRlBU2PlOZsOzg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "bSZ6zf5ZNRlBU2PlOZsOzg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ad2f746b-e792-4bc5-81fe-56658a48e071": {
+        "value": {
+          "value": {
+            "id": "ad2f746b-e792-4bc5-81fe-56658a48e071",
+            "version": 13,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "527.2KB"
+                ]
+              ],
+              "title": [
+                [
+                  "Design.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/0c05b853-126e-4e19-a937-de8da80182d6/Design.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 703.9921875,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/0c05b853-126e-4e19-a937-de8da80182d6/Design.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 1.5365671641791045,
+              "block_preserve_scale": true
+            },
+            "created_time": 1700306280052,
+            "last_edited_time": 1788089377138,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "0c05b853-126e-4e19-a937-de8da80182d6"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "a5r-GVYdfu2geFH7v3VrpA,\"start\",\"end\"",
+                "n": {
+                  "a5r-GVYdfu2geFH7v3VrpA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "a5r-GVYdfu2geFH7v3VrpA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "Ind53YF8zhST",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 10,
+                          "c": "Design.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "52d64117-c73f-4fd1-97ef-f7ec63da29d7": {
+        "value": {
+          "value": {
+            "id": "52d64117-c73f-4fd1-97ef-f7ec63da29d7",
+            "version": 10,
+            "type": "text",
+            "created_time": 1700306318776,
+            "last_edited_time": 1701528674354,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "_Uvjg75FLob8weUuAmG-WA,\"start\",\"end\"",
+                "n": {
+                  "_Uvjg75FLob8weUuAmG-WA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "_Uvjg75FLob8weUuAmG-WA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "4790216f-3f80-4fda-b7b5-84b7e02603eb": {
+        "value": {
+          "value": {
+            "id": "4790216f-3f80-4fda-b7b5-84b7e02603eb",
+            "version": 6,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Project Outcome"
+                ]
+              ]
+            },
+            "created_time": 1700306318776,
+            "last_edited_time": 1701528674354,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "k0GaFn4PtnIjqMpktGeDeA,\"start\",\"end\"",
+                "n": {
+                  "k0GaFn4PtnIjqMpktGeDeA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "k0GaFn4PtnIjqMpktGeDeA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "A56IGffvzU5j",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 15,
+                          "c": "Project Outcome"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "dfabb6f4-49a5-4462-bae8-247167936547": {
+        "value": {
+          "value": {
+            "id": "dfabb6f4-49a5-4462-bae8-247167936547",
+            "version": 4,
+            "type": "divider",
+            "created_time": 1700306343790,
+            "last_edited_time": 1700306343791,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "I4B0RE9kCg54QYj4_Kb2Mg,\"start\",\"end\"",
+                "n": {
+                  "I4B0RE9kCg54QYj4_Kb2Mg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "I4B0RE9kCg54QYj4_Kb2Mg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "97d961f3-0c25-4605-828a-d0735fed29de": {
+        "value": {
+          "value": {
+            "id": "97d961f3-0c25-4605-828a-d0735fed29de",
+            "version": 6,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "The culmination of our efforts resulted in the successful development and launch of COIGN X, a revolutionary crypto management platform that sets a new standard in the industry. COIGN X offers users an intuitive interface for seamless digital currency management, fortified by a secure wallet feature that prioritizes the safety of their assets. With easy fund management and streamlined transactions, COIGN X empowers users to navigate the world of digital currencies with confidence."
+                ]
+              ]
+            },
+            "created_time": 1700306343808,
+            "last_edited_time": 1700306353023,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "bqSrsvQ_VsCH3GnHZhbn0A,\"start\",\"end\"",
+                "n": {
+                  "bqSrsvQ_VsCH3GnHZhbn0A,\"start\",\"end\"": {
+                    "s": {
+                      "x": "bqSrsvQ_VsCH3GnHZhbn0A",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "iTBhdv2EAyVm",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 485,
+                          "c": "The culmination of our efforts resulted in the successful development and launch of COIGN X, a revolutionary crypto management platform that sets a new standard in the industry. COIGN X offers users an intuitive interface for seamless digital currency management, fortified by a secure wallet feature that prioritizes the safety of their assets. With easy fund management and streamlined transactions, COIGN X empowers users to navigate the world of digital currencies with confidence."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "4340a33a-0259-4df7-91ba-3602b327f9a6": {
+        "value": {
+          "value": {
+            "id": "4340a33a-0259-4df7-91ba-3602b327f9a6",
+            "version": 7,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "What I Learned:"
+                ]
+              ]
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "52d64117-c73f-4fd1-97ef-f7ec63da29d7",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700306357924,
+            "last_edited_time": 1700306368484,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "52d64117-c73f-4fd1-97ef-f7ec63da29d7",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "pRs-vspDDoty5Tj6kSiHsA,\"start\",\"end\"",
+                "n": {
+                  "pRs-vspDDoty5Tj6kSiHsA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "pRs-vspDDoty5Tj6kSiHsA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "Cb9vJdK2VoGH",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 15,
+                          "c": "What I Learned:"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "e7f2f2c0-ff22-40d3-8917-d461f068e12a": {
+        "value": {
+          "value": {
+            "id": "e7f2f2c0-ff22-40d3-8917-d461f068e12a",
+            "version": 4,
+            "type": "divider",
+            "format": {
+              "copied_from_pointer": {
+                "id": "dfabb6f4-49a5-4462-bae8-247167936547",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1700306357925,
+            "last_edited_time": 1700306357928,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "dfabb6f4-49a5-4462-bae8-247167936547",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "m97uERgJwnkDQI-ylKIKdA,\"start\",\"end\"",
+                "n": {
+                  "m97uERgJwnkDQI-ylKIKdA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "m97uERgJwnkDQI-ylKIKdA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "8d02b159-bf68-4956-8f81-8f3e0af15afd": {
+        "value": {
+          "value": {
+            "id": "8d02b159-bf68-4956-8f81-8f3e0af15afd",
+            "version": 3,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "Working on COIGN X was an invaluable learning experience. It reinforced the significance of user-centered design and the importance of thorough research in the development process. I gained insights into the complexities of the crypto landscape and how to address them effectively. Furthermore, I honed my skills in designing intuitive interfaces and ensuring robust security measures."
+                ]
+              ]
+            },
+            "created_time": 1700306411230,
+            "last_edited_time": 1700306411235,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "ay2_mub5mjA1qB8qbHouFw,\"start\",\"end\"",
+                "n": {
+                  "ay2_mub5mjA1qB8qbHouFw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "ay2_mub5mjA1qB8qbHouFw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "uJibAtQTTch8",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 385,
+                          "c": "Working on COIGN X was an invaluable learning experience. It reinforced the significance of user-centered design and the importance of thorough research in the development process. I gained insights into the complexities of the crypto landscape and how to address them effectively. Furthermore, I honed my skills in designing intuitive interfaces and ensuring robust security measures."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "baefb62f-c4f2-409f-a175-095b391559ac": {
+        "value": {
+          "value": {
+            "id": "baefb62f-c4f2-409f-a175-095b391559ac",
+            "version": 3,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "The project also underscored the importance of responsive customer support and comprehensive educational resources in helping users navigate the crypto space. Ultimately, COIGN X taught me the power of innovation and the potential for positive disruption in emerging technologies."
+                ]
+              ]
+            },
+            "created_time": 1700306411230,
+            "last_edited_time": 1700306411235,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "RcEY6E3dHkg4WJxQHOf39g,\"start\",\"end\"",
+                "n": {
+                  "RcEY6E3dHkg4WJxQHOf39g,\"start\",\"end\"": {
+                    "s": {
+                      "x": "RcEY6E3dHkg4WJxQHOf39g",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "DGZz0nSb7N1o",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 280,
+                          "c": "The project also underscored the importance of responsive customer support and comprehensive educational resources in helping users navigate the crypto space. Ultimately, COIGN X taught me the power of innovation and the potential for positive disruption in emerging technologies."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ccf2f1d1-92ef-4969-a6d2-789b6b9fbf10": {
+        "value": {
+          "value": {
+            "id": "ccf2f1d1-92ef-4969-a6d2-789b6b9fbf10",
+            "version": 3,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "This project has been a testament to the importance of collaboration, adaptability, and a relentless pursuit of excellence in the ever-evolving world of digital currency management."
+                ]
+              ]
+            },
+            "created_time": 1700306411231,
+            "last_edited_time": 1700306411235,
+            "parent_id": "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "GmAt_YM2jrvbqEAEH6ATGw,\"start\",\"end\"",
+                "n": {
+                  "GmAt_YM2jrvbqEAEH6ATGw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "GmAt_YM2jrvbqEAEH6ATGw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "jLVPLaAMiG31",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 181,
+                          "c": "This project has been a testament to the importance of collaboration, adaptability, and a relentless pursuit of excellence in the ever-evolving world of digital currency management."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      }
+    },
+    "collection": {
+      "15965b98-c949-43d4-8bb1-016182322074": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "15965b98-c949-43d4-8bb1-016182322074",
+            "version": 53,
+            "name": [
+              [
+                "My projects"
+              ]
+            ],
+            "schema": {
+              "F@@S": {
+                "name": "My Role",
+                "type": "text"
+              },
+              "FJmY": {
+                "name": "Tools Used",
+                "type": "text"
+              },
+              "ZrQk": {
+                "name": "Project Impact",
+                "type": "text"
+              },
+              "exW_": {
+                "name": "Category",
+                "type": "multi_select",
+                "options": [
+                  {
+                    "id": "99269291-a8e9-487a-8472-77ea8edd639a",
+                    "color": "green",
+                    "value": "UI/UX"
+                  },
+                  {
+                    "id": "09aeeb4a-bd94-49d9-9eef-9bc44b42045c",
+                    "color": "red",
+                    "value": "Icon design"
+                  },
+                  {
+                    "id": "d83e43c9-5500-48f7-8239-4e11fe4e4dc5",
+                    "color": "pink",
+                    "value": "3D"
+                  },
+                  {
+                    "id": "5f1dd5d2-fd4e-483d-b5df-7fc872e61574",
+                    "color": "purple",
+                    "value": "Brand"
+                  },
+                  {
+                    "id": "6be9a4ad-ad33-4dc8-90bb-fed28e35c449",
+                    "color": "brown",
+                    "value": "Graphic design"
+                  },
+                  {
+                    "id": "43e5304e-c74d-458d-b629-19e204e609be",
+                    "color": "blue",
+                    "value": "Blender"
+                  },
+                  {
+                    "id": "7fd5ae68-b2bd-44a7-add4-43966c050f4a",
+                    "color": "default",
+                    "value": "Marketing"
+                  },
+                  {
+                    "id": "7eeccf25-4706-4bbf-9678-04d5a08a0fe8",
+                    "color": "gray",
+                    "value": "ios"
+                  },
+                  {
+                    "id": "11f2197b-af79-461c-a85d-7725959885b4",
+                    "color": "red",
+                    "value": "IOS"
+                  },
+                  {
+                    "id": "7b348f82-cc15-499e-989b-813d9618a760",
+                    "color": "yellow",
+                    "value": "Android"
+                  },
+                  {
+                    "id": "271c6183-6aa7-4a32-9136-0ca49f9626cb",
+                    "color": "orange",
+                    "value": "Artificial intelligence technologies and software applications"
+                  },
+                  {
+                    "id": "4eaea41c-438b-4755-abdc-607e272b7464",
+                    "color": "orange",
+                    "value": "Website"
+                  },
+                  {
+                    "id": "5918dd18-1b5e-4770-bf2b-ce67110bbf48",
+                    "color": "pink",
+                    "value": "UX Designer"
+                  },
+                  {
+                    "id": "cab95648-faa5-408e-80bf-1bc8c5c25b2f",
+                    "color": "yellow",
+                    "value": "Public Transportation"
+                  },
+                  {
+                    "id": "87d91a52-447a-4fff-bebc-327306732d57",
+                    "color": "default",
+                    "value": "Accessibility"
+                  },
+                  {
+                    "id": "c113f282-4470-4ff6-9177-e7c1e469fe94",
+                    "color": "blue",
+                    "value": "Enterprise UX"
+                  }
+                ]
+              },
+              "tBYr": {
+                "name": "About Project",
+                "type": "text"
+              },
+              "zBK|": {
+                "name": "Key Features:",
+                "type": "text",
+                "description": ""
+              },
+              "title": {
+                "name": "Name",
+                "type": "title"
+              }
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "4d1e2896-1aa7-476a-8132-829fc7b57f37",
+                "table": "collection",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              },
+              "property_visibility": [
+                {
+                  "property": "tBYr",
+                  "visibility": "show"
+                },
+                {
+                  "property": "zBK|",
+                  "visibility": "show"
+                },
+                {
+                  "property": "F@@S",
+                  "visibility": "show"
+                },
+                {
+                  "property": "exW_",
+                  "visibility": "show"
+                },
+                {
+                  "property": "FJmY",
+                  "visibility": "show"
+                }
+              ],
+              "ai_suggested_properties": [
+                {
+                  "name": "Project Manager",
+                  "type": "person"
+                },
+                {
+                  "name": "Start Date",
+                  "type": "date"
+                },
+                {
+                  "name": "End Date",
+                  "type": "date"
+                },
+                {
+                  "name": "Priority",
+                  "type": "select",
+                  "options": [
+                    {
+                      "id": "G>eG",
+                      "color": "blue",
+                      "value": "High"
+                    },
+                    {
+                      "id": "W;cI",
+                      "color": "purple",
+                      "value": "Medium"
+                    },
+                    {
+                      "id": "k^qF",
+                      "color": "green",
+                      "value": "Low"
+                    }
+                  ]
+                },
+                {
+                  "name": "Attachments",
+                  "type": "file"
+                },
+                {
+                  "name": "Progress",
+                  "type": "number"
+                },
+                {
+                  "name": "Client",
+                  "type": "person"
+                },
+                {
+                  "name": "Status",
+                  "type": "status"
+                },
+                {
+                  "name": "Estimated Cost",
+                  "type": "number"
+                },
+                {
+                  "name": "Tags",
+                  "type": "multi_select",
+                  "options": [
+                    {
+                      "id": "dBfm",
+                      "color": "red",
+                      "value": "Design"
+                    },
+                    {
+                      "id": "wpYF",
+                      "color": "pink",
+                      "value": "Development"
+                    },
+                    {
+                      "id": "W:xW",
+                      "color": "green",
+                      "value": "Testing"
+                    },
+                    {
+                      "id": "DPZ;",
+                      "color": "gray",
+                      "value": "Deployment"
+                    }
+                  ]
+                }
+              ],
+              "page_section_visibility": {
+                "comments": "section_show",
+                "backlinks": "section_collapsed",
+                "margin_comments": "inline"
+              },
+              "collection_page_properties": [
+                {
+                  "visible": false,
+                  "property": "tBYr"
+                },
+                {
+                  "visible": false,
+                  "property": "zBK|"
+                },
+                {
+                  "visible": false,
+                  "property": "F@@S"
+                },
+                {
+                  "visible": true,
+                  "property": "exW_"
+                },
+                {
+                  "visible": false,
+                  "property": "FJmY"
+                },
+                {
+                  "visible": true,
+                  "property": "ZrQk"
+                }
+              ]
+            },
+            "parent_id": "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "4d1e2896-1aa7-476a-8132-829fc7b57f37",
+            "template_pages": [
+              "4c35e5b9-431e-4274-bd32-acc133bd0364",
+              "0744c147-f1e7-4c62-b375-c626f2ab3d87"
+            ],
+            "migrated": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "deleted_schema": {
+              "=gS\\": {
+                "name": "Responsibility",
+                "type": "text"
+              },
+              "gqb>": {
+                "name": "Created",
+                "type": "created_time"
+              },
+              "y`U{": {
+                "name": "Link",
+                "type": "url"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1780861121567,
+            "created_by_table": "notion_user",
+            "created_by_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2"
+          },
+          "role": "reader"
+        }
+      }
+    },
+    "collection_view": {
+      "675960fb-9b8a-4d6c-a889-be83194e7b63": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "675960fb-9b8a-4d6c-a889-be83194e7b63",
+            "version": 15,
+            "type": "gallery",
+            "name": "Gallery view",
+            "format": {
+              "gallery_cover": {
+                "type": "page_content"
+              },
+              "collection_pointer": {
+                "id": "15965b98-c949-43d4-8bb1-016182322074",
+                "table": "collection",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              },
+              "gallery_cover_size": "large",
+              "gallery_properties": [
+                {
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "visible": false,
+                  "property": "gqb>"
+                },
+                {
+                  "visible": true,
+                  "property": "exW_"
+                },
+                {
+                  "visible": true,
+                  "property": "y`U{"
+                }
+              ]
+            },
+            "parent_id": "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+            "parent_table": "block",
+            "alive": true,
+            "page_sort": [
+              "37a98ff7-0f29-4487-9de5-d48358b344e3",
+              "08ed9324-49ef-4f4c-af84-3be22f216116",
+              "4527f9f5-1013-4d78-afc5-badb080f2a88",
+              "40ffb5c1-7ce8-46d7-81ff-ca28c25647a4",
+              "378b5cb6-28a5-802b-b536-f6d2bd22afe7",
+              "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+              "d5bf1b80-4201-4409-8c7f-97ef7c5f9320",
+              "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+              "b0eaea6b-ec20-4fbd-b27e-d6a3983aa66e",
+              "378b5cb6-28a5-8082-9069-c9ace7b9978f",
+              "85f5f089-8380-400d-9629-2b299729cf08",
+              "29f95e06-ea42-4daf-87f3-c81aeb96d113",
+              "d88aa128-8b2f-440e-915b-c967abe1bb11",
+              "84d7d684-1f75-47bb-bbc3-b2783d7378f6",
+              "9c10350b-22d4-4ac4-b776-89e8f06a43ed",
+              "f7e73a66-48f1-4b67-bc18-221370c8445a"
+            ],
+            "query2": {
+              "aggregations": [
+                {
+                  "aggregator": "count"
+                }
+              ]
+            },
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "created_time": 1780860170822,
+            "last_edited_time": 1780860270226,
+            "created_by_table": "notion_user",
+            "created_by_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2"
+          },
+          "role": "reader"
+        }
+      }
+    }
+  }
+}

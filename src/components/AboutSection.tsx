@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Compass, Sparkles, Target, Layers } from "lucide-react";
+import { Compass } from "lucide-react";
 
 export default function AboutSection() {
   return (
@@ -25,7 +25,7 @@ export default function AboutSection() {
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column: Visual Showcase (Desk, workspace, tools) */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -78,7 +78,7 @@ export default function AboutSection() {
           >
             <div className="flex items-center gap-2 mb-3 text-terracotta font-bold text-xs uppercase tracking-widest">
               <Compass size={14} />
-              <span>About The Designer</span>
+              <span>About Me</span>
             </div>
 
             <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-8">
@@ -87,13 +87,13 @@ export default function AboutSection() {
 
             <div className="space-y-4 text-base sm:text-lg md:text-xl text-foreground/85 leading-relaxed mb-8">
               <p>
-                I&apos;m a designer from Masaurhi, Patna.
+                I&apos;m a Product &amp; UX/UI Designer with 4+ years of experience.
               </p>
               <p>
-                I&apos;ve been designing for 5 years, working across digital and visual design.
+                I like finding real problems and solving them through simple, thoughtful design. I focus on understanding people, improving their experience, and making digital products easy to use.
               </p>
-              <p>
-                I like finding what is not working and using design to make it better.
+              <p className="font-semibold text-foreground">
+                From Masaurhi, Patna. Working worldwide.
               </p>
             </div>
 
@@ -103,17 +103,8 @@ export default function AboutSection() {
                 Philosophy
               </div>
               <p className="font-display text-xl sm:text-2xl md:text-3xl font-bold text-foreground leading-snug">
-                &ldquo;Good design should look good. It should also work well.&rdquo;
+                &ldquo;Good design is not just about looking good. It should make things clear, useful, and easy to understand.&rdquo;
               </p>
-              <div className="mt-4 flex items-center gap-4 text-xs font-bold uppercase tracking-wider text-foreground/60">
-                <span className="flex items-center gap-1">
-                  <Target size={14} className="text-terracotta" /> Clarity First
-                </span>
-                <span>&bull;</span>
-                <span className="flex items-center gap-1">
-                  <Layers size={14} className="text-leaf" /> Systematic Execution
-                </span>
-              </div>
             </div>
 
           </motion.div>

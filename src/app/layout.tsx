@@ -14,15 +14,15 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Bihari Designer — Visual Communication Designer | Abhay Kumar Singh",
+  title: "The Designer Babu — Visual Communication Designer | Abhay Kumar Singh",
   description: "Designing from Bihar. Working anywhere. I help businesses communicate better through UI/UX, branding, product design, packaging, and print media.",
-  keywords: ["Visual Communication Designer", "Bihari Designer", "Abhay Kumar Singh", "Brand Identity", "UI/UX Design", "Product Design", "Website Design", "Bihar Designer", "Patna Designer"],
+  keywords: ["Visual Communication Designer", "The Designer Babu", "Bihari Designer", "Abhay Kumar Singh", "Brand Identity", "UI/UX Design", "Product Design", "Website Design", "Bihar Designer", "Patna Designer"],
   authors: [{ name: "Abhay Kumar Singh" }],
   openGraph: {
-    title: "Bihari Designer — Abhay Kumar Singh",
+    title: "The Designer Babu — Abhay Kumar Singh",
     description: "Designing from Bihar. Working anywhere. Visual Communication Designer.",
     url: "https://biharidesigner.com",
-    siteName: "Bihari Designer",
+    siteName: "The Designer Babu",
     locale: "en_US",
     type: "website",
   },

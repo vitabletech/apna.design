@@ -1,0 +1,2529 @@
+{
+  "cursor": {
+    "stack": []
+  },
+  "recordMap": {
+    "__version__": 3,
+    "block": {
+      "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "version": 313,
+            "type": "page",
+            "properties": {
+              "=gS\\": [
+                [
+                  "My responsibilities included conducting user research, designing the UI/UX, creating prototypes, collaborating with developers, and conducting testing and iteration."
+                ]
+              ],
+              "F@@S": [
+                [
+                  "As the UI/UX designer for the Quick Cab project, my role was to create a seamless and user-friendly experience for User, focusing on safety and convenience, particularly for female users. Here's how I contributed to the project:\n"
+                ],
+                [
+                  "1. Understanding Users:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I researched what people needed, especially women, to feel safe while traveling.\n"
+                ],
+                [
+                  "2. Designing Ideas:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I worked with the team to come up with ideas for the app's features and layout.\n"
+                ],
+                [
+                  "3.",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " "
+                ],
+                [
+                  "Making Prototypes:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I created simple versions of the app to test how easy it was to use.\n"
+                ],
+                [
+                  "4.",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " "
+                ],
+                [
+                  "Making it Look Good:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I chose colors, fonts, and icons to make the app look nice and easy to use.\n"
+                ],
+                [
+                  "5. Working Together:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I talked a lot with the team and helped make sure the app looked and worked the same on different devices."
+                ]
+              ],
+              "FJmY": [
+                [
+                  "Figma, Photoshop, Illustrator"
+                ]
+              ],
+              "exW_": [
+                [
+                  "IOS,Android"
+                ]
+              ],
+              "tBYr": [
+                [
+                  "Quik Cab is a mobile app designed to make your travel experience easy, safe, and hassle-free. With Quik Cab, you can book cabs and autos for your everyday commute, schedule your trips in advance, and enjoy special features tailored for your convenience."
+                ]
+              ],
+              "zBK|": [
+                [
+                  "\u2022 "
+                ],
+                [
+                  "Easy Booking:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " Quickly book cabs and autos with just a few taps on your smartphone.\n\u2022 "
+                ],
+                [
+                  "Scheduled Travel:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " Plan your trips in advance and relax knowing your ride is confirmed.\n\u2022 "
+                ],
+                [
+                  "Special Feature for Women:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " Feel safer and more secure with our option to book rides with female drivers for female user"
+                ]
+              ],
+              "title": [
+                [
+                  "Quik Cab"
+                ]
+              ]
+            },
+            "content": [
+              "0d1f109f-bcbb-475a-bed1-d302a1b28127",
+              "a5479acd-224c-4491-ae35-f9ea947270ab",
+              "6b624afa-8d05-42c1-9a86-a9de70a3eb69",
+              "bf761493-a253-4a5d-9e76-25eba7968749",
+              "ce22eefb-6081-4668-8927-4b6f46a70672",
+              "131f9b35-f5fc-422e-9e99-eeaadc383400",
+              "ec15a7d5-b614-4479-99a3-e670927a1a57",
+              "89b91c86-061d-4b8e-a9f0-370602585e73",
+              "d879c4f0-c687-49d4-8bf8-770023471457",
+              "709fc79e-dd41-458b-a4e3-6fc8c69df89d",
+              "e7ca4183-18cd-4f27-93d0-330fb4cbf6f2",
+              "217c2cf0-02f2-4d68-8c2b-b93698205ad4",
+              "ca5a8bfd-c6c9-42b5-82fa-8c4c0325aa9e",
+              "24605318-29d7-4b76-9570-880046ce8308",
+              "bc1397c5-86bd-457f-a8c2-a2125702f2cd",
+              "c16cc806-8444-4600-ab46-3724f68d9a6b",
+              "9c58567a-6ee5-4f93-9548-9b9fdaa918b6",
+              "b37790d2-ec29-4196-a69d-277d238f7e3c",
+              "e75ef42e-6726-4916-b004-f8daf7bc4cde",
+              "18a6aafa-b53e-42d2-8506-9a1e57e4a611",
+              "bde2572a-0ba6-4c80-8c6d-cb22a2475221",
+              "5429ba7c-ef86-46f3-828f-5f138c6eb939",
+              "f7495594-8d39-4d51-b2f8-8472541e4797",
+              "f1ebfeb7-44e6-497e-9037-d8aa7ba321eb"
+            ],
+            "format": {
+              "page_cover": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/f1b97aae-1768-4766-b75b-e3fbcc9727d1/quikcab-main-bg.png",
+              "page_cover_position": 0.5
+            },
+            "created_time": 1708020333857,
+            "last_edited_time": 1769198943106,
+            "parent_id": "15965b98-c949-43d4-8bb1-016182322074",
+            "parent_table": "collection",
+            "alive": true,
+            "file_ids": [
+              "f1b97aae-1768-4766-b75b-e3fbcc9727d1"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "RYBqWXXXMbxErkfx_GbVTw,\"start\",\"end\"",
+                "n": {
+                  "RYBqWXXXMbxErkfx_GbVTw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "RYBqWXXXMbxErkfx_GbVTw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "I5vPqY6veq2K",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 8,
+                          "c": "Quik Cab"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+            "version": 58,
+            "type": "collection_view",
+            "view_ids": [
+              "675960fb-9b8a-4d6c-a889-be83194e7b63"
+            ],
+            "collection_id": "15965b98-c949-43d4-8bb1-016182322074",
+            "format": {
+              "collection_pointer": {
+                "id": "15965b98-c949-43d4-8bb1-016182322074",
+                "table": "collection",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              },
+              "copied_from_pointer": {
+                "id": "134eba8d-dfea-45c9-a6d0-dd6d7a34fb5e",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1780861121567,
+            "parent_id": "a79f5664-5e77-4da2-98db-ac23fbc52965",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "134eba8d-dfea-45c9-a6d0-dd6d7a34fb5e",
+            "ignore_block_count": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "3m6oNpsQcit8r2NIga6HNQ,\"start\",\"end\"",
+                "n": {
+                  "3m6oNpsQcit8r2NIga6HNQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "3m6oNpsQcit8r2NIga6HNQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "a79f5664-5e77-4da2-98db-ac23fbc52965": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "a79f5664-5e77-4da2-98db-ac23fbc52965",
+            "version": 219,
+            "type": "page",
+            "properties": {
+              "title": [
+                [
+                  "Abhay Kumar Singh"
+                ]
+              ]
+            },
+            "content": [
+              "48402ac1-74c2-4f4e-aa37-c06e753df929",
+              "e14e8f1b-e70e-4bdb-8462-f3b35dda6c73",
+              "d7002be3-1df8-4a86-a721-ad908bc2f206",
+              "dfbdeb63-4f87-4099-89b8-d27537daa878",
+              "7db6135c-59d4-4d0e-bc8a-1731b729e610",
+              "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+              "48683e83-3a75-4e78-a225-1fb8af975128",
+              "b4533bf2-8434-428d-a0cf-e93fe2903cc7",
+              "bc224fd4-8baf-4405-9f43-bdcc350b32e6",
+              "26bb5cb6-28a5-800e-bbd4-cb1867603912"
+            ],
+            "format": {
+              "site_id": "1b5f584b-1cca-810d-9dbd-007972e0cd42",
+              "page_icon": "attachment:2c527cfb-6c47-439f-aa07-458551176388:profile-img.png",
+              "page_cover": "https://images.unsplash.com/photo-1680016661694-1cd3faf31c3a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb",
+              "copied_from_pointer": {
+                "id": "06c04e85-a23f-411c-8134-7d75ae627ebb",
+                "table": "block",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              },
+              "page_cover_position": 0.5,
+              "social_media_image_preview_url": "attachment:32bc6488-f1d4-4806-b2e0-797931cc5e3c:SocialMediaPreviewImage.png"
+            },
+            "permissions": [
+              {
+                "role": "editor",
+                "type": "user_permission",
+                "user_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2"
+              },
+              {
+                "role": "reader",
+                "type": "public_permission",
+                "is_site": true,
+                "added_timestamp": 1700295543531,
+                "allow_duplicate": false
+              }
+            ],
+            "created_time": 1700295331203,
+            "last_edited_time": 1787640557316,
+            "parent_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "parent_table": "space",
+            "alive": true,
+            "copied_from": "06c04e85-a23f-411c-8134-7d75ae627ebb",
+            "file_ids": [
+              "6e4af978-8814-4912-8ab7-3b8877b3e421",
+              "0b8e698f-69ba-4042-be72-42f7f0045025",
+              "acb0d166-1002-420d-9f13-43a83a29d494",
+              "c307c34c-0f4a-4536-b1f4-19c37d208c72",
+              "ae792b5f-7575-4a15-8a03-322e4ce876c1",
+              "2c527cfb-6c47-439f-aa07-458551176388",
+              "32bc6488-f1d4-4806-b2e0-797931cc5e3c"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "rSEEbEZ10IfAoBiXUhjYZA,\"start\",\"end\"",
+                "n": {
+                  "rSEEbEZ10IfAoBiXUhjYZA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "rSEEbEZ10IfAoBiXUhjYZA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "kkVgcYti-Yd9",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 17,
+                          "c": "Abhay Kumar Singh"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "0d1f109f-bcbb-475a-bed1-d302a1b28127": {
+        "value": {
+          "value": {
+            "id": "0d1f109f-bcbb-475a-bed1-d302a1b28127",
+            "version": 20,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Overview"
+                ]
+              ]
+            },
+            "created_time": 1708022149438,
+            "last_edited_time": 1708022156677,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "LPelfp5sMwDsdDfAhr8uCQ,\"start\",\"end\"",
+                "n": {
+                  "LPelfp5sMwDsdDfAhr8uCQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "LPelfp5sMwDsdDfAhr8uCQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "0igreoUittl1",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 8,
+                          "c": "Overview"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "a5479acd-224c-4491-ae35-f9ea947270ab": {
+        "value": {
+          "value": {
+            "id": "a5479acd-224c-4491-ae35-f9ea947270ab",
+            "version": 14,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "650.4KB"
+                ]
+              ],
+              "title": [
+                [
+                  "@quickcab-banner-img.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/6b89eab4-3f4b-4230-8f34-aff27c19fcdd/quickcab-banner-img.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 710,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/6b89eab4-3f4b-4230-8f34-aff27c19fcdd/quickcab-banner-img.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 0.5625,
+              "block_preserve_scale": true
+            },
+            "created_time": 1708022168723,
+            "last_edited_time": 1769198943880,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "6b89eab4-3f4b-4230-8f34-aff27c19fcdd"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "qmKGw6QvjZbNLFlehqCc6g,\"start\",\"end\"",
+                "n": {
+                  "qmKGw6QvjZbNLFlehqCc6g,\"start\",\"end\"": {
+                    "s": {
+                      "x": "qmKGw6QvjZbNLFlehqCc6g",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "056Q0bLzyQhd",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 24,
+                          "c": "@quickcab-banner-img.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "6b624afa-8d05-42c1-9a86-a9de70a3eb69": {
+        "value": {
+          "value": {
+            "id": "6b624afa-8d05-42c1-9a86-a9de70a3eb69",
+            "version": 25,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Competitive Analysis:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "created_time": 1708023765873,
+            "last_edited_time": 1708024418973,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "cUl3f51tmop6mO_UWSWRGA,\"start\",\"end\"",
+                "n": {
+                  "cUl3f51tmop6mO_UWSWRGA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "cUl3f51tmop6mO_UWSWRGA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "HROH0ncKLq93",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 21,
+                          "c": "Competitive Analysis:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "cUl3f51tmop6mO_UWSWRGA",
+                              "l": "",
+                              "i": [
+                                "HROH0ncKLq93",
+                                22
+                              ],
+                              "s": {
+                                "i": [
+                                  "HROH0ncKLq93",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": "end",
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "e",
+                          "b": []
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "bf761493-a253-4a5d-9e76-25eba7968749": {
+        "value": {
+          "value": {
+            "id": "bf761493-a253-4a5d-9e76-25eba7968749",
+            "version": 12,
+            "type": "text",
+            "properties": {
+              "title": [
+                [
+                  "Quik Cab entered a fiercely competitive market, facing established players like Uber, Ola, Rapido, and Bolt. Understanding our competitors' strengths and weaknesses was crucial to carve out our niche."
+                ]
+              ]
+            },
+            "created_time": 1708024815518,
+            "last_edited_time": 1708025335416,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "O17urXzkmZyXxEIwEVrEpw,\"start\",\"end\"",
+                "n": {
+                  "O17urXzkmZyXxEIwEVrEpw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "O17urXzkmZyXxEIwEVrEpw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "qbqMjssC5jOY",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 200,
+                          "c": "Quik Cab entered a fiercely competitive market, facing established players like Uber, Ola, Rapido, and Bolt. Understanding our competitors' strengths and weaknesses was crucial to carve out our niche."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ce22eefb-6081-4668-8927-4b6f46a70672": {
+        "value": {
+          "value": {
+            "id": "ce22eefb-6081-4668-8927-4b6f46a70672",
+            "version": 10,
+            "type": "sub_sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Challenges Faced:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "created_time": 1708024812001,
+            "last_edited_time": 1708024943914,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "hItD93cahGA49c8_IE0_4w,\"start\",\"end\"",
+                "n": {
+                  "hItD93cahGA49c8_IE0_4w,\"start\",\"end\"": {
+                    "s": {
+                      "x": "hItD93cahGA49c8_IE0_4w",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "5sFdpQBSturx",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 17,
+                          "c": "Challenges Faced:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "hItD93cahGA49c8_IE0_4w",
+                              "l": "",
+                              "i": [
+                                "5sFdpQBSturx",
+                                18
+                              ],
+                              "s": {
+                                "i": [
+                                  "5sFdpQBSturx",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": "end",
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "e",
+                          "b": []
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "131f9b35-f5fc-422e-9e99-eeaadc383400": {
+        "value": {
+          "value": {
+            "id": "131f9b35-f5fc-422e-9e99-eeaadc383400",
+            "version": 17,
+            "type": "callout",
+            "properties": {
+              "title": [
+                [
+                  "Creating Quik Cab wasn't easy, mainly because we were up against big competitors like Uber, Ola, Rapido, and Bolt. These brands were already well-established in the market, making it challenging for us to stand out."
+                ]
+              ]
+            },
+            "format": {
+              "page_icon": "\u26a0\ufe0f",
+              "block_color": "gray_background",
+              "copied_from_pointer": {
+                "id": "3f617158-45d1-45e4-b854-3fb866de72df",
+                "table": "block",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              }
+            },
+            "created_time": 1708024788131,
+            "last_edited_time": 1708025342357,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "3f617158-45d1-45e4-b854-3fb866de72df",
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "dpQxDuf49n_vcdPp91JFSQ,\"start\",\"end\"",
+                "n": {
+                  "dpQxDuf49n_vcdPp91JFSQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "dpQxDuf49n_vcdPp91JFSQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "Q95u6xTL6gQD",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 215,
+                          "c": "Creating Quik Cab wasn't easy, mainly because we were up against big competitors like Uber, Ola, Rapido, and Bolt. These brands were already well-established in the market, making it challenging for us to stand out."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ec15a7d5-b614-4479-99a3-e670927a1a57": {
+        "value": {
+          "value": {
+            "id": "ec15a7d5-b614-4479-99a3-e670927a1a57",
+            "version": 8,
+            "type": "sub_sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Solution:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ]
+              ]
+            },
+            "created_time": 1708024914643,
+            "last_edited_time": 1708024981548,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "yljL3JZuCy9XoEWZw0DflQ,\"start\",\"end\"",
+                "n": {
+                  "yljL3JZuCy9XoEWZw0DflQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "yljL3JZuCy9XoEWZw0DflQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "YkTBfy2bUkeG",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 9,
+                          "c": "Solution:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "yljL3JZuCy9XoEWZw0DflQ",
+                              "l": "",
+                              "i": [
+                                "YkTBfy2bUkeG",
+                                10
+                              ],
+                              "s": {
+                                "i": [
+                                  "YkTBfy2bUkeG",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": "end",
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "e",
+                          "b": []
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "89b91c86-061d-4b8e-a9f0-370602585e73": {
+        "value": {
+          "value": {
+            "id": "89b91c86-061d-4b8e-a9f0-370602585e73",
+            "version": 25,
+            "type": "callout",
+            "properties": {
+              "title": [
+                [
+                  "To address this challenge, we focused on innovation and differentiation. We introduced features like scheduling rides, quik rides, round trips, and rentals, catering to diverse travel needs. Additionally, our standout feature for female User, ensuring rides with female drivers for added safety, helped us distinguish ourselves in the market."
+                ]
+              ]
+            },
+            "format": {
+              "page_icon": "\u2705",
+              "block_color": "teal_background"
+            },
+            "created_time": 1708024947380,
+            "last_edited_time": 1708025349199,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "kRuVmOO6SRhxtadcKREz2w,\"start\",\"end\"",
+                "n": {
+                  "kRuVmOO6SRhxtadcKREz2w,\"start\",\"end\"": {
+                    "s": {
+                      "x": "kRuVmOO6SRhxtadcKREz2w",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "Xx5T10Ep_5Di",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 342,
+                          "c": "To address this challenge, we focused on innovation and differentiation. We introduced features like scheduling rides, quik rides, round trips, and rentals, catering to diverse travel needs. Additionally, our standout feature for female User, ensuring rides with female drivers for added safety, helped us distinguish ourselves in the market."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "d879c4f0-c687-49d4-8bf8-770023471457": {
+        "value": {
+          "value": {
+            "id": "d879c4f0-c687-49d4-8bf8-770023471457",
+            "version": 10,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Design System"
+                ]
+              ]
+            },
+            "created_time": 1708024600963,
+            "last_edited_time": 1708028327183,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "e1th4pM7If-yYtBgtoS8jA,\"start\",\"end\"",
+                "n": {
+                  "e1th4pM7If-yYtBgtoS8jA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "e1th4pM7If-yYtBgtoS8jA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "4RKgQLqX4seG",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "Design System"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "709fc79e-dd41-458b-a4e3-6fc8c69df89d": {
+        "value": {
+          "value": {
+            "id": "709fc79e-dd41-458b-a4e3-6fc8c69df89d",
+            "version": 14,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "557.3KB"
+                ]
+              ],
+              "title": [
+                [
+                  "Design System.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/4094814d-c2f0-4889-a716-a53dac2470b0/Design_System.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 709.9921875,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/4094814d-c2f0-4889-a716-a53dac2470b0/Design_System.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 5.5380597014925375,
+              "block_preserve_scale": true
+            },
+            "created_time": 1708028335839,
+            "last_edited_time": 1769198943978,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "4094814d-c2f0-4889-a716-a53dac2470b0"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "FklkPi-YL8ykqVe5yfs_Pw,\"start\",\"end\"",
+                "n": {
+                  "FklkPi-YL8ykqVe5yfs_Pw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "FklkPi-YL8ykqVe5yfs_Pw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "BI8LcScMkhbe",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 17,
+                          "c": "Design System.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "e7ca4183-18cd-4f27-93d0-330fb4cbf6f2": {
+        "value": {
+          "value": {
+            "id": "e7ca4183-18cd-4f27-93d0-330fb4cbf6f2",
+            "version": 6,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Visual Design"
+                ]
+              ]
+            },
+            "created_time": 1708029703509,
+            "last_edited_time": 1708029704500,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "yajnRHQ17aWNEE_IVYoAng,\"start\",\"end\"",
+                "n": {
+                  "yajnRHQ17aWNEE_IVYoAng,\"start\",\"end\"": {
+                    "s": {
+                      "x": "yajnRHQ17aWNEE_IVYoAng",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "YWftOkQ0sFBo",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "Visual Design"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "217c2cf0-02f2-4d68-8c2b-b93698205ad4": {
+        "value": {
+          "value": {
+            "id": "217c2cf0-02f2-4d68-8c2b-b93698205ad4",
+            "version": 32,
+            "type": "image",
+            "properties": {
+              "size": [
+                [
+                  "1612.5KB"
+                ]
+              ],
+              "title": [
+                [
+                  "UI Screen.png"
+                ]
+              ],
+              "source": [
+                [
+                  "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/b35761e2-c536-4eca-8074-db3d85f6c52c/UI_Screen.png"
+                ]
+              ]
+            },
+            "format": {
+              "block_width": 709.9921875,
+              "display_source": "https://prod-files-secure.s3.us-west-2.amazonaws.com/477f584b-1cca-43be-a233-61ddd0d9e714/b35761e2-c536-4eca-8074-db3d85f6c52c/UI_Screen.png",
+              "block_full_width": false,
+              "block_page_width": true,
+              "block_aspect_ratio": 6.511940298507462,
+              "block_preserve_scale": true
+            },
+            "created_time": 1708029710957,
+            "last_edited_time": 1769198943106,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "02754b11-d2bb-4ec3-8d9c-62d5ff1c7380",
+              "07e40cdb-7770-4515-9d24-327925d9850a",
+              "b35761e2-c536-4eca-8074-db3d85f6c52c"
+            ],
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "sUHgycr6SxTGkb2HVzmGBw,\"start\",\"end\"",
+                "n": {
+                  "sUHgycr6SxTGkb2HVzmGBw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "sUHgycr6SxTGkb2HVzmGBw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "b-0aK390Mqqg",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 13,
+                          "c": "UI Screen.png"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "ca5a8bfd-c6c9-42b5-82fa-8c4c0325aa9e": {
+        "value": {
+          "value": {
+            "id": "ca5a8bfd-c6c9-42b5-82fa-8c4c0325aa9e",
+            "version": 6,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "Project Outcome"
+                ]
+              ]
+            },
+            "created_time": 1708030092135,
+            "last_edited_time": 1708030093637,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "l-OVVwLNzLEg5y5ZADEiLw,\"start\",\"end\"",
+                "n": {
+                  "l-OVVwLNzLEg5y5ZADEiLw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "l-OVVwLNzLEg5y5ZADEiLw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "gK0BsmnnuqYp",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 15,
+                          "c": "Project Outcome"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "24605318-29d7-4b76-9570-880046ce8308": {
+        "value": {
+          "value": {
+            "id": "24605318-29d7-4b76-9570-880046ce8308",
+            "version": 12,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "A well-designed and user-friendly Quik Cab app ready for launch, offering convenient and safe ride services."
+                ]
+              ]
+            },
+            "created_time": 1708030335489,
+            "last_edited_time": 1708030361837,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "7T3DUGj-7BZ5Rs7fv-0kAg,\"start\",\"end\"",
+                "n": {
+                  "7T3DUGj-7BZ5Rs7fv-0kAg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "7T3DUGj-7BZ5Rs7fv-0kAg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "1vybj1OWkzwa",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 108,
+                          "c": "A well-designed and user-friendly Quik Cab app ready for launch, offering convenient and safe ride services."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "bc1397c5-86bd-457f-a8c2-a2125702f2cd": {
+        "value": {
+          "value": {
+            "id": "bc1397c5-86bd-457f-a8c2-a2125702f2cd",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Expectation of a growing user base as the app becomes available to the public, reflecting the anticipated popularity and effectiveness of the service."
+                ]
+              ]
+            },
+            "created_time": 1708030335490,
+            "last_edited_time": 1708030335496,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "hdi1ql3FsX6t7fLP2j_kfA,\"start\",\"end\"",
+                "n": {
+                  "hdi1ql3FsX6t7fLP2j_kfA,\"start\",\"end\"": {
+                    "s": {
+                      "x": "hdi1ql3FsX6t7fLP2j_kfA",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "QBxhzzRvPyRX",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 150,
+                          "c": "Expectation of a growing user base as the app becomes available to the public, reflecting the anticipated popularity and effectiveness of the service."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "c16cc806-8444-4600-ab46-3724f68d9a6b": {
+        "value": {
+          "value": {
+            "id": "c16cc806-8444-4600-ab46-3724f68d9a6b",
+            "version": 12,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Anticipation of positive feedback from users during beta testing, highlighting the app's ease of use and the special safety feature for female user."
+                ]
+              ]
+            },
+            "created_time": 1708030335490,
+            "last_edited_time": 1708030348237,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "nNklmh3spXbZdDIRkYa_Iw,\"start\",\"end\"",
+                "n": {
+                  "nNklmh3spXbZdDIRkYa_Iw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "nNklmh3spXbZdDIRkYa_Iw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "pgVRLTy5DuQ7",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 148,
+                          "c": "Anticipation of positive feedback from users during beta testing, highlighting the app's ease of use and the special safety feature for female user."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "9c58567a-6ee5-4f93-9548-9b9fdaa918b6": {
+        "value": {
+          "value": {
+            "id": "9c58567a-6ee5-4f93-9548-9b9fdaa918b6",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Projection of Quik Cab as a reliable and trustworthy transportation option, poised for success in the competitive market."
+                ]
+              ]
+            },
+            "created_time": 1708030335490,
+            "last_edited_time": 1708030335496,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "cpW2k7lAUake-eoxtWknjQ,\"start\",\"end\"",
+                "n": {
+                  "cpW2k7lAUake-eoxtWknjQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "cpW2k7lAUake-eoxtWknjQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "02zj8slDv1dQ",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 121,
+                          "c": "Projection of Quik Cab as a reliable and trustworthy transportation option, poised for success in the competitive market."
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "b37790d2-ec29-4196-a69d-277d238f7e3c": {
+        "value": {
+          "value": {
+            "id": "b37790d2-ec29-4196-a69d-277d238f7e3c",
+            "version": 8,
+            "type": "sub_header",
+            "properties": {
+              "title": [
+                [
+                  "What I Learned"
+                ]
+              ]
+            },
+            "created_time": 1708030386555,
+            "last_edited_time": 1708030397294,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "VFtpmYTuO-UJfRMFSNj4Ew,\"start\",\"end\"",
+                "n": {
+                  "VFtpmYTuO-UJfRMFSNj4Ew,\"start\",\"end\"": {
+                    "s": {
+                      "x": "VFtpmYTuO-UJfRMFSNj4Ew",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "KtH0nvGt2jxw",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 14,
+                          "c": "What I Learned"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "e75ef42e-6726-4916-b004-f8daf7bc4cde": {
+        "value": {
+          "value": {
+            "id": "e75ef42e-6726-4916-b004-f8daf7bc4cde",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Understanding Users:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I learned how to listen to users' needs and preferences to create products that meet their requirements."
+                ]
+              ]
+            },
+            "created_time": 1708030472017,
+            "last_edited_time": 1708030472030,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "ZjDgnH7sPWr3FgZqm_lwvQ,\"start\",\"end\"",
+                "n": {
+                  "ZjDgnH7sPWr3FgZqm_lwvQ,\"start\",\"end\"": {
+                    "s": {
+                      "x": "ZjDgnH7sPWr3FgZqm_lwvQ",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "0LPyGP7Ww1Nt",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 20,
+                          "c": "Understanding Users:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "ZjDgnH7sPWr3FgZqm_lwvQ",
+                              "l": "",
+                              "i": [
+                                "0LPyGP7Ww1Nt",
+                                126
+                              ],
+                              "s": {
+                                "i": [
+                                  "0LPyGP7Ww1Nt",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "0LPyGP7Ww1Nt",
+                                  21
+                                ],
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "0LPyGP7Ww1Nt",
+                            21
+                          ],
+                          "o": [
+                            "0LPyGP7Ww1Nt",
+                            20
+                          ],
+                          "l": 105,
+                          "c": " I learned how to listen to users' needs and preferences to create products that meet their requirements.",
+                          "b": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "18a6aafa-b53e-42d2-8506-9a1e57e4a611": {
+        "value": {
+          "value": {
+            "id": "18a6aafa-b53e-42d2-8506-9a1e57e4a611",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Design Skills:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " My design skills improved as I worked on creating a user-friendly and visually appealing app interface."
+                ]
+              ]
+            },
+            "created_time": 1708030472017,
+            "last_edited_time": 1708030472030,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "x4SKX_roA_kzCpV_kIbcNw,\"start\",\"end\"",
+                "n": {
+                  "x4SKX_roA_kzCpV_kIbcNw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "x4SKX_roA_kzCpV_kIbcNw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "LNn0Or_AMFEG",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 14,
+                          "c": "Design Skills:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "x4SKX_roA_kzCpV_kIbcNw",
+                              "l": "",
+                              "i": [
+                                "LNn0Or_AMFEG",
+                                119
+                              ],
+                              "s": {
+                                "i": [
+                                  "LNn0Or_AMFEG",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "LNn0Or_AMFEG",
+                                  15
+                                ],
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "LNn0Or_AMFEG",
+                            15
+                          ],
+                          "o": [
+                            "LNn0Or_AMFEG",
+                            14
+                          ],
+                          "l": 104,
+                          "c": " My design skills improved as I worked on creating a user-friendly and visually appealing app interface.",
+                          "b": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "bde2572a-0ba6-4c80-8c6d-cb22a2475221": {
+        "value": {
+          "value": {
+            "id": "bde2572a-0ba6-4c80-8c6d-cb22a2475221",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Problem-Solving:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I developed problem-solving skills by finding solutions to challenges encountered during the project."
+                ]
+              ]
+            },
+            "created_time": 1708030472017,
+            "last_edited_time": 1708030472030,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "gY7ndKokWP9IpkkvBD4KBw,\"start\",\"end\"",
+                "n": {
+                  "gY7ndKokWP9IpkkvBD4KBw,\"start\",\"end\"": {
+                    "s": {
+                      "x": "gY7ndKokWP9IpkkvBD4KBw",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "h0LJkxoD-m0a",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 16,
+                          "c": "Problem-Solving:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "gY7ndKokWP9IpkkvBD4KBw",
+                              "l": "",
+                              "i": [
+                                "h0LJkxoD-m0a",
+                                119
+                              ],
+                              "s": {
+                                "i": [
+                                  "h0LJkxoD-m0a",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "h0LJkxoD-m0a",
+                                  17
+                                ],
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "h0LJkxoD-m0a",
+                            17
+                          ],
+                          "o": [
+                            "h0LJkxoD-m0a",
+                            16
+                          ],
+                          "l": 102,
+                          "c": " I developed problem-solving skills by finding solutions to challenges encountered during the project.",
+                          "b": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "5429ba7c-ef86-46f3-828f-5f138c6eb939": {
+        "value": {
+          "value": {
+            "id": "5429ba7c-ef86-46f3-828f-5f138c6eb939",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Teamwork:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " Collaborating with others taught me the importance of communication and teamwork in achieving project goals."
+                ]
+              ]
+            },
+            "created_time": 1708030472017,
+            "last_edited_time": 1708030472030,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "yEoxHiNfZ3KTx9p1ADRW6Q,\"start\",\"end\"",
+                "n": {
+                  "yEoxHiNfZ3KTx9p1ADRW6Q,\"start\",\"end\"": {
+                    "s": {
+                      "x": "yEoxHiNfZ3KTx9p1ADRW6Q",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "sS22EVS3NLg0",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 9,
+                          "c": "Teamwork:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "yEoxHiNfZ3KTx9p1ADRW6Q",
+                              "l": "",
+                              "i": [
+                                "sS22EVS3NLg0",
+                                119
+                              ],
+                              "s": {
+                                "i": [
+                                  "sS22EVS3NLg0",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "sS22EVS3NLg0",
+                                  10
+                                ],
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "sS22EVS3NLg0",
+                            10
+                          ],
+                          "o": [
+                            "sS22EVS3NLg0",
+                            9
+                          ],
+                          "l": 109,
+                          "c": " Collaborating with others taught me the importance of communication and teamwork in achieving project goals.",
+                          "b": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "f7495594-8d39-4d51-b2f8-8472541e4797": {
+        "value": {
+          "value": {
+            "id": "f7495594-8d39-4d51-b2f8-8472541e4797",
+            "version": 3,
+            "type": "bulleted_list",
+            "properties": {
+              "title": [
+                [
+                  "Continuous Improvement:",
+                  [
+                    [
+                      "b"
+                    ]
+                  ]
+                ],
+                [
+                  " I learned the value of seeking feedback and making iterative improvements to enhance the product."
+                ]
+              ]
+            },
+            "created_time": 1708030472022,
+            "last_edited_time": 1708030472030,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "dKEDosCJeCUzgP6HzNRjXg,\"start\",\"end\"",
+                "n": {
+                  "dKEDosCJeCUzgP6HzNRjXg,\"start\",\"end\"": {
+                    "s": {
+                      "x": "dKEDosCJeCUzgP6HzNRjXg",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "RPIMpE6ItrJS",
+                            1
+                          ],
+                          "o": "start",
+                          "l": 23,
+                          "c": "Continuous Improvement:",
+                          "b": [
+                            {
+                              "t": "a",
+                              "x": "dKEDosCJeCUzgP6HzNRjXg",
+                              "l": "",
+                              "i": [
+                                "RPIMpE6ItrJS",
+                                122
+                              ],
+                              "s": {
+                                "i": [
+                                  "RPIMpE6ItrJS",
+                                  1
+                                ],
+                                "a": "b"
+                              },
+                              "e": {
+                                "i": [
+                                  "RPIMpE6ItrJS",
+                                  24
+                                ],
+                                "a": "b"
+                              },
+                              "a": [
+                                "b"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "t": "t",
+                          "i": [
+                            "RPIMpE6ItrJS",
+                            24
+                          ],
+                          "o": [
+                            "RPIMpE6ItrJS",
+                            23
+                          ],
+                          "l": 98,
+                          "c": " I learned the value of seeking feedback and making iterative improvements to enhance the product.",
+                          "b": []
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "f1ebfeb7-44e6-497e-9037-d8aa7ba321eb": {
+        "value": {
+          "value": {
+            "id": "f1ebfeb7-44e6-497e-9037-d8aa7ba321eb",
+            "version": 4,
+            "type": "text",
+            "created_time": 1708030473589,
+            "last_edited_time": 1708030473589,
+            "parent_id": "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+            "parent_table": "block",
+            "alive": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "vDQETSJ0kRQx-7Z6WzTq8w,\"start\",\"end\"",
+                "n": {
+                  "vDQETSJ0kRQx-7Z6WzTq8w,\"start\",\"end\"": {
+                    "s": {
+                      "x": "vDQETSJ0kRQx-7Z6WzTq8w",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      }
+    },
+    "collection": {
+      "15965b98-c949-43d4-8bb1-016182322074": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "15965b98-c949-43d4-8bb1-016182322074",
+            "version": 53,
+            "name": [
+              [
+                "My projects"
+              ]
+            ],
+            "schema": {
+              "F@@S": {
+                "name": "My Role",
+                "type": "text"
+              },
+              "FJmY": {
+                "name": "Tools Used",
+                "type": "text"
+              },
+              "ZrQk": {
+                "name": "Project Impact",
+                "type": "text"
+              },
+              "exW_": {
+                "name": "Category",
+                "type": "multi_select",
+                "options": [
+                  {
+                    "id": "99269291-a8e9-487a-8472-77ea8edd639a",
+                    "color": "green",
+                    "value": "UI/UX"
+                  },
+                  {
+                    "id": "09aeeb4a-bd94-49d9-9eef-9bc44b42045c",
+                    "color": "red",
+                    "value": "Icon design"
+                  },
+                  {
+                    "id": "d83e43c9-5500-48f7-8239-4e11fe4e4dc5",
+                    "color": "pink",
+                    "value": "3D"
+                  },
+                  {
+                    "id": "5f1dd5d2-fd4e-483d-b5df-7fc872e61574",
+                    "color": "purple",
+                    "value": "Brand"
+                  },
+                  {
+                    "id": "6be9a4ad-ad33-4dc8-90bb-fed28e35c449",
+                    "color": "brown",
+                    "value": "Graphic design"
+                  },
+                  {
+                    "id": "43e5304e-c74d-458d-b629-19e204e609be",
+                    "color": "blue",
+                    "value": "Blender"
+                  },
+                  {
+                    "id": "7fd5ae68-b2bd-44a7-add4-43966c050f4a",
+                    "color": "default",
+                    "value": "Marketing"
+                  },
+                  {
+                    "id": "7eeccf25-4706-4bbf-9678-04d5a08a0fe8",
+                    "color": "gray",
+                    "value": "ios"
+                  },
+                  {
+                    "id": "11f2197b-af79-461c-a85d-7725959885b4",
+                    "color": "red",
+                    "value": "IOS"
+                  },
+                  {
+                    "id": "7b348f82-cc15-499e-989b-813d9618a760",
+                    "color": "yellow",
+                    "value": "Android"
+                  },
+                  {
+                    "id": "271c6183-6aa7-4a32-9136-0ca49f9626cb",
+                    "color": "orange",
+                    "value": "Artificial intelligence technologies and software applications"
+                  },
+                  {
+                    "id": "4eaea41c-438b-4755-abdc-607e272b7464",
+                    "color": "orange",
+                    "value": "Website"
+                  },
+                  {
+                    "id": "5918dd18-1b5e-4770-bf2b-ce67110bbf48",
+                    "color": "pink",
+                    "value": "UX Designer"
+                  },
+                  {
+                    "id": "cab95648-faa5-408e-80bf-1bc8c5c25b2f",
+                    "color": "yellow",
+                    "value": "Public Transportation"
+                  },
+                  {
+                    "id": "87d91a52-447a-4fff-bebc-327306732d57",
+                    "color": "default",
+                    "value": "Accessibility"
+                  },
+                  {
+                    "id": "c113f282-4470-4ff6-9177-e7c1e469fe94",
+                    "color": "blue",
+                    "value": "Enterprise UX"
+                  }
+                ]
+              },
+              "tBYr": {
+                "name": "About Project",
+                "type": "text"
+              },
+              "zBK|": {
+                "name": "Key Features:",
+                "type": "text",
+                "description": ""
+              },
+              "title": {
+                "name": "Name",
+                "type": "title"
+              }
+            },
+            "format": {
+              "copied_from_pointer": {
+                "id": "4d1e2896-1aa7-476a-8132-829fc7b57f37",
+                "table": "collection",
+                "spaceId": "1f88cc90-92fd-4ce4-bfcd-25daec2ffbbe"
+              },
+              "property_visibility": [
+                {
+                  "property": "tBYr",
+                  "visibility": "show"
+                },
+                {
+                  "property": "zBK|",
+                  "visibility": "show"
+                },
+                {
+                  "property": "F@@S",
+                  "visibility": "show"
+                },
+                {
+                  "property": "exW_",
+                  "visibility": "show"
+                },
+                {
+                  "property": "FJmY",
+                  "visibility": "show"
+                }
+              ],
+              "ai_suggested_properties": [
+                {
+                  "name": "Project Manager",
+                  "type": "person"
+                },
+                {
+                  "name": "Start Date",
+                  "type": "date"
+                },
+                {
+                  "name": "End Date",
+                  "type": "date"
+                },
+                {
+                  "name": "Priority",
+                  "type": "select",
+                  "options": [
+                    {
+                      "id": "G>eG",
+                      "color": "blue",
+                      "value": "High"
+                    },
+                    {
+                      "id": "W;cI",
+                      "color": "purple",
+                      "value": "Medium"
+                    },
+                    {
+                      "id": "k^qF",
+                      "color": "green",
+                      "value": "Low"
+                    }
+                  ]
+                },
+                {
+                  "name": "Attachments",
+                  "type": "file"
+                },
+                {
+                  "name": "Progress",
+                  "type": "number"
+                },
+                {
+                  "name": "Client",
+                  "type": "person"
+                },
+                {
+                  "name": "Status",
+                  "type": "status"
+                },
+                {
+                  "name": "Estimated Cost",
+                  "type": "number"
+                },
+                {
+                  "name": "Tags",
+                  "type": "multi_select",
+                  "options": [
+                    {
+                      "id": "dBfm",
+                      "color": "red",
+                      "value": "Design"
+                    },
+                    {
+                      "id": "wpYF",
+                      "color": "pink",
+                      "value": "Development"
+                    },
+                    {
+                      "id": "W:xW",
+                      "color": "green",
+                      "value": "Testing"
+                    },
+                    {
+                      "id": "DPZ;",
+                      "color": "gray",
+                      "value": "Deployment"
+                    }
+                  ]
+                }
+              ],
+              "page_section_visibility": {
+                "comments": "section_show",
+                "backlinks": "section_collapsed",
+                "margin_comments": "inline"
+              },
+              "collection_page_properties": [
+                {
+                  "visible": false,
+                  "property": "tBYr"
+                },
+                {
+                  "visible": false,
+                  "property": "zBK|"
+                },
+                {
+                  "visible": false,
+                  "property": "F@@S"
+                },
+                {
+                  "visible": true,
+                  "property": "exW_"
+                },
+                {
+                  "visible": false,
+                  "property": "FJmY"
+                },
+                {
+                  "visible": true,
+                  "property": "ZrQk"
+                }
+              ]
+            },
+            "parent_id": "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+            "parent_table": "block",
+            "alive": true,
+            "copied_from": "4d1e2896-1aa7-476a-8132-829fc7b57f37",
+            "template_pages": [
+              "4c35e5b9-431e-4274-bd32-acc133bd0364",
+              "0744c147-f1e7-4c62-b375-c626f2ab3d87"
+            ],
+            "migrated": true,
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "deleted_schema": {
+              "=gS\\": {
+                "name": "Responsibility",
+                "type": "text"
+              },
+              "gqb>": {
+                "name": "Created",
+                "type": "created_time"
+              },
+              "y`U{": {
+                "name": "Link",
+                "type": "url"
+              }
+            },
+            "created_time": 1700295331203,
+            "last_edited_time": 1780861121567,
+            "created_by_table": "notion_user",
+            "created_by_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2"
+          },
+          "role": "reader"
+        }
+      }
+    },
+    "collection_view": {
+      "675960fb-9b8a-4d6c-a889-be83194e7b63": {
+        "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714",
+        "value": {
+          "value": {
+            "id": "675960fb-9b8a-4d6c-a889-be83194e7b63",
+            "version": 15,
+            "type": "gallery",
+            "name": "Gallery view",
+            "format": {
+              "gallery_cover": {
+                "type": "page_content"
+              },
+              "collection_pointer": {
+                "id": "15965b98-c949-43d4-8bb1-016182322074",
+                "table": "collection",
+                "spaceId": "477f584b-1cca-43be-a233-61ddd0d9e714"
+              },
+              "gallery_cover_size": "large",
+              "gallery_properties": [
+                {
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "visible": false,
+                  "property": "gqb>"
+                },
+                {
+                  "visible": true,
+                  "property": "exW_"
+                },
+                {
+                  "visible": true,
+                  "property": "y`U{"
+                }
+              ]
+            },
+            "parent_id": "76e7109f-75ad-46ee-a49d-8f3ca7b4a27d",
+            "parent_table": "block",
+            "alive": true,
+            "page_sort": [
+              "37a98ff7-0f29-4487-9de5-d48358b344e3",
+              "08ed9324-49ef-4f4c-af84-3be22f216116",
+              "4527f9f5-1013-4d78-afc5-badb080f2a88",
+              "40ffb5c1-7ce8-46d7-81ff-ca28c25647a4",
+              "378b5cb6-28a5-802b-b536-f6d2bd22afe7",
+              "dbdb5f50-8397-401d-bc36-bada0aa1db6e",
+              "d5bf1b80-4201-4409-8c7f-97ef7c5f9320",
+              "5ed76ea8-de3e-4f7f-a6f5-f3f0eb38cea7",
+              "b0eaea6b-ec20-4fbd-b27e-d6a3983aa66e",
+              "378b5cb6-28a5-8082-9069-c9ace7b9978f",
+              "85f5f089-8380-400d-9629-2b299729cf08",
+              "29f95e06-ea42-4daf-87f3-c81aeb96d113",
+              "d88aa128-8b2f-440e-915b-c967abe1bb11",
+              "84d7d684-1f75-47bb-bbc3-b2783d7378f6",
+              "9c10350b-22d4-4ac4-b776-89e8f06a43ed",
+              "f7e73a66-48f1-4b67-bc18-221370c8445a"
+            ],
+            "query2": {
+              "aggregations": [
+                {
+                  "aggregator": "count"
+                }
+              ]
+            },
+            "space_id": "477f584b-1cca-43be-a233-61ddd0d9e714",
+            "created_time": 1780860170822,
+            "last_edited_time": 1780860270226,
+            "created_by_table": "notion_user",
+            "created_by_id": "94ac5633-249e-4c3c-a45e-2b07a6b698f2"
+          },
+          "role": "reader"
+        }
+      }
+    }
+  }
+}

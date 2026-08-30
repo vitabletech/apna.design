@@ -5,8 +5,7 @@ import { cn } from "@/utils/cn";
 
 interface ServiceItem {
   id: string;
-  num: string;
-  title: string;
+  title: React.ReactNode;
   description: string;
   details: string;
   tags: string[];
@@ -16,7 +15,6 @@ interface ServiceItem {
 const services: ServiceItem[] = [
   {
     id: "ui-ux",
-    num: "01",
     title: "UI/UX DESIGN",
     description: "Designing simple, clean websites and mobile apps that anyone can easily use without confusion.",
     details: "Websites & Mobile Apps (Android/iOS) • Clean navigation • Smooth user experience",
@@ -24,17 +22,7 @@ const services: ServiceItem[] = [
     accentColor: "#C15B3D", // terracotta
   },
   {
-    id: "branding",
-    num: "02",
-    title: "BRANDING",
-    description: "Giving your business a unique look — memorable logos, complete brand identity, and product branding that builds trust.",
-    details: "Logo Design • Product Branding • Brand Identity • Color & Font Guidelines",
-    tags: ["Logo Design", "Product Branding", "Brand Identity", "Visual System"],
-    accentColor: "#E6B83B", // mithila
-  },
-  {
     id: "product-design",
-    num: "03",
     title: "PRODUCT DESIGN",
     description: "Designing practical digital products and tools around real customer needs so your business runs smoother.",
     details: "Customer-first features • Dashboards & Portal Design • Solving real everyday problems",
@@ -42,8 +30,29 @@ const services: ServiceItem[] = [
     accentColor: "#1D3557", // indigo
   },
   {
+    id: "branding",
+    title: "BRANDING",
+    description: "Giving your business a unique look — memorable logos, complete brand identity, and product branding that builds trust.",
+    details: "Logo Design • Product Branding • Brand Identity • Color & Font Guidelines",
+    tags: ["Logo Design", "Product Branding", "Brand Identity", "Visual Design System"],
+    accentColor: "#E6B83B", // mithila
+  },
+  {
+    id: "social-media",
+    title: (
+      <>
+        <span className="whitespace-nowrap">SOCIAL MEDIA</span>
+        <br />
+        <span>CREATIVE</span>
+      </>
+    ),
+    description: "Eye-catching post designs, banners, and reel covers that keep your brand looking active, professional, and trustworthy online.",
+    details: "Daily/Weekly Posts • Offer Banners • Reel Covers & Templates • WhatsApp Creatives",
+    tags: ["Instagram Posts", "Offer Banners", "Reel Covers", "Ad Creatives"],
+    accentColor: "#C15B3D", // terracotta
+  },
+  {
     id: "package-design",
-    num: "04",
     title: "PACKAGE DESIGN",
     description: "Attractive boxes, pouches, labels, and bottle packaging that catch immediate attention on the shelf and make people choose you.",
     details: "Box & Pouch Design • Product Labels • Bottle Packaging • Print-ready Files",
@@ -52,21 +61,11 @@ const services: ServiceItem[] = [
   },
   {
     id: "print-media",
-    num: "05",
     title: "PRINT MEDIA",
     description: "Clear and bold designs for posters, banners, visiting cards, hoardings, brochures, and offline promotion.",
     details: "Posters & Banners • Visiting Cards • Standees & Flex • Brochures & Pamphlets",
     tags: ["Posters & Banners", "Visiting Cards", "Flex & Hoardings", "Brochures"],
     accentColor: "#DDA22A", // mustard
-  },
-  {
-    id: "social-media",
-    num: "06",
-    title: "SOCIAL MEDIA CREATIVE",
-    description: "Eye-catching post designs, banners, and reel covers that keep your brand looking active, professional, and trustworthy online.",
-    details: "Daily/Weekly Posts • Offer Banners • Reel Covers & Templates • WhatsApp Creatives",
-    tags: ["Instagram Posts", "Offer Banners", "Reel Covers", "Ad Creatives"],
-    accentColor: "#C15B3D", // terracotta
   },
 ];
 
@@ -83,7 +82,7 @@ export default function InteractiveServices() {
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-mithila/10 rounded-full blur-3xl pointer-events-none" />
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
-        
+
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-8 border-b border-background/20 gap-6">
           <div>
@@ -111,24 +110,21 @@ export default function InteractiveServices() {
                 onMouseLeave={() => setActiveId(null)}
                 className="group py-8 md:py-10 transition-colors duration-300 relative"
               >
-                <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 md:gap-8">
-                  
-                  {/* Left: Number & Big Service Title */}
-                  <div className="flex items-baseline gap-4 sm:gap-8 lg:max-w-md xl:max-w-lg">
-                    <span className="font-display text-sm sm:text-base font-bold text-mithila/70 group-hover:text-mithila transition-colors w-8 shrink-0">
-                      {service.num}
-                    </span>
+                <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 md:gap-8">
+
+                  {/* Left: Big Service Title */}
+                  <div className="lg:max-w-xl">
                     <h3 className="font-display text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tight text-background group-hover:text-mithila group-hover:translate-x-2 transition-all duration-300">
                       {service.title}
                     </h3>
                   </div>
 
                   {/* Right: Easy-to-understand Description & Scope pills */}
-                  <div className="lg:max-w-xl flex flex-col items-start lg:items-end gap-2.5 pl-12 lg:pl-0">
+                  <div className="lg:max-w-xl flex flex-col items-start lg:items-end gap-2.5">
                     <p className="text-base sm:text-lg text-background/90 font-medium group-hover:text-background transition-colors text-left lg:text-right leading-relaxed">
                       {service.description}
                     </p>
-                    
+
                     {/* Supporting detail line */}
                     <p className="text-xs text-mithila/90 font-semibold text-left lg:text-right">
                       {service.details}
@@ -156,7 +152,7 @@ export default function InteractiveServices() {
         {/* Bottom Small Assurance */}
         <div className="mt-16 pt-8 border-t border-background/20 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-bold uppercase tracking-widest text-background/60">
           <span>Simple Process &bull; Direct Communication</span>
-          <span>From Bihar to Businesses Anywhere</span>
+          <span>From Bihar to Businesses worldwide.</span>
         </div>
 
       </div>
