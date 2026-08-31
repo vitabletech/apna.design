@@ -17,6 +17,7 @@ const nextConfig: NextConfig = {
   assetPrefix: repo,
   images: {
     unoptimized: true,
+    qualities: [75, 100],
     remotePatterns: [
       {
         protocol: "https",

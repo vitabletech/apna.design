@@ -22,7 +22,7 @@ export default function Footer() {
 
         {/* Brand Title */}
         <h2 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold uppercase tracking-tighter leading-none mb-4 text-background">
-          THE DESIGNER BABU
+          APNA DESIGNER
         </h2>
 
         {/* Designer Info */}
@@ -61,7 +61,7 @@ export default function Footer() {
 
         {/* Bottom Line */}
         <div className="w-full border-t border-background/15 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-background/50 font-medium">
-          <p>&copy; {currentYear} The Designer Babu. All rights reserved.</p>
+          <p>&copy; {currentYear} APNA DESIGNER. All rights reserved.</p>
           <p className="mt-2 sm:mt-0">Designing from Bihar &bull; Working worldwide</p>
         </div>
 

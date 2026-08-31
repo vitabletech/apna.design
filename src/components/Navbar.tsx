@@ -42,9 +42,9 @@ export default function Navbar() {
           data-cursor="HOME"
         >
           <span className="font-display text-xl md:text-2xl font-bold tracking-tight uppercase">
-            THE DESIGNER <span className="text-terracotta">BABU</span>
+            Apna <span className="text-terracotta">Desginer</span>
           </span>
-          <span className="inline-block w-2 h-2 rounded-full bg-mithila animate-pulse" />
+          {/* <span className="inline-block w-2 h-2 rounded-full bg-mithila animate-pulse" /> */}
         </Link>
 
         {/* Desktop Nav */}

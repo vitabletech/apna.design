@@ -80,7 +80,7 @@ export default function HomeHero() {
               <div className="relative z-20 w-full h-full flex items-end justify-center pb-0">
                 <Image
                   src="/images/abhay-hero.png"
-                  alt="Abhay Kumar Singh — The Designer Babu"
+                  alt="Abhay Kumar Singh — APNA DESIGNER"
                   width={560}
                   height={800}
                   priority
@@ -101,7 +101,7 @@ export default function HomeHero() {
                   opacity: { delay: 0.5, duration: 0.5 },
                   y: { repeat: Infinity, duration: 4, ease: "easeInOut" },
                 }}
-                className="absolute top-12 sm:top-16 md:top-20 -left-2 sm:-left-6 md:-left-8 z-30"
+                className="absolute top-1 left-2 sm:top-16 sm:left-2 md:top-20 md:-left-8 z-30"
               >
                 <Sticker color="mustard" rotation={-6}>
                   ❤️ LOVE FROM BIHAR
@@ -119,7 +119,7 @@ export default function HomeHero() {
                   opacity: { delay: 0.65, duration: 0.5 },
                   y: { repeat: Infinity, duration: 4.5, ease: "easeInOut", delay: 0.5 },
                 }}
-                className="absolute top-1/4 -right-2 sm:-right-6 z-30"
+                className="absolute top-[65%] -right-4 sm:top-[65%] md:top-1/4 md:-right-6 z-30"
               >
                 <Sticker color="indigo" rotation={7}>
                   VISUAL COMMUNICATION
@@ -137,7 +137,7 @@ export default function HomeHero() {
                   opacity: { delay: 0.8, duration: 0.5 },
                   y: { repeat: Infinity, duration: 5, ease: "easeInOut", delay: 1 },
                 }}
-                className="absolute bottom-4 sm:bottom-6 -left-2 sm:-left-6 z-30"
+                className="absolute bottom-2 left-2 sm:bottom-2 sm:left-2 md:bottom-6 md:-left-6 z-30"
               >
                 <Sticker color="terracotta" rotation={-4}>
                   DESIGNED WITH PURPOSE

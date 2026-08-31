@@ -459,7 +459,7 @@ export default function SprigCaseStudy() {
               <span className="ml-2">sprig.store / Complete Desktop Homepage Scroll Flow</span>
             </span>
             <button
-              onClick={() => openLightbox("/images/sprig/sprig-desktop-full.png", "Complete SPRIG Desktop Scroll Layout")}
+              onClick={() => openLightbox("/images/sprig/Final-Home-Page-v2.jpg", "Complete SPRIG Desktop Scroll Layout")}
               className="inline-flex items-center gap-1 text-mithila hover:underline text-xs"
             >
               <Maximize2 size={12} />
@@ -470,12 +470,13 @@ export default function SprigCaseStudy() {
           <div className="max-h-[700px] overflow-y-auto bg-foreground/5 p-4 md:p-8">
             <div className="relative w-full max-w-4xl mx-auto">
               <Image
-                src="/images/sprig/sprig-desktop-full.png"
+                src="/images/sprig/Final-Home-Page-v2.jpg"
                 alt="Full SPRIG Homepage Modular Desktop Scroll Flow"
                 width={1200}
                 height={6000}
                 unoptimized
                 quality={100}
+                priority
                 className="w-full h-auto shadow-2xl border border-foreground/20 rounded-xs"
               />
             </div>
