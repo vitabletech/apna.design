@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { cn } from "@/utils/cn";
@@ -18,6 +19,17 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
+
   const navLinks = [
     { name: "Work", href: "/work" },
     { name: "About", href: "/#about" },
@@ -30,21 +42,28 @@ export default function Navbar() {
     <>
       <header
         className={cn(
-          "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 py-5 md:px-12 flex items-center justify-between",
-          scrolled
+          "fixed top-0 left-0 right-0 z-50 transition-colors duration-300 px-6 py-5 md:px-12 flex items-center justify-between",
+          isOpen
+            ? "bg-[#141414] text-background border-transparent"
+            : scrolled
             ? "bg-[#F8F5EE]/90 backdrop-blur-md border-b border-foreground/10 py-4 shadow-xs text-foreground"
             : "bg-transparent text-foreground"
         )}
       >
         <Link
           href="/"
-          className="group flex items-center gap-2"
+          className="group flex items-center"
           data-cursor="HOME"
+          onClick={() => setIsOpen(false)}
         >
-          <span className="font-display text-xl md:text-2xl font-bold tracking-tight uppercase">
-            Apna <span className="text-terracotta">Desginer</span>
-          </span>
-          {/* <span className="inline-block w-2 h-2 rounded-full bg-mithila animate-pulse" /> */}
+          <Image
+            src={isOpen ? "/images/logo-white.svg" : "/images/logo.svg"}
+            alt="Apna Design"
+            width={220}
+            height={40}
+            priority
+            className="h-[32px] md:h-[40px] w-auto object-contain transition-all duration-200 group-hover:opacity-90"
+          />
         </Link>
 
         {/* Desktop Nav */}
@@ -62,7 +81,7 @@ export default function Navbar() {
 
           <Link
             href="/#contact"
-            className="group ml-3 flex items-center gap-1.5 bg-foreground text-background px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-terracotta transition-colors border border-foreground hover:border-terracotta shadow-[2px_2px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+            className="group ml-3 flex items-center gap-1.5 bg-foreground text-background px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-terracotta transition-colors border border-foreground shadow-[3px_3px_0px_0px_rgba(193,91,61,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
             data-cursor="LET'S TALK"
           >
             <span>LET&apos;S TALK</span>
@@ -73,7 +92,10 @@ export default function Navbar() {
         {/* Mobile Menu Toggle */}
         <button
           aria-label="Toggle Menu"
-          className="md:hidden z-50 p-2 text-foreground focus:outline-hidden"
+          className={cn(
+            "md:hidden z-50 p-2 focus:outline-hidden transition-colors",
+            isOpen ? "text-background" : "text-foreground"
+          )}
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}

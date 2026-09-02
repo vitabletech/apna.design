@@ -117,11 +117,11 @@ export default function ProjectCard({
           <div className="pt-4 mt-6 border-t border-foreground/10 flex items-center justify-between">
             <button
               onClick={() => onSelect(project)}
-              className="inline-flex items-center gap-2 text-xs md:text-sm font-bold uppercase tracking-widest text-foreground group-hover:text-terracotta transition-colors"
+              className="inline-flex items-center gap-2 bg-transparent text-foreground px-4 py-2 text-xs font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors border border-foreground"
               data-cursor="EXPLORE"
             >
               <span>VIEW PROJECT</span>
-              <ArrowUpRight size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+              <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
             </button>
 
             <span className="text-[11px] font-bold uppercase tracking-wider text-foreground/40 hidden sm:inline-block">

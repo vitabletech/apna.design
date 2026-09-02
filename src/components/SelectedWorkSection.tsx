@@ -96,10 +96,10 @@ export default function SelectedWorkSection({
               <button
                 key={filter}
                 onClick={() => setActiveFilter(filter)}
-                className={`px-4 py-2 text-xs font-bold uppercase tracking-wider transition-colors border ${
+                className={`px-4 py-2 text-xs font-bold uppercase tracking-wider transition-all border ${
                   activeFilter === filter
-                    ? "bg-terracotta text-background border-terracotta"
-                    : "bg-transparent text-foreground border-foreground hover:bg-foreground hover:text-background"
+                    ? "bg-foreground text-background border-foreground shadow-[2px_2px_0px_0px_rgba(193,91,61,1)]"
+                    : "bg-card text-foreground border-foreground/30 hover:border-foreground"
                 }`}
               >
                 {filter}
@@ -131,7 +131,7 @@ export default function SelectedWorkSection({
           <div className="mt-16 text-center">
             <Link
               href="/work"
-              className="inline-flex items-center gap-2 bg-foreground text-background px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-terracotta transition-colors shadow-[4px_4px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[4px] hover:translate-y-[4px] border border-foreground"
+              className="inline-flex items-center gap-2 bg-foreground text-background px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-terracotta transition-colors shadow-[4px_4px_0px_0px_rgba(193,91,61,1)] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] border border-foreground"
             >
               <span>View All Work</span>
               <ArrowUpRight size={18} />
@@ -144,7 +144,7 @@ export default function SelectedWorkSection({
             </p>
             <Link
               href="/#contact"
-              className="inline-flex items-center gap-1.5 text-sm font-bold uppercase tracking-widest text-terracotta hover:underline decoration-2 underline-offset-4"
+              className="inline-flex items-center gap-2 bg-transparent text-foreground border-2 border-foreground px-6 py-3.5 text-xs md:text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors"
             >
               <span>Let&apos;s talk about your project</span>
               <ArrowUpRight size={16} />

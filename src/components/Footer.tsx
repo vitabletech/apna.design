@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import DecorativeBorder from "./DecorativeBorder";
 
@@ -8,9 +9,9 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { name: "Instagram", href: "https://instagram.com" },
-    { name: "LinkedIn", href: "https://linkedin.com" },
-    { name: "Behance", href: "https://behance.net" },
+    { name: "Instagram", href: "https://www.instagram.com/design.apna?utm_source=qr" },
+    { name: "LinkedIn", href: "https://www.linkedin.com/company/design.apna" },
+    { name: "Behance", href: "https://www.behance.net/UXUI-Abhay" },
     { name: "Contact", href: "/#contact" },
   ];
 
@@ -20,10 +21,20 @@ export default function Footer() {
 
       <div className="container mx-auto px-6 md:px-12 flex flex-col items-center text-center">
 
-        {/* Brand Title */}
-        <h2 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl font-bold uppercase tracking-tighter leading-none mb-4 text-background">
-          APNA DESIGNER
-        </h2>
+        {/* Brand Logo */}
+        <Link
+          href="/"
+          className="mb-8 inline-block hover:opacity-95 transition-opacity"
+          data-cursor="HOME"
+        >
+          <Image
+            src="/images/logo-footer.svg"
+            alt="Apna Design"
+            width={693}
+            height={256}
+            className="h-[80px] md:h-[256px] w-auto max-w-full object-contain"
+          />
+        </Link>
 
         {/* Designer Info */}
         <div className="flex flex-col items-center mb-6">
@@ -38,7 +49,7 @@ export default function Footer() {
         {/* Tagline */}
         <div className="inline-block bg-background/10 border border-background/20 px-6 py-2 rounded-full mb-12">
           <p className="text-sm md:text-base font-semibold text-background tracking-wide">
-            ❤️ LOVE FROM BIHAR
+            LOVE FROM BIHAR
           </p>
         </div>
 
@@ -61,7 +72,7 @@ export default function Footer() {
 
         {/* Bottom Line */}
         <div className="w-full border-t border-background/15 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-background/50 font-medium">
-          <p>&copy; {currentYear} APNA DESIGNER. All rights reserved.</p>
+          <p>&copy; {currentYear} APNA DESIGN. All rights reserved.</p>
           <p className="mt-2 sm:mt-0">Designing from Bihar &bull; Working worldwide</p>
         </div>
 

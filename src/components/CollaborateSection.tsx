@@ -75,25 +75,28 @@ export default function CollaborateSection() {
               </span>
 
               {/* Call Now CTA */}
-              <div className="flex items-center gap-2">
+              <div className="flex items-stretch gap-2 w-full">
                 <a
                   href={`tel:${phoneNumber.replace(/\s+/g, '')}`}
-                  className="group flex-1 flex items-center justify-between p-4 bg-card border-2 border-foreground hover:bg-foreground hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+                  className="group flex-1 min-w-0 flex items-center gap-3 p-3.5 sm:p-4 bg-card border-2 border-foreground hover:bg-foreground hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                   data-cursor="CALL"
                 >
-                  <div className="flex items-center gap-3">
-                    <Phone size={18} className="text-terracotta group-hover:text-mithila" />
-                    <span className="font-display text-base font-bold uppercase tracking-wider">
+                  <Phone size={20} className="text-terracotta group-hover:text-mithila shrink-0" />
+                  <div className="flex flex-col min-w-0 text-left">
+                    <span className="font-display text-xs sm:text-sm font-bold uppercase tracking-wider">
                       CALL NOW &rarr;
                     </span>
+                    <span className="text-sm sm:text-base font-semibold opacity-90 group-hover:opacity-100 truncate">
+                      {phoneNumber}
+                    </span>
                   </div>
-                  <span className="text-sm font-semibold opacity-80 group-hover:opacity-100">{phoneNumber}</span>
                 </a>
 
                 <button
+                  type="button"
                   onClick={handleCopyPhone}
                   title="Copy phone number to clipboard"
-                  className="p-4 bg-card border-2 border-foreground hover:bg-terracotta hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+                  className="w-12 sm:w-14 shrink-0 flex items-center justify-center bg-card border-2 border-foreground hover:bg-terracotta hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                   data-cursor="COPY"
                 >
                   {copiedPhone ? <Check size={18} className="text-leaf" /> : <Copy size={18} />}
@@ -101,25 +104,28 @@ export default function CollaborateSection() {
               </div>
 
               {/* Email Me CTA with copy action */}
-              <div className="flex items-center gap-2">
+              <div className="flex items-stretch gap-2 w-full">
                 <a
                   href={`mailto:${emailAddress}`}
-                  className="group flex-1 flex items-center justify-between p-4 bg-card border-2 border-foreground hover:bg-foreground hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+                  className="group flex-1 min-w-0 flex items-center gap-3 p-3.5 sm:p-4 bg-card border-2 border-foreground hover:bg-foreground hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                   data-cursor="EMAIL"
                 >
-                  <div className="flex items-center gap-3">
-                    <Mail size={18} className="text-terracotta group-hover:text-mithila" />
-                    <span className="font-display text-base font-bold uppercase tracking-wider">
+                  <Mail size={20} className="text-terracotta group-hover:text-mithila shrink-0" />
+                  <div className="flex flex-col min-w-0 text-left">
+                    <span className="font-display text-xs sm:text-sm font-bold uppercase tracking-wider">
                       EMAIL ME &rarr;
                     </span>
+                    <span className="text-sm sm:text-base font-semibold opacity-90 group-hover:opacity-100 truncate">
+                      {emailAddress}
+                    </span>
                   </div>
-                  <span className="text-sm font-semibold opacity-80 group-hover:opacity-100">{emailAddress}</span>
                 </a>
 
                 <button
+                  type="button"
                   onClick={handleCopyEmail}
                   title="Copy email to clipboard"
-                  className="p-4 bg-card border-2 border-foreground hover:bg-terracotta hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+                  className="w-12 sm:w-14 shrink-0 flex items-center justify-center bg-card border-2 border-foreground hover:bg-terracotta hover:text-background transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                   data-cursor="COPY"
                 >
                   {copiedEmail ? <Check size={18} className="text-leaf" /> : <Copy size={18} />}
