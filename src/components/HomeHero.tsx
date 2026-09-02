@@ -49,7 +49,7 @@ export default function HomeHero() {
             <div className="flex flex-wrap items-center gap-4">
               <Link
                 href="/#work"
-                className="group flex items-center gap-2 bg-foreground text-background px-6 sm:px-7 py-3 text-xs md:text-sm font-bold uppercase tracking-widest hover:bg-terracotta transition-colors shadow-[3px_3px_0px_0px_rgba(20,20,20,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
+                className="group flex items-center gap-2 bg-foreground text-background border border-foreground px-6 sm:px-7 py-3 text-xs md:text-sm font-bold uppercase tracking-widest hover:bg-terracotta transition-colors shadow-[3px_3px_0px_0px_rgba(193,91,61,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                 data-cursor="SEE WORK"
               >
                 <span>Selected Work</span>
@@ -58,7 +58,7 @@ export default function HomeHero() {
 
               <Link
                 href="/#contact"
-                className="flex items-center gap-2 bg-transparent text-foreground border border-foreground/30 px-5 sm:px-6 py-3 text-xs md:text-sm font-bold uppercase tracking-widest hover:border-foreground hover:bg-background transition-colors"
+                className="flex items-center gap-2 bg-transparent text-foreground border-2 border-foreground px-5 sm:px-6 py-3 text-xs md:text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors"
                 data-cursor="CONNECT"
               >
                 <span>Let&apos;s Collaborate</span>
@@ -90,7 +90,7 @@ export default function HomeHero() {
 
               {/* Badges / Stickers around the visual with subtle floating animations */}
 
-              {/* 1. Top Left Badge: ❤️ LOVE FROM BIHAR — Positioned near shoulder/neck */}
+              {/* 1. Top Left Badge: LOVE FROM BIHAR — Positioned near shoulder/neck */}
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
                 animate={{
@@ -104,7 +104,7 @@ export default function HomeHero() {
                 className="absolute top-1 left-2 sm:top-16 sm:left-2 md:top-20 md:-left-8 z-30"
               >
                 <Sticker color="mustard" rotation={-6}>
-                  ❤️ LOVE FROM BIHAR
+                  LOVE FROM BIHAR
                 </Sticker>
               </motion.div>
 

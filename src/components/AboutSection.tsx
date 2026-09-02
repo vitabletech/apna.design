@@ -38,7 +38,7 @@ export default function AboutSection() {
               {/* Primary Image: Workspace & Design Setup */}
               <div className="relative aspect-[4/3] rounded-sm overflow-hidden border-2 border-foreground bg-foreground shadow-[6px_6px_0px_0px_rgba(20,20,20,1)]">
                 <Image
-                  src="/images/designer_workspace_1787769814423.jpg"
+                  src="/images/about-us-img.png"
                   alt="Abhay Kumar Singh — Design Workspace & Studio Setup"
                   fill
                   className="object-cover"
@@ -54,8 +54,8 @@ export default function AboutSection() {
               {/* Layered Floating Accent: Print Proofs / Artifacts */}
               <div className="absolute -bottom-8 -right-6 w-36 sm:w-44 aspect-square rounded-sm overflow-hidden border-2 border-foreground bg-background shadow-[4px_4px_0px_0px_rgba(193,91,61,1)] hidden sm:block">
                 <Image
-                  src="/images/print_proofs_1787769854097.jpg"
-                  alt="Print and design proofs"
+                  src="/images/apnadesign-icon-black-bg.jpg"
+                  alt="Apna Design brand icon"
                   fill
                   className="object-cover"
                 />

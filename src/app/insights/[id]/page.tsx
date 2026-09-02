@@ -1,6 +1,6 @@
 import { use } from "react";
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import type { Metadata } from "next";
 import { articles } from "@/data/insights";
 import Navbar from "@/components/Navbar";
@@ -110,9 +110,10 @@ export default function InsightArticlePage({ params }: { params: Promise<{ id: s
               </span>
               <Link
                 href="/insights"
-                className="bg-foreground text-background px-6 py-3 text-xs font-bold uppercase tracking-widest hover:bg-terracotta transition-colors"
+                className="inline-flex items-center gap-2 bg-transparent text-foreground px-6 py-3 text-xs font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors border-2 border-foreground"
               >
-                Read More Insights
+                <span>Read More Insights</span>
+                <ArrowUpRight size={14} />
               </Link>
             </div>
           </div>
