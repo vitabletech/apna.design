@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { projectsData } from '@/data/projects';
+export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://apna.design';
