@@ -35,6 +35,25 @@ export default function CollaborateSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.firstName || !formData.email || !formData.contactNumber) return;
+    
+    // Format message for WhatsApp
+    const name = `${formData.firstName} ${formData.lastName}`.trim();
+    const text = `*New Inquiry from apna.design*
+*Name:* ${name}
+*Email:* ${formData.email}
+*Contact:* ${formData.contactNumber}
+*Service Needed:* ${selectedService}
+
+*Message:*
+${formData.message || "No message provided."}`;
+
+    const encodedText = encodeURIComponent(text);
+    // The phone number must include the country code without '+' or spaces
+    const whatsappUrl = `https://wa.me/917764032453?text=${encodedText}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+
     setSubmitted(true);
   };
 
