@@ -80,9 +80,15 @@ export default function SelectedWorkSection({
             <span className="text-xs font-bold uppercase tracking-widest text-terracotta mb-2 block">
               Portfolio
             </span>
-            <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-foreground">
-              SELECTED WORK
-            </h2>
+            {isHome ? (
+              <h2 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-foreground">
+                SELECTED WORK
+              </h2>
+            ) : (
+              <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-foreground">
+                SELECTED WORK
+              </h1>
+            )}
           </div>
           <p className="text-sm md:text-base font-semibold uppercase tracking-wider text-foreground/70 max-w-xs md:max-w-[380px] text-left md:text-right">
             Showcasing strongest case studies<br className="hidden md:inline" /> across digital &amp; visual design.

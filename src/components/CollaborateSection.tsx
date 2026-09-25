@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, Phone, Mail, Check, Copy, Sparkles, Send } from "lucide-react";
 
-export default function CollaborateSection() {
+export default function CollaborateSection({ asH1 = false }: { asH1?: boolean } = {}) {
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [copiedPhone, setCopiedPhone] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -17,7 +17,7 @@ export default function CollaborateSection() {
     message: "",
   });
 
-  const emailAddress = "abhay_work@outlook.com";
+  const emailAddress = "abhay@apna.design";
   const phoneNumber = "+91 7764032453";
 
   const handleCopyEmail = () => {
@@ -73,9 +73,15 @@ ${formData.message || "No message provided."}`;
                 Get In Touch
               </span>
 
-              <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-6 leading-[0.95]">
-                HAVE SOMETHING TO BUILD?
-              </h2>
+              {asH1 ? (
+                <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-6 leading-[0.95]">
+                  HAVE SOMETHING TO BUILD?
+                </h1>
+              ) : (
+                <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-6 leading-[0.95]">
+                  HAVE SOMETHING TO BUILD?
+                </h2>
+              )}
 
               <div className="space-y-4 text-base sm:text-lg text-foreground/85 mb-8">
                 <p className="font-semibold text-xl text-foreground">

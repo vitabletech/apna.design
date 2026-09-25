@@ -1,12 +1,13 @@
-import { MetadataRoute } from 'next';
-export const dynamic = 'force-static';
+import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
-      userAgent: '*',
-      allow: '/',
+      userAgent: "*",
+      allow: "/",
     },
-    sitemap: 'https://apna.design/sitemap.xml',
+    sitemap: "https://apna.design/sitemap.xml",
   };
 }

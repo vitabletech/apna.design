@@ -11,17 +11,23 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const article = articles.find(a => a.id === id);
 
   if (!article) {
-    return { title: 'Article Not Found | APNA DESIGNER' };
+    return { title: 'Article Not Found' };
   }
 
+  const shortTitle = article.shortTitle || (article.title.length > 35 ? `${article.title.slice(0, 32)}...` : article.title);
+
   return {
-    title: `${article.title} | APNA DESIGNER`,
-    description: article.excerpt,
+    title: shortTitle,
+    description: article.excerpt.length > 155 ? `${article.excerpt.slice(0, 152)}...` : article.excerpt,
+    alternates: {
+      canonical: `/insights/${id}`,
+    },
     openGraph: {
-      title: article.title,
+      title: `${shortTitle} | APNA DESIGNER`,
       description: article.excerpt,
       type: 'article',
       publishedTime: article.date,
+      url: `https://apna.design/insights/${id}`,
     }
   };
 }
@@ -104,7 +110,7 @@ export default function InsightArticlePage({ params }: { params: Promise<{ id: s
               </p>
             </div>
 
-            <div className="pt-8 border-t border-foreground/15 flex flex-wrap justify-between items-center gap-4">
+            <div className="pt-8 border-t border-foreground/15 flex flex-wrap justify-between items-center gap-4 mb-8">
               <span className="text-xs font-bold uppercase tracking-widest text-foreground/60">
                 APNA DESIGNER &bull; Patna, Bihar
               </span>
@@ -115,6 +121,30 @@ export default function InsightArticlePage({ params }: { params: Promise<{ id: s
                 <span>Read More Insights</span>
                 <ArrowUpRight size={14} />
               </Link>
+            </div>
+
+            {/* Cross-Link Exploration Section */}
+            <div className="p-6 bg-card border border-foreground/20 rounded-xs">
+              <span className="text-xs font-bold uppercase tracking-widest text-terracotta mb-2 block">
+                Related Design Explorations
+              </span>
+              <div className="flex flex-wrap gap-3 text-xs font-bold uppercase tracking-wider">
+                <Link href="/work/sprig" className="hover:text-terracotta transition-colors underline underline-offset-4">
+                  Sprig E-commerce Case Study
+                </Link>
+                <span>&bull;</span>
+                <Link href="/work/coignx" className="hover:text-terracotta transition-colors underline underline-offset-4">
+                  Coignx FinTech UX
+                </Link>
+                <span>&bull;</span>
+                <Link href="/work/paytime" className="hover:text-terracotta transition-colors underline underline-offset-4">
+                  PayTime Branding System
+                </Link>
+                <span>&bull;</span>
+                <Link href="/about" className="hover:text-terracotta transition-colors underline underline-offset-4">
+                  About Abhay
+                </Link>
+              </div>
             </div>
           </div>
         </div>

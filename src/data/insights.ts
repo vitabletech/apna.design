@@ -1,6 +1,7 @@
 export interface Article {
   id: string;
   title: string;
+  shortTitle?: string;
   category: "Design" | "UX" | "Visual Communication" | "Branding" | "Business" | "Bihar" | "Lessons";
   readTime: string;
   date: string;
@@ -13,6 +14,7 @@ export const articles: Article[] = [
   {
     id: "why-bihar-shapes-how-i-see-design",
     title: "Why designing from Bihar gives me an unfair advantage in visual communication",
+    shortTitle: "Why Bihar Shapes My Design",
     category: "Bihar",
     readTime: "4 min read",
     date: "Aug 2026",
@@ -28,6 +30,7 @@ export const articles: Article[] = [
   {
     id: "good-design-must-work-well",
     title: "Good design should look good. It should also work well.",
+    shortTitle: "Design That Works Well",
     category: "Design",
     readTime: "5 min read",
     date: "Jul 2026",
@@ -43,6 +46,7 @@ export const articles: Article[] = [
   {
     id: "why-people-leave-websites",
     title: "Why were people leaving? A breakdown of user drop-offs in digital products",
+    shortTitle: "Why Users Leave Websites",
     category: "UX",
     readTime: "6 min read",
     date: "Jun 2026",
@@ -59,6 +63,7 @@ export const articles: Article[] = [
   {
     id: "branding-that-endures",
     title: "Brand Identity is what people remember when you leave the room",
+    shortTitle: "Enduring Brand Identity",
     category: "Branding",
     readTime: "4 min read",
     date: "May 2026",
@@ -73,6 +78,7 @@ export const articles: Article[] = [
   {
     id: "business-communication-lessons",
     title: "5 Lessons from 5 years of visual communication design",
+    shortTitle: "5 Design Lessons Learned",
     category: "Lessons",
     readTime: "5 min read",
     date: "Apr 2026",

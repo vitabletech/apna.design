@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Compass } from "lucide-react";
 
-export default function AboutSection() {
+export default function AboutSection({ asH1 = false }: { asH1?: boolean } = {}) {
   return (
     <section
       id="about"
@@ -81,9 +81,15 @@ export default function AboutSection() {
               <span>About Me</span>
             </div>
 
-            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-8">
-              HI, I&apos;M ABHAY.
-            </h2>
+            {asH1 ? (
+              <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-8">
+                HI, I&apos;M ABHAY.
+              </h1>
+            ) : (
+              <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold uppercase tracking-tight text-foreground mb-8">
+                HI, I&apos;M ABHAY.
+              </h2>
+            )}
 
             <div className="space-y-4 text-base sm:text-lg md:text-xl text-foreground/85 leading-relaxed mb-8">
               <p>

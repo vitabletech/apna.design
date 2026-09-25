@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { Sparkles, CheckCircle2, ArrowLeft } from "lucide-react";
 import { projectsData } from "@/data/projects";
 import Navbar from "@/components/Navbar";
@@ -10,6 +11,47 @@ import QuikCabCaseStudy from "@/components/QuikCabCaseStudy";
 import CoignxCaseStudy from "@/components/CoignxCaseStudy";
 import TechlyserCaseStudy from "@/components/TechlyserCaseStudy";
 import PayTimeCaseStudy from "@/components/PayTimeCaseStudy";
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const project = projectsData.find((p) => p.id === id);
+
+  if (!project) {
+    return {
+      title: "Project Not Found",
+    };
+  }
+
+  const shortTitle = `${project.title} Case Study`;
+  const cleanDescription = project.description.length > 155
+    ? `${project.description.slice(0, 152)}...`
+    : project.description;
+
+  return {
+    title: shortTitle,
+    description: cleanDescription,
+    alternates: {
+      canonical: `/work/${id}`,
+    },
+    openGraph: {
+      title: `${shortTitle} | APNA DESIGNER`,
+      description: cleanDescription,
+      url: `https://apna.design/work/${id}`,
+      images: [
+        {
+          url: project.imageSrc,
+          alt: project.title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${shortTitle} | APNA DESIGNER`,
+      description: cleanDescription,
+      images: [project.imageSrc],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return projectsData.map((project) => ({
@@ -183,6 +225,32 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
               )}
             </div>
 
+          </div>
+
+          {/* Bottom Navigation & Cross-Project Links */}
+          <div className="mt-16 pt-10 border-t-2 border-foreground/20 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <Link
+              href="/work"
+              className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-foreground hover:text-terracotta transition-colors"
+            >
+              <ArrowLeft size={16} />
+              <span>Back to All Work</span>
+            </Link>
+
+            <div className="flex flex-wrap gap-4 text-xs font-bold uppercase tracking-wider">
+              <Link href="/work/sprig" className="hover:text-terracotta transition-colors">
+                Sprig Store &rarr;
+              </Link>
+              <Link href="/work/quik-cab" className="hover:text-terracotta transition-colors">
+                Quik Cab &rarr;
+              </Link>
+              <Link href="/work/coignx" className="hover:text-terracotta transition-colors">
+                Coignx &rarr;
+              </Link>
+              <Link href="/work/paytime" className="hover:text-terracotta transition-colors">
+                PayTime &rarr;
+              </Link>
+            </div>
           </div>
         </div>
       </main>

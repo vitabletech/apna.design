@@ -1,0 +1,34 @@
+# APNA DESIGNER
+
+> APNA DESIGNER is an independent visual communication, product design, and UI/UX studio founded and led by Abhay Kumar Singh. Based in Masaurhi, Patna, Bihar, the studio partners with startups, digital brands, and enterprises worldwide to create high-converting, human-centered digital products and brand systems.
+
+## Primary Pages
+
+- [Homepage](https://apna.design/): Studio overview, core design philosophy, featured case studies, and services.
+- [Selected Work](https://apna.design/work): In-depth portfolio of case studies across UI/UX architecture, FinTech, mobility, and e-commerce.
+- [About Abhay Kumar Singh](https://apna.design/about): Designer background, principles, roots in Bihar, and global design perspective.
+- [Design Insights](https://apna.design/insights): Essays on visual communication, usability, tier-2/3 context, and typography.
+- [Contact Studio](https://apna.design/contact): Project inquiry guidelines, collaboration process, and direct contact details.
+
+## Featured Case Studies
+
+- [SPRIG Store](https://apna.design/work/sprig): E-commerce storefront and product discovery architecture lifting conversion by +38%.
+- [Quik Cab](https://apna.design/work/quik-cab): On-demand urban mobility application with female safety pairing and quick ride booking.
+- [COIGNX](https://apna.design/work/coignx): Intuitive crypto wallet and multi-currency digital asset management UX.
+- [Techlyser](https://apna.design/work/techlyser): High-performance digital agency platform and conversion architecture.
+- [PayTime](https://apna.design/work/paytime): Modern visual identity, logo mark grid construction, and brand guidelines for fintech.
+
+## Core Capabilities
+
+- **UI/UX Architecture**: User flows, wireframing, high-fidelity Figma prototypes, and accessibility audits.
+- **Brand Identity Systems**: Logo design, typography pairing, color psychology, guidelines, and packaging.
+- **E-Commerce CRO**: Funnel optimization, modular storefront discovery, and checkout ergonomics.
+- **Design Systems**: Componentized atomic libraries, tokens, and WCAG AAA compliance.
+
+## Contact Information
+
+- **Designer**: Abhay Kumar Singh
+- **Location**: Masaurhi, Patna, Bihar, India
+- **Email**: abhay@apna.design
+- **Phone**: +91 7764032453
+- **Website**: https://apna.design

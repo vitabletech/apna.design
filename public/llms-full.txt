@@ -1,0 +1,54 @@
+# APNA DESIGNER — Full Knowledge File
+
+> Detailed knowledge file for APNA DESIGNER (https://apna.design), an independent design practice by Abhay Kumar Singh specializing in visual communication, UI/UX architecture, and brand identity systems.
+
+## Studio Background
+
+Abhay Kumar Singh is a Visual Communication and Product Designer with 4+ years of professional experience based in Masaurhi, Patna, Bihar, India. Operating away from traditional metro design bubbles allows the studio to design with relentless clarity, focusing on real human intuition and removing digital friction.
+
+## Core Philosophy
+
+- **Utility Before Ornamentation**: Every visual decision (typography, contrast, whitespace rhythm) must first clarify intent before serving decorative flair.
+- **Rooted Simplicity**: Ancient grid rigor inspired by Madhubani art applied to modern digital interfaces.
+- **Tested in the Real World**: Systems engineered to communicate within seconds across varied digital literacy levels.
+- **Enduring Trust**: Consistency of tone, typography, and reliability across every customer touchpoint creates brand equity.
+
+## Selected Case Studies & Metrics
+
+1. **SPRIG Store (E-Commerce)**:
+   - Challenge: Massive accessories catalogue causing user confusion and high bounce rate.
+   - Solution: Multi-entry discovery architecture, device-based filters, and Figtree design system.
+   - Outcomes: 3x faster product discovery, +38% conversion lift, -29% bounce rate.
+   - URL: https://apna.design/work/sprig
+
+2. **Quik Cab (Mobility)**:
+   - Challenge: Competing with ride-hailing incumbents while addressing passenger safety.
+   - Solution: Differentiated ride categories, round trip options, and verified female-passenger/female-driver pairing.
+   - Outcomes: 4.9/5 safety rating, < 25s booking speed, +44% ride retention.
+   - URL: https://apna.design/work/quik-cab
+
+3. **COIGNX (FinTech & Web3)**:
+   - Challenge: Cognitive overload and complex security barriers in digital currency apps.
+   - Solution: 5-phase UX process, streamlined multi-currency dashboard, and simplified transaction confirmation flows.
+   - Outcomes: +54% task completion, < 90s onboarding, 4.9/5 satisfaction.
+   - URL: https://apna.design/work/coignx
+
+4. **Techlyser (Web Architecture)**:
+   - Challenge: Positioning a technical e-commerce engineering studio for enterprise clients.
+   - Solution: Future-forward agency identity, interactive client metrics, and sub-second Next.js architecture.
+   - Outcomes: 700+ delivered stores, 95+ Google Lighthouse scores, +42% average CRO lift.
+   - URL: https://apna.design/work/techlyser
+
+5. **PayTime (Brand Identity)**:
+   - Challenge: Developing instant visual trust and momentum for a modern payment platform.
+   - Solution: Geometric 'P' symbol with forward directional cut, color palette of #0F4FED and #001851, and comprehensive brand guidelines.
+   - Outcomes: +88% brand recall, 4.9/5 trust score, versatile SVG application across print and screens.
+   - URL: https://apna.design/work/paytime
+
+## Essays & Insights
+
+- **Why designing from Bihar gives me an unfair advantage in visual communication**: Exploring how constraint and ground-level utility create stronger design systems than metro design trends.
+- **Good design should look good. It should also work well**: Analyzing why agency designs without information architecture cause high drop-offs.
+- **Why were people leaving? A breakdown of user drop-offs in digital products**: Deep dive into the three cognitive overload traps (ambiguous value prop, visual competition, hidden navigation).
+- **Brand Identity is what people remember when you leave the room**: The 95% of brand identity that exists beyond a logo mark.
+- **5 Lessons from 5 years of visual communication design**: Core takeaways from independent product design practice.

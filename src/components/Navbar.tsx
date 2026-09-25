@@ -32,10 +32,10 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Work", href: "/work" },
-    { name: "About", href: "/#about" },
+    { name: "About", href: "/about" },
     { name: "What I Do", href: "/#what-i-do" },
     { name: "Insights", href: "/insights" },
-    { name: "Contact", href: "/#contact" },
+    { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -80,7 +80,7 @@ export default function Navbar() {
           ))}
 
           <Link
-            href="/#contact"
+            href="/contact"
             className="group ml-3 flex items-center gap-1.5 bg-foreground text-background px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-terracotta transition-colors border border-foreground shadow-[3px_3px_0px_0px_rgba(193,91,61,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
             data-cursor="LET'S TALK"
           >
@@ -143,7 +143,7 @@ export default function Navbar() {
               className="flex flex-col gap-4 pt-6 border-t border-background/20"
             >
               <Link
-                href="/#contact"
+                href="/contact"
                 onClick={() => setIsOpen(false)}
                 className="w-full text-center bg-terracotta text-background py-4 font-display text-lg font-bold uppercase tracking-wider flex items-center justify-center gap-2 hover:bg-mithila hover:text-foreground transition-colors"
               >
