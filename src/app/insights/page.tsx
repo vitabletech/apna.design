@@ -8,13 +8,13 @@ import { articles } from "@/data/insights";
 
 export const metadata: Metadata = {
   title: "Design Insights & Articles",
-  description: "Articles and observations on UX architecture, visual communication, branding strategy, and design lessons learned from building real-world products.",
+  description: "Articles and observations on UX architecture, Product & UX/UI design, branding strategy, and design lessons learned from building real-world products.",
   alternates: {
     canonical: "/insights",
   },
   openGraph: {
     title: "Design Insights & Articles | APNA DESIGNER",
-    description: "Articles and observations on UX architecture, visual communication, branding strategy, and design lessons learned from building real-world products.",
+    description: "Articles and observations on UX architecture, Product & UX/UI design, branding strategy, and design lessons learned from building real-world products.",
     url: "https://apna.design/insights",
   },
 };
@@ -54,7 +54,7 @@ export default function InsightsPage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-foreground/80 max-w-3xl leading-relaxed mb-6">
-              Practical observations on visual communication, UX architecture, branding discipline, designing from Bihar, and the lessons learned while solving friction for real humans and growing businesses.
+              Practical observations on Product & UX/UI design, UX architecture, branding discipline, designing from Bihar, and the lessons learned while solving friction for real humans and growing businesses.
             </p>
 
             <div className="flex flex-wrap gap-6 text-xs font-bold uppercase tracking-wider text-foreground/60 pt-4 border-t border-foreground/10">

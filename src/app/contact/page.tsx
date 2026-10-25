@@ -7,13 +7,13 @@ import CollaborateSection from "@/components/CollaborateSection";
 
 export const metadata: Metadata = {
   title: "Contact & Collaboration",
-  description: "Get in touch with Abhay Kumar Singh for UI/UX design, brand identity, and visual communication projects. Available for select collaborations worldwide.",
+  description: "Get in touch with Abhay Kumar Singh for Product & UX/UI design and brand identity projects. Available for select collaborations worldwide.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
     title: "Contact & Collaboration | APNA DESIGNER",
-    description: "Get in touch with Abhay Kumar Singh for UI/UX design, brand identity, and visual communication projects. Available for select collaborations worldwide.",
+    description: "Get in touch with Abhay Kumar Singh for Product & UX/UI design and brand identity projects. Available for select collaborations worldwide.",
     url: "https://apna.design/contact",
   },
 };

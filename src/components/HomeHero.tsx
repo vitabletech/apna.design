@@ -29,7 +29,7 @@ export default function HomeHero() {
                 Abhay Kumar Singh
               </p>
               <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-terracotta mt-1">
-                Visual Communication Designer
+                Product & UX/UI Designer
               </p>
             </div>
 
@@ -108,7 +108,7 @@ export default function HomeHero() {
                 </Sticker>
               </motion.div>
 
-              {/* 2. Top Right Badge: VISUAL COMMUNICATION */}
+              {/* 2. Top Right Badge: PRODUCT & UX/UI DESIGNER */}
               <motion.div
                 initial={{ opacity: 0, x: 10 }}
                 animate={{
@@ -121,8 +121,8 @@ export default function HomeHero() {
                 }}
                 className="absolute top-[65%] -right-4 sm:top-[65%] md:top-1/4 md:-right-6 z-30"
               >
-                <Sticker color="indigo" rotation={7}>
-                  VISUAL COMMUNICATION
+                <Sticker color="indigo" rotation={7} className="whitespace-nowrap">
+                  PRODUCT & UX/UI DESIGNER
                 </Sticker>
               </motion.div>
 

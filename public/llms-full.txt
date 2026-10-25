@@ -1,10 +1,10 @@
 # APNA DESIGNER — Full Knowledge File
 
-> Detailed knowledge file for APNA DESIGNER (https://apna.design), an independent design practice by Abhay Kumar Singh specializing in visual communication, UI/UX architecture, and brand identity systems.
+> Detailed knowledge file for APNA DESIGNER (https://apna.design), an independent design practice by Abhay Kumar Singh specializing in Product & UX/UI design, architecture, and brand identity systems.
 
 ## Studio Background
 
-Abhay Kumar Singh is a Visual Communication and Product Designer with 4+ years of professional experience based in Masaurhi, Patna, Bihar, India. Operating away from traditional metro design bubbles allows the studio to design with relentless clarity, focusing on real human intuition and removing digital friction.
+Abhay Kumar Singh is a Product & UX/UI Designer with 4+ years of professional experience based in Masaurhi, Patna, Bihar, India. Operating away from traditional metro design bubbles allows the studio to design with relentless clarity, focusing on real human intuition and removing digital friction.
 
 ## Core Philosophy
 
@@ -47,8 +47,8 @@ Abhay Kumar Singh is a Visual Communication and Product Designer with 4+ years o
 
 ## Essays & Insights
 
-- **Why designing from Bihar gives me an unfair advantage in visual communication**: Exploring how constraint and ground-level utility create stronger design systems than metro design trends.
+- **Why designing from Bihar gives me an unfair advantage in Product & UX/UI**: Exploring how constraint and ground-level utility create stronger design systems than metro design trends.
 - **Good design should look good. It should also work well**: Analyzing why agency designs without information architecture cause high drop-offs.
 - **Why were people leaving? A breakdown of user drop-offs in digital products**: Deep dive into the three cognitive overload traps (ambiguous value prop, visual competition, hidden navigation).
 - **Brand Identity is what people remember when you leave the room**: The 95% of brand identity that exists beyond a logo mark.
-- **5 Lessons from 5 years of visual communication design**: Core takeaways from independent product design practice.
+- **5 Lessons from 5 years of Product & UX/UI design**: Core takeaways from independent product design practice.

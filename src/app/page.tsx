@@ -11,9 +11,9 @@ import CollaborateSection from "@/components/CollaborateSection";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "APNA DESIGNER | Visual Communication & UI/UX Studio",
+    absolute: "APNA DESIGNER | Product & UX/UI Studio",
   },
-  description: "Visual communication and UI/UX design studio by Abhay Kumar Singh. Crafting intuitive digital products, brand identities, and design systems from Bihar.",
+  description: "Product & UX/UI design studio by Abhay Kumar Singh. Crafting intuitive digital products, brand identities, and design systems from Bihar.",
   alternates: {
     canonical: "/",
   },

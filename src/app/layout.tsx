@@ -16,12 +16,12 @@ const syne = Syne({
 export const metadata: Metadata = {
   metadataBase: new URL("https://apna.design"),
   title: {
-    default: "APNA DESIGNER | Visual Communication & UI/UX Design",
+    default: "APNA DESIGNER | Product & UX/UI Design",
     template: "%s | APNA DESIGNER",
   },
-  description: "Independent visual communication and UI/UX design studio by Abhay Kumar Singh. Crafting high-converting digital products, branding, and design systems.",
+  description: "Independent Product & UX/UI design studio by Abhay Kumar Singh. Crafting high-converting digital products, branding, and design systems.",
   keywords: [
-    "Visual Communication Designer",
+    "Product & UX/UI Designer",
     "APNA DESIGNER",
     "APNA DESIGN",
     "Bihari Designer",
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "APNA DESIGNER | Visual Communication & UI/UX Design",
-    description: "Independent visual communication and UI/UX design studio by Abhay Kumar Singh. Crafting high-converting digital products, branding, and design systems.",
+    title: "APNA DESIGNER | Product & UX/UI Design",
+    description: "Independent Product & UX/UI design studio by Abhay Kumar Singh. Crafting high-converting digital products, branding, and design systems.",
     url: "https://apna.design",
     siteName: "APNA DESIGNER",
     locale: "en_US",
@@ -63,8 +63,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "APNA DESIGNER | Visual Communication & UI/UX Design",
-    description: "Independent visual communication and UI/UX design studio by Abhay Kumar Singh. Crafting high-converting digital products, branding, and design systems.",
+    title: "APNA DESIGNER | Product & UX/UI Design",
+    description: "Independent Product & UX/UI design studio by Abhay Kumar Singh. Crafting high-converting digital products, branding, and design systems.",
     creator: "@design_apna",
   },
 };

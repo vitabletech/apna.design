@@ -50,7 +50,7 @@ export default function WorkPage() {
     },
     {
       q: "Do you handle front-end development implementation?",
-      a: "Yes. In addition to visual communication and product design, I build high-performance production interfaces using Next.js, React, Tailwind CSS, and Framer Motion.",
+      a: "Yes. In addition to Product & UX/UI design, I build high-performance production interfaces using Next.js, React, Tailwind CSS, and Framer Motion.",
     },
   ];
 

@@ -9,13 +9,13 @@ import CollaborateSection from "@/components/CollaborateSection";
 
 export const metadata: Metadata = {
   title: "About Abhay Kumar Singh",
-  description: "Learn about Abhay Kumar Singh, Visual Communication and UI/UX Designer from Bihar crafting intentional digital products and branding for clients globally.",
+  description: "Learn about Abhay Kumar Singh, Product & UX/UI Designer from Bihar crafting intentional digital products and branding for clients globally.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     title: "About Abhay Kumar Singh | APNA DESIGNER",
-    description: "Visual Communication & UI/UX Designer from Bihar crafting intentional digital products and branding for clients worldwide.",
+    description: "Product & UX/UI Designer from Bihar crafting intentional digital products and branding for clients worldwide.",
     url: "https://apna.design/about",
   },
 };
@@ -72,10 +72,10 @@ export default function AboutPage() {
 
             <div className="space-y-6 text-base sm:text-lg text-foreground/85 leading-relaxed">
               <p>
-                My practice as an independent Visual Communication and Product Designer is intentionally rooted in Masaurhi, Patna. While most of the design industry gravitates toward metro bubbles in Bengaluru, Mumbai, or San Francisco, living and working from Bihar provides a distinct perspective that cannot be replicated in an echo chamber.
+                My practice as an independent Product & UX/UI Designer is intentionally rooted in Masaurhi, Patna. While most of the design industry gravitates toward metro bubbles in Bengaluru, Mumbai, or San Francisco, living and working from Bihar provides a distinct perspective that cannot be replicated in an echo chamber.
               </p>
               <p>
-                In tier-2 and tier-3 landscapes, visual communication cannot hide behind buzzwords or superficial gradient blobs. A sign, a mobile application, a payment interface, or packaging either communicates its intent clearly within three seconds, or it fails completely. Constraint breeds immense clarity. That grounded mindset informs every UI architecture, branding system, and digital product I build for startups and enterprises worldwide.
+                In tier-2 and tier-3 landscapes, Product & UX/UI design cannot hide behind buzzwords or superficial gradient blobs. A sign, a mobile application, a payment interface, or packaging either communicates its intent clearly within three seconds, or it fails completely. Constraint breeds immense clarity. That grounded mindset informs every UI architecture, branding system, and digital product I build for startups and enterprises worldwide.
               </p>
               <p>
                 Over the past 4+ years, I have worked across diverse industries including e-commerce platforms, FinTech applications, on-demand mobility, healthcare SaaS, and cultural institutions. Regardless of the domain, the central mission remains consistent: transform complex business requirements into intuitive, accessible, and high-converting visual systems that respect the user&apos;s time and intelligence.
