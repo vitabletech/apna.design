@@ -2,7 +2,7 @@ export interface Article {
   id: string;
   title: string;
   shortTitle?: string;
-  category: "Design" | "UX" | "Visual Communication" | "Branding" | "Business" | "Bihar" | "Lessons";
+  category: "Design" | "UX" | "Product & UX/UI" | "Branding" | "Business" | "Bihar" | "Lessons";
   readTime: string;
   date: string;
   excerpt: string;
@@ -13,14 +13,14 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: "why-bihar-shapes-how-i-see-design",
-    title: "Why designing from Bihar gives me an unfair advantage in visual communication",
+    title: "Why designing from Bihar gives me an unfair advantage in Product & UX/UI",
     shortTitle: "Why Bihar Shapes My Design",
     category: "Bihar",
     readTime: "4 min read",
     date: "Aug 2026",
     excerpt: "Living away from the echo chamber of metro design bubbles forces you to design for clarity and real human resonance rather than fleeting internet micro-trends.",
     content: [
-      "When people ask me why I chose to base my visual communication practice out of Bihar, they usually expect a romanticized answer about heritage. But the truth is much more practical: constraint breeds immense clarity.",
+      "When people ask me why I chose to base my Product & UX/UI practice out of Bihar, they usually expect a romanticized answer about heritage. But the truth is much more practical: constraint breeds immense clarity.",
       "In tier-2 and tier-3 landscapes, communication cannot hide behind buzzwords or superficial gradient blobs. A sign, an app, or a poster either communicates its intent within 3 seconds, or it fails completely.",
       "Designing from Bihar means keeping one foot firmly grounded in raw utility and real user instincts, while building systems that stand shoulder-to-shoulder with global design studios in San Francisco, London, or Tokyo.",
       "Madhubani art itself is not just decoration — it is a rigorous ancient grid system designed to tell complex stories across plain mud walls. That systematic mindset is what I bring to every UX architecture and visual brand."
@@ -36,7 +36,7 @@ export const articles: Article[] = [
     date: "Jul 2026",
     excerpt: "A beautiful website that confuses your customers is worse than an ugly one that converts. Here is how I balance aesthetic delight with measurable function.",
     content: [
-      "In modern visual communication, there is a dangerous temptation to prioritize Dribbble aesthetics over user comprehension.",
+      "In modern Product & UX/UI design, there is a dangerous temptation to prioritize Dribbble aesthetics over user comprehension.",
       "Clients often come to me after spending thousands of dollars on agency designs that looked stunning in keynote presentations, but caused their user bounce rate to double.",
       "Why does this happen? Because when aesthetics are decoupled from user psychology and information architecture, beauty becomes friction.",
       "My rule is simple: Every visual decision — typography weight, color contrast, whitespace rhythm, motion curve — must justify itself through communication clarity before visual flair."
@@ -77,7 +77,7 @@ export const articles: Article[] = [
   },
   {
     id: "business-communication-lessons",
-    title: "5 Lessons from 5 years of visual communication design",
+    title: "5 Lessons from 5 years of Product & UX/UI design",
     shortTitle: "5 Design Lessons Learned",
     category: "Lessons",
     readTime: "5 min read",

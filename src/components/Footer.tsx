@@ -35,6 +35,7 @@ export default function Footer() {
   const socialLinks = [
     { name: "Instagram", href: "https://www.instagram.com/design.apna?utm_source=qr" },
     { name: "LinkedIn", href: "https://www.linkedin.com/company/design.apna" },
+    { name: "Abhay LinkedIn", href: "https://www.linkedin.com/in/iamabhayaks/" },
     { name: "Behance", href: "https://www.behance.net/UXUI-Abhay" },
   ];
 
@@ -65,7 +66,7 @@ export default function Footer() {
               Abhay Kumar Singh
             </p>
             <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-background/70 mt-1">
-              Visual Communication &amp; UI/UX Designer
+              Product &amp; UX/UI Designer
             </p>
           </div>
 
