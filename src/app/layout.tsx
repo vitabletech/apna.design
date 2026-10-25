@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Syne } from "next/font/google";
 import "./globals.css";
 import TextureBackground from "@/components/TextureBackground";
+import { AvatarAssistantProvider } from "@/components/avatar-assistant/AvatarAssistantProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -79,9 +80,14 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${syne.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col relative selection:bg-terracotta selection:text-background">
-        <TextureBackground />
-        {children}
+      <body
+        suppressHydrationWarning
+        className="min-h-full flex flex-col relative selection:bg-terracotta selection:text-background"
+      >
+        <AvatarAssistantProvider>
+          <TextureBackground />
+          {children}
+        </AvatarAssistantProvider>
       </body>
     </html>
   );

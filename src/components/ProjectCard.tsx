@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { ArrowUpRight, ZoomIn } from "lucide-react";
 import { cn } from "@/utils/cn";
-import Sticker from "./Sticker";
 import { ProjectData } from "@/data/projects";
+import { useAvatarAssistant } from "./avatar-assistant/AvatarAssistantProvider";
 
 interface ProjectCardProps {
   project: ProjectData;
@@ -22,6 +22,7 @@ export default function ProjectCard({
   featured = false,
   className,
 }: ProjectCardProps) {
+  const { showHint, returnToIdle } = useAvatarAssistant();
   const isCreativePost = project.isImageOnly || project.filterCategories?.includes("Creative Post and Banner");
 
   const handleCardClick = () => {
@@ -42,6 +43,10 @@ export default function ProjectCard({
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6 }}
+      onMouseEnter={(interaction) => showHint({ mood: "curious", message: "Want to see how this project works?" }, interaction.currentTarget)}
+      onMouseLeave={() => returnToIdle()}
+      onFocusCapture={(interaction) => showHint({ mood: "curious", message: "Explore the details and see what we built!" }, interaction.currentTarget)}
+      onBlurCapture={() => returnToIdle()}
       className={cn(
         "group relative flex flex-col bg-card border-2 border-foreground shadow-[5px_5px_0px_0px_rgba(20,20,20,1)] transition-all duration-300 overflow-hidden",
         !isCreativePost && "hover:shadow-[2px_2px_0px_0px_rgba(20,20,20,1)] hover:translate-x-[3px] hover:translate-y-[3px]",
@@ -116,7 +121,10 @@ export default function ProjectCard({
         {!isCreativePost && (
           <div className="pt-4 mt-6 border-t border-foreground/10 flex items-center justify-between">
             <button
-              onClick={() => onSelect(project)}
+              onClick={(interaction) => {
+                showHint({ mood: "encouraging", message: "Opening the case study—have a good look!", duration: 2200 }, interaction.currentTarget);
+                onSelect(project);
+              }}
               className="inline-flex items-center gap-2 bg-transparent text-foreground px-4 py-2 text-xs font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors border border-foreground"
               data-cursor="EXPLORE"
             >

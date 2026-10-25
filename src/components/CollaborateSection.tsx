@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowUpRight, Phone, Mail, Check, Copy, Sparkles, Send } from "lucide-react";
+import { ArrowUpRight, Phone, Mail, Check, Copy, Sparkles } from "lucide-react";
+import { useAvatarAssistant } from "./avatar-assistant/AvatarAssistantProvider";
 
 export default function CollaborateSection({ asH1 = false }: { asH1?: boolean } = {}) {
+  const { showHint, returnToIdle } = useAvatarAssistant();
   const [copiedEmail, setCopiedEmail] = useState(false);
   const [copiedPhone, setCopiedPhone] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -32,9 +34,17 @@ export default function CollaborateSection({ asH1 = false }: { asH1?: boolean } 
     setTimeout(() => setCopiedPhone(false), 2500);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!formData.firstName || !formData.email || !formData.contactNumber) return;
+    if (!formData.firstName || !formData.email || !formData.contactNumber) {
+      showHint({ mood: "concerned", message: "A few details are missing. Let’s complete them." }, e.currentTarget);
+      return;
+    }
+
+    if (!/^\S+@\S+\.\S+$/.test(formData.email)) {
+      showHint({ mood: "concerned", message: "Please enter a valid email address, such as hello@example.com." }, e.currentTarget.querySelector<HTMLElement>("#collaborate-email"));
+      return;
+    }
     
     // Format message for WhatsApp
     const name = `${formData.firstName} ${formData.lastName}`.trim();
@@ -52,9 +62,14 @@ ${formData.message || "No message provided."}`;
     const whatsappUrl = `https://wa.me/917764032453?text=${encodedText}`;
     
     // Open WhatsApp in a new tab
-    window.open(whatsappUrl, '_blank');
-
-    setSubmitted(true);
+    showHint({ mood: "thinking", message: "Preparing your private WhatsApp draft…" }, e.currentTarget);
+    const opened = window.open(whatsappUrl, '_blank');
+    if (opened) {
+      setSubmitted(true);
+      showHint({ mood: "encouraging", message: "Your WhatsApp draft is ready. Send it there to complete your enquiry.", duration: 6000 });
+    } else {
+      showHint({ mood: "concerned", message: "WhatsApp could not open. Please allow pop-ups and try again." });
+    }
   };
 
   return (
@@ -199,10 +214,10 @@ ${formData.message || "No message provided."}`;
                   <Sparkles size={28} />
                 </div>
                 <h3 className="font-display text-3xl font-bold uppercase text-foreground mb-2">
-                  Message Received!
+                  WhatsApp Draft Ready
                 </h3>
                 <p className="text-base text-foreground/80 max-w-sm mb-6">
-                  Thanks {formData.firstName || "friend"}. I&apos;ll review your requirements and get back to you within 24 hours.
+                  Your details are ready in WhatsApp. Review them and tap send there to complete your enquiry.
                 </p>
                 <button
                   onClick={() => {
@@ -215,7 +230,11 @@ ${formData.message || "No message provided."}`;
                 </button>
               </motion.div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form
+                onSubmit={handleSubmit}
+                onInvalid={(interaction) => showHint({ mood: "concerned", message: "A few details are missing. Let’s complete them." }, interaction.target as HTMLElement)}
+                className="space-y-6"
+              >
                 {/* Service Picker */}
                 <div>
                   <label className="text-sm font-bold uppercase tracking-widest text-foreground/70 block mb-3">
@@ -261,6 +280,8 @@ ${formData.message || "No message provided."}`;
                       placeholder="e.g. Anand"
                       value={formData.firstName}
                       onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
+                      onFocus={(interaction) => showHint({ mood: "attentive", message: "What should I call you?" }, interaction.currentTarget)}
+                      onBlur={(interaction) => formData.firstName ? showHint({ mood: "encouraging", message: "Nice to meet you!", duration: 2200 }, interaction.currentTarget) : returnToIdle()}
                       className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                     />
                   </div>
@@ -278,6 +299,8 @@ ${formData.message || "No message provided."}`;
                       placeholder="e.g. Kumar"
                       value={formData.lastName}
                       onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
+                      onFocus={(interaction) => showHint({ mood: "attentive", message: "Your last name is optional." }, interaction.currentTarget)}
+                      onBlur={() => returnToIdle()}
                       className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                     />
                   </div>
@@ -299,6 +322,12 @@ ${formData.message || "No message provided."}`;
                       placeholder="e.g. anand@company.com"
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      onFocus={(interaction) => showHint({ mood: "attentive", message: "Enter a valid email address so we can get back to you." }, interaction.currentTarget)}
+                      onBlur={(interaction) => {
+                        if (!formData.email) showHint({ mood: "concerned", message: "Please enter your email address." }, interaction.currentTarget);
+                        else if (!/^\S+@\S+\.\S+$/.test(formData.email)) showHint({ mood: "concerned", message: "Please enter a valid email address, such as hello@example.com." }, interaction.currentTarget);
+                        else showHint({ mood: "encouraging", message: "That email looks good!", duration: 2500 }, interaction.currentTarget);
+                      }}
                       className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                     />
                   </div>
@@ -317,6 +346,8 @@ ${formData.message || "No message provided."}`;
                       placeholder="e.g. +91 98765 43210"
                       value={formData.contactNumber}
                       onChange={(e) => setFormData({ ...formData, contactNumber: e.target.value })}
+                      onFocus={(interaction) => showHint({ mood: "attentive", message: "Add a number where we can reach you." }, interaction.currentTarget)}
+                      onBlur={(interaction) => formData.contactNumber ? showHint({ mood: "encouraging", message: "Looking good—you’re nearly set.", duration: 2200 }, interaction.currentTarget) : returnToIdle()}
                       className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                     />
                   </div>
@@ -336,6 +367,8 @@ ${formData.message || "No message provided."}`;
                     placeholder="Describe your vision, goals, or what is currently not working..."
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                    onFocus={(interaction) => showHint({ mood: "curious", message: "Tell us a little about your project." }, interaction.currentTarget)}
+                    onBlur={(interaction) => formData.message ? showHint({ mood: "encouraging", message: "That gives us a helpful starting point!", duration: 2500 }, interaction.currentTarget) : returnToIdle()}
                     className="w-full bg-background border-2 border-foreground p-3 text-base font-medium text-foreground focus:outline-hidden focus:border-terracotta focus:ring-2 focus:ring-terracotta/20"
                   />
                 </div>
