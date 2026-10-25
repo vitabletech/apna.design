@@ -109,3 +109,299 @@ img {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Lightweight contextual avatar assistant */
+.avatar-assistant {
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 45;
+  display: flex;
+  max-width: min(340px, calc(100vw - 32px));
+  align-items: flex-end;
+  gap: 10px;
+  pointer-events: none;
+  transition: left 420ms cubic-bezier(.2,.8,.2,1), top 420ms cubic-bezier(.2,.8,.2,1);
+}
+
+.avatar-assistant.is-anchored {
+  width: 220px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.avatar-assistant.is-anchored.is-below {
+  flex-direction: column-reverse;
+}
+
+.avatar-assistant.is-anchored .avatar-assistant-character {
+  width: 96px;
+  height: 96px;
+  margin-right: 4px;
+}
+
+.avatar-assistant.is-anchored .avatar-assistant-bubble {
+  width: 220px;
+}
+
+.avatar-assistant.is-anchored .avatar-assistant-bubble::after {
+  top: auto;
+  right: 28px;
+  bottom: -9px;
+  border: 0;
+  border-right: 2px solid #141414;
+  border-bottom: 2px solid #141414;
+}
+
+.avatar-assistant.is-anchored.is-below .avatar-assistant-bubble::after {
+  top: -9px;
+  bottom: auto;
+  border: 0;
+  border-left: 2px solid #141414;
+  border-top: 2px solid #141414;
+}
+
+.avatar-assistant-bubble {
+  position: relative;
+  width: 220px;
+  border: 2px solid #141414;
+  background: #fff;
+  padding: 13px 34px 13px 14px;
+  box-shadow: 4px 4px 0 #141414;
+  pointer-events: auto;
+}
+
+.avatar-assistant-bubble::after {
+  content: "";
+  position: absolute;
+  right: -9px;
+  bottom: 17px;
+  width: 16px;
+  height: 16px;
+  transform: rotate(45deg);
+  border-right: 2px solid #141414;
+  border-top: 2px solid #141414;
+  background: #fff;
+}
+
+.avatar-assistant-kicker {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 5px;
+  color: #c15b3d;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.avatar-assistant-bubble p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.avatar-assistant-minimize {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  display: grid;
+  width: 25px;
+  height: 25px;
+  place-items: center;
+  border: 1px solid rgba(20,20,20,.18);
+  background: #f8f5ee;
+  pointer-events: auto;
+}
+
+.avatar-assistant-minimize:hover,
+.avatar-assistant-minimize:focus-visible {
+  border-color: #141414;
+  background: #e6b83b;
+}
+
+.avatar-assistant-character {
+  position: relative;
+  display: grid;
+  width: 118px;
+  height: 118px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  filter: drop-shadow(0 7px 8px rgba(20,20,20,.19));
+  pointer-events: auto;
+  transition: transform 420ms cubic-bezier(.2,.8,.2,1), width 180ms ease, height 180ms ease;
+  will-change: transform;
+}
+
+.avatar-assistant-character::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  z-index: -1;
+  border-radius: 50%;
+  background: rgba(230,184,59,.24);
+  animation: avatar-assistant-glow 3.2s ease-in-out infinite;
+}
+
+.avatar-assistant:not(.is-minimized) .avatar-assistant-character {
+  cursor: default;
+}
+
+.avatar-assistant-svg,
+.avatar-assistant-mascot {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  animation: avatar-assistant-idle 3.8s cubic-bezier(.45,.05,.55,.95) infinite;
+  will-change: transform;
+}
+
+.avatar-assistant-mascot {
+  width: 100% !important;
+  height: 100% !important;
+  filter: drop-shadow(0 5px 5px rgba(20,20,20,.12));
+  transition: width 180ms ease, height 180ms ease;
+}
+
+.avatar-assistant-body {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  animation: avatar-assistant-breathe 2.7s ease-in-out infinite;
+}
+
+.avatar-assistant-eyes {
+  transform-origin: center;
+  animation: avatar-assistant-blink 5.5s linear infinite;
+}
+
+.avatar-assistant-gaze {
+  transition: transform 260ms cubic-bezier(.2,.8,.2,1);
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.avatar-assistant-open {
+  position: absolute;
+  right: -1px;
+  bottom: 2px;
+  display: grid;
+  width: 27px;
+  height: 27px;
+  place-items: center;
+  border: 2px solid #141414;
+  border-radius: 50%;
+  background: #c15b3d;
+  color: #fff;
+}
+
+.avatar-assistant.is-minimized .avatar-assistant-character {
+  width: 84px;
+  height: 84px;
+  cursor: pointer;
+}
+
+.avatar-assistant-character:focus-visible,
+.avatar-assistant-mascot:focus-visible {
+  outline: 3px solid #c15b3d;
+  outline-offset: 3px;
+}
+
+.avatar-assistant-svg.mood-greeting,
+.avatar-assistant-mascot.mood-greeting { animation: avatar-assistant-greeting 2.8s ease-in-out infinite; }
+.avatar-assistant-svg.mood-curious,
+.avatar-assistant-mascot.mood-curious { animation: avatar-assistant-curious 1.7s ease-in-out infinite; }
+.avatar-assistant-svg.mood-attentive,
+.avatar-assistant-mascot.mood-attentive { animation: avatar-assistant-attentive 2s ease-in-out infinite; }
+.avatar-assistant-svg.mood-encouraging,
+.avatar-assistant-mascot.mood-encouraging { animation: avatar-assistant-encouraging 1.15s ease-in-out 2; }
+.avatar-assistant-svg.mood-thinking,
+.avatar-assistant-mascot.mood-thinking { animation: avatar-assistant-thinking 1.5s ease-in-out infinite; }
+.avatar-assistant-svg.mood-celebrating,
+.avatar-assistant-mascot.mood-celebrating { animation: avatar-assistant-celebrate .7s ease-in-out 3; }
+.avatar-assistant-svg.mood-concerned,
+.avatar-assistant-mascot.mood-concerned { animation: avatar-assistant-concerned 1.45s ease-in-out infinite; }
+
+@keyframes avatar-assistant-idle {
+  0%, 100% { transform: translate3d(0, 2px, 0) rotate(-2deg); }
+  28% { transform: translate3d(-7px, -8px, 0) rotate(1deg); }
+  55% { transform: translate3d(4px, -12px, 0) rotate(3deg); }
+  78% { transform: translate3d(7px, -4px, 0) rotate(0deg); }
+}
+
+@keyframes avatar-assistant-breathe {
+  0%, 100% { transform: scale(1, 1); }
+  50% { transform: scale(1.025, .975); }
+}
+
+@keyframes avatar-assistant-glow {
+  0%, 100% { transform: scale(.82); opacity: .15; }
+  50% { transform: scale(1.18); opacity: .48; }
+}
+
+@keyframes avatar-assistant-blink {
+  0%, 45%, 48%, 100% { transform: scaleY(1); }
+  46.5% { transform: scaleY(.08); }
+}
+
+@keyframes avatar-assistant-celebrate {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  50% { transform: translateY(-10px) rotate(5deg); }
+}
+
+@keyframes avatar-assistant-greeting {
+  0%, 100% { transform: translateY(1px) rotate(-2deg); }
+  35% { transform: translate(-5px, -10px) rotate(-5deg); }
+  68% { transform: translate(5px, -7px) rotate(4deg); }
+}
+
+@keyframes avatar-assistant-curious {
+  0%, 100% { transform: translateY(0) rotate(-4deg) scale(1); }
+  50% { transform: translateY(-9px) rotate(5deg) scale(1.04); }
+}
+
+@keyframes avatar-assistant-attentive {
+  0%, 100% { transform: translateY(0) rotate(0); }
+  45% { transform: translateY(-6px) rotate(-2deg); }
+  62% { transform: translateY(-3px) rotate(2deg); }
+}
+
+@keyframes avatar-assistant-encouraging {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-11px) scale(1.06); }
+}
+
+@keyframes avatar-assistant-thinking {
+  0%, 100% { transform: translateY(0) rotate(-4deg); }
+  50% { transform: translate(-4px, -5px) rotate(4deg); }
+}
+
+@keyframes avatar-assistant-concerned {
+  0%, 100% { transform: rotate(0); }
+  50% { transform: rotate(-3deg); }
+}
+
+@media (max-width: 640px) {
+  .avatar-assistant { right: 12px; bottom: max(12px, env(safe-area-inset-bottom)); gap: 7px; }
+  .avatar-assistant-bubble { width: min(205px, calc(100vw - 105px)); padding: 11px 31px 11px 12px; }
+  .avatar-assistant-character { width: 96px; height: 96px; }
+  .avatar-assistant-bubble p { font-size: 11px; }
+  .avatar-assistant.is-anchored { width: min(205px, calc(100vw - 105px)); }
+  .avatar-assistant.is-anchored .avatar-assistant-bubble { width: 100%; }
+  .avatar-assistant.is-anchored .avatar-assistant-character { width: 84px; height: 84px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .avatar-assistant-svg,
+  .avatar-assistant-mascot,
+  .avatar-assistant-eyes,
+  .avatar-assistant-body,
+  .avatar-assistant-character::before { animation: none !important; }
+  .avatar-assistant-character,
+  .avatar-assistant-gaze { transition: none !important; transform: none !important; }
+  .avatar-assistant { transition: none !important; }
+}

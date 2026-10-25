@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { cn } from "@/utils/cn";
+import { useAvatarAssistant } from "./avatar-assistant/AvatarAssistantProvider";
 
 interface ServiceItem {
   id: string;
@@ -70,7 +69,7 @@ const services: ServiceItem[] = [
 ];
 
 export default function InteractiveServices() {
-  const [activeId, setActiveId] = useState<string | null>(null);
+  const { showHint, returnToIdle } = useAvatarAssistant();
 
   return (
     <section
@@ -101,13 +100,15 @@ export default function InteractiveServices() {
         {/* Large Typography List Treatment */}
         <div className="divide-y divide-background/15">
           {services.map((service) => {
-            const isHovered = activeId === service.id;
-
             return (
               <div
                 key={service.id}
-                onMouseEnter={() => setActiveId(service.id)}
-                onMouseLeave={() => setActiveId(null)}
+                onMouseEnter={(interaction) => {
+                  showHint({ mood: "curious", message: "Let’s find the right solution for your business." }, interaction.currentTarget);
+                }}
+                onMouseLeave={() => returnToIdle()}
+                onFocusCapture={(interaction) => showHint({ mood: "attentive", message: "This is one way I can help your business." }, interaction.currentTarget)}
+                onBlurCapture={() => returnToIdle()}
                 className="group py-8 md:py-10 transition-colors duration-300 relative"
               >
                 <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 md:gap-8">

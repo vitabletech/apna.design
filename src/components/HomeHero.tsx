@@ -5,8 +5,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowDownRight } from "lucide-react";
 import Sticker from "./Sticker";
+import { useAvatarAssistant } from "./avatar-assistant/AvatarAssistantProvider";
 
 export default function HomeHero() {
+  const { showHint, returnToIdle } = useAvatarAssistant();
   return (
     <section className="relative min-h-[85vh] lg:min-h-[88vh] flex flex-col justify-center pt-24 pb-12 sm:pt-28 sm:pb-14 md:pt-32 md:pb-16 overflow-hidden border-b border-foreground/10">
       {/* Background ambient accents */}
@@ -49,6 +51,10 @@ export default function HomeHero() {
             <div className="flex flex-wrap items-center gap-4">
               <Link
                 href="/#work"
+                onMouseEnter={(interaction) => showHint({ mood: "curious", message: "Take a look at the work and how each problem was solved." }, interaction.currentTarget)}
+                onMouseLeave={() => returnToIdle()}
+                onFocus={(interaction) => showHint({ mood: "curious", message: "Take a look at the featured projects." }, interaction.currentTarget)}
+                onBlur={() => returnToIdle()}
                 className="group flex items-center gap-2 bg-foreground text-background border border-foreground px-6 sm:px-7 py-3 text-xs md:text-sm font-bold uppercase tracking-widest hover:bg-terracotta transition-colors shadow-[3px_3px_0px_0px_rgba(193,91,61,1)] hover:shadow-none hover:translate-x-[2px] hover:translate-y-[2px]"
                 data-cursor="SEE WORK"
               >
@@ -58,6 +64,10 @@ export default function HomeHero() {
 
               <Link
                 href="/#contact"
+                onMouseEnter={(interaction) => showHint({ mood: "greeting", message: "Have a project in mind? Let’s talk." }, interaction.currentTarget)}
+                onMouseLeave={() => returnToIdle()}
+                onFocus={(interaction) => showHint({ mood: "greeting", message: "Have a project in mind? Let’s talk." }, interaction.currentTarget)}
+                onBlur={() => returnToIdle()}
                 className="flex items-center gap-2 bg-transparent text-foreground border-2 border-foreground px-5 sm:px-6 py-3 text-xs md:text-sm font-bold uppercase tracking-widest hover:bg-foreground hover:text-background transition-colors"
                 data-cursor="CONNECT"
               >
